@@ -1,0 +1,93 @@
+name: Licorice Root
+latin: Glycyrrhiza glabra
+aliases:
+  - Liquorice
+  - Sweet root
+  - Gan cao
+category: root
+status: collected
+jarColor: "#9a6a3c"
+origin: Southern Europe and western Asia
+intendedUse: Soothing sore throats, coughs, and stomach linings; sweetening herbal blends
+blurb: >-
+  A root 50 times sweeter than sugar, beloved in herbal blends and candy. It
+  soothes throats and stomachs, but too
+
+  much can raise blood pressure and drop potassium dangerously.
+evidence: "2"
+evidenceSummary: >-
+  Small trials suggest a licorice gargle before surgery reduces postoperative
+  sore throat. DGL
+
+  (deglycyrrhizinated licorice) is used for ulcers and reflux, with limited
+  evidence. The strongest evidence is for harm:
+
+  meta-analyses confirm that regular glycyrrhizin intake raises blood pressure
+  and lowers potassium.
+sources:
+  - title: Licorice root (NIH National Center for Complementary and Integrative
+      Health)
+    url: https://www.nccih.nih.gov/health/licorice-root
+  - title: "The association between consistent licorice ingestion, hypertension and
+      hypokalaemia: a systematic review and meta-analysis (Penninkilampi et al.,
+      2017, J Hum Hypertens)"
+    url: https://pubmed.ncbi.nlm.nih.gov/28660884/
+psychoactive: false
+legal: ""
+growing:
+  zones: 7–10
+  sun: Full sun
+  water: Moderate
+  soil: Deep, sandy, rich
+  propagation: Plant root cuttings with buds in spring. It's slow to establish and
+    spreads by runners.
+  harvest: Dig the roots in fall after 3–4 years. Wash, cut, and dry them.
+history: >-
+  Licorice was found in Tutankhamun's tomb, and Alexander the Great's army
+  reportedly carried it to quench thirst
+
+  on long marches. It's one of the most used herbs in traditional Chinese
+  medicine, where *gan cao* "harmonizes"
+
+  formulas. Pontefract in England has been famous for licorice sweets since the
+  1600s.
+culture: >-
+  In Chinese medicine, licorice is called the "great detoxifier" and appears in
+  a huge share of classical formulas.
+
+  Black licorice candy is a beloved national treat in the Netherlands and
+  Scandinavia, often salty.
+preparations:
+  - method: Decoction
+    notes: Simmer 1 tsp root pieces for 10–15 minutes. Use small amounts to sweeten
+      other teas.
+  - method: Throat gargle
+    notes: Licorice infusion gargled for sore throat.
+  - method: DGL
+    notes: Chewable tablets with the glycyrrhizin removed, taken before meals for
+      heartburn.
+risks: >-
+  Glycyrrhizin causes sodium retention, potassium loss, and high blood pressure,
+  and can lead to heart rhythm problems.
+
+  The FDA warns that eating 2 oz of black licorice a day for 2 weeks can cause
+  arrhythmia in people over 40. Avoid with
+
+  heart disease, high blood pressure, kidney disease, low potassium, or
+  pregnancy. It interacts with diuretics, digoxin,
+
+  corticosteroids, and blood pressure drugs. DGL avoids most of these risks.
+pairsWith:
+  - ginger
+  - fennel
+  - peppermint
+  - ginseng
+  - mullein
+image: ../../assets/herbs/licorice-root.jpg
+imageAlt: Botanical illustration of licorice root (Glycyrrhiza glabra)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Glycyrrhiza_glabra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-207.jpg
+  license: Public domain
+draft: true

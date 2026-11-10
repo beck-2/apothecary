@@ -1,0 +1,95 @@
+name: Nettle
+latin: Urtica dioica
+aliases:
+  - Stinging nettle
+category: herb
+status: collected
+jarColor: "#5f7a43"
+origin: Europe, Asia, North Africa, and North America
+intendedUse: Nourishing spring tonic; easing allergies, joint pain, and prostate symptoms
+blurb: >-
+  The stinging weed that becomes mineral-rich, spinach-like greens once cooked
+  or dried. Nettle has small trials for
+
+  hay fever, prostate symptoms, joint pain, and blood sugar.
+evidence: "2"
+evidenceSummary: >-
+  Nettle root has decent trial evidence for urinary symptoms from benign
+  prostatic hyperplasia, often
+
+  combined with saw palmetto. Leaf preparations have small trials for hay fever
+  and osteoarthritis pain, with modest or
+
+  mixed results. A 2022 meta-analysis found nettle modestly improved blood sugar
+  in type 2 diabetes. Overall the evidence
+
+  is promising but limited by small studies.
+sources:
+  - title: "Effects of Urtica dioica on Metabolic Profiles in Type 2 Diabetes: A
+      Systematic Review and Meta-analysis of Clinical Trials (Tabrizi et al.,
+      2022, Mini Rev Med Chem)"
+    url: https://pubmed.ncbi.nlm.nih.gov/34587883/
+  - title: Stinging nettle (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Urtica_dioica
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–10
+  sun: Sun to part shade
+  water: Moist
+  soil: Rich, nitrogen-heavy soil
+  propagation: >-
+    Grow from seed or root divisions, or forage it (it's everywhere). Nettle
+    spreads by rhizomes, so contain it.
+
+    It's an important host plant for butterflies such as red admirals and
+    peacocks.
+  harvest: >-
+    Harvest the top 4–6 leaves of young spring plants before flowering, wearing
+    gloves. Cooking or drying removes the sting
+
+    completely.
+history: >-
+  Nettle fibers were woven into cloth from the Bronze Age through World War I,
+  when Germany made army uniforms from
+
+  them during a cotton shortage. Roman soldiers reportedly whipped their legs
+  with nettles to stay warm ("urtication"),
+
+  a practice also used for joint pain.
+culture: >-
+  In Hans Christian Andersen's "The Wild Swans," a princess knits nettle shirts
+  to break a curse. Nettle soup is a
+
+  traditional spring dish in Scandinavia, Ireland, and Eastern Europe, and
+  Milarepa, the Tibetan yogi, is said to have
+
+  lived on nettle soup until his skin turned green.
+preparations:
+  - method: Infusion
+    notes: Steep 1–2 Tbsp dried leaf for 10–15 minutes, or overnight for a
+      mineral-rich "nourishing infusion."
+  - method: Soup
+    notes: Blanch young tops, then purée with potato, onion, and stock.
+  - method: Root extract
+    notes: Prostate studies used about 120–360 mg a day of root extract.
+  - method: Culinary
+    notes: Pesto, risotto, spanakopita, and saag.
+risks: >-
+  Fresh nettles sting! Dried or cooked nettle is very safe. It may cause mild
+  stomach upset or fluid loss. Nettle may
+
+  interact with blood thinners (it contains vitamin K), diabetes medication,
+  blood pressure drugs, and lithium.
+pairsWith:
+  - peppermint
+  - milk-thistle
+  - calendula
+image: ../../assets/herbs/nettle.jpg
+imageAlt: Botanical illustration of nettle (Urtica dioica)
+imageCredit:
+  artist: Otto Wilhelm Thomé
+  work: Flora von Deutschland, Österreich und der Schweiz (1885)
+  url: https://commons.wikimedia.org/wiki/File:Illustration_Urtica_dioica0_clean.jpg
+  license: Public domain
+draft: true

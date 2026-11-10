@@ -1,0 +1,99 @@
+name: Black Tea
+latin: Camellia sinensis var. assamica / sinensis
+aliases:
+  - Hong cha (red tea)
+  - Assam
+  - Darjeeling
+  - Ceylon
+category: tea
+status: collected
+jarColor: "#8a4f2c"
+origin: Fujian, China (the first black teas); later Assam, Darjeeling, and Sri Lanka
+intendedUse: A robust daily stimulant; linked to heart and vascular health
+blurb: >-
+  Fully oxidized tea leaves with malty, brisk flavor. It's the world's
+  most-drunk tea and the base of English
+
+  breakfast, chai, and Earl Grey. Large studies tie regular black tea drinking
+  to healthier blood vessels.
+evidence: "3"
+evidenceSummary: >-
+  Meta-analyses of trials show tea (including black tea) improves endothelial
+  function, a marker of
+
+  blood vessel health. Large cohort studies associate 2–3 cups a day with lower
+  cardiovascular and all-cause mortality.
+
+  Most of this evidence is observational, so healthier lifestyles could explain
+  part of it. Theaflavins and thearubigins,
+
+  made during oxidation, are its signature compounds.
+sources:
+  - title: Tea consumption enhances endothelial-dependent vasodilation; a
+      meta-analysis (Ras et al., 2011, PLoS One)
+    url: https://pubmed.ncbi.nlm.nih.gov/21394199/
+  - title: "Tea, coffee, and caffeine intake and risk of dementia and Alzheimer's
+      disease: a systematic review and meta-analysis of cohort studies (Li et
+      al., 2024, Food Funct)"
+    url: https://pubmed.ncbi.nlm.nih.gov/39054894/
+psychoactive: false
+legal: ""
+growing:
+  zones: 7–9 (Assam types are less cold-hardy)
+  sun: Part shade to sun
+  water: Regular
+  soil: Acidic, rich, well-drained
+  propagation: Grow the tea shrub from cuttings or seed, the same as for green tea.
+  harvest: >-
+    Pluck two leaves and a bud. Wither them for several hours, roll or bruise
+    them to break the cells, let them oxidize
+
+    until coppery (1–3 hours), then dry them.
+history: >-
+  Black tea was first made in the Wuyi Mountains of Fujian in the 1600s
+  (*lapsang souchong* is an early example).
+
+  It survived long sea voyages better than green tea, so it dominated the
+  European trade. To break China's monopoly,
+
+  the British East India Company smuggled plants and planted vast estates in
+  Assam and Ceylon in the 1800s, often
+
+  with brutally exploited indentured labor.
+culture: >-
+  British afternoon tea, Indian chai sold at every railway platform, Russian
+  samovars, Turkish *çay* in
+
+  tulip glasses, and the Boston Tea Party all come from black tea. In China it's
+  called "red tea" (*hong cha*) for
+
+  the color of the brew.
+preparations:
+  - method: Infusion
+    notes: Steep 1 tsp leaf (or 1 bag) in boiling water for 3–5 minutes.
+  - method: Masala chai
+    notes: Simmer black tea with milk, sugar, ginger, cardamom, cinnamon, clove, and
+      black pepper.
+  - method: Iced or cold brew
+    notes: Brew double-strength and pour over ice, or cold steep overnight.
+risks: >-
+  About 40–70 mg of caffeine per cup. Tannins reduce absorption of non-heme
+  iron, so drink it between meals if you're
+
+  iron deficient. Very large amounts (many liters a day) have been linked to
+  kidney problems from oxalate and to
+
+  fluoride excess.
+pairsWith:
+  - cinnamon
+  - ginger
+  - lavender
+image: ../../assets/herbs/black-tea.jpg
+imageAlt: Botanical illustration of black tea (Camellia sinensis var. assamica /
+  sinensis)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg
+  license: Public domain
+draft: true

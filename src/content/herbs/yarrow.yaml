@@ -1,0 +1,82 @@
+name: Yarrow
+latin: Achillea millefolium
+aliases:
+  - Milfoil
+  - Soldier's woundwort
+  - Nosebleed plant
+category: herb
+status: collected
+jarColor: "#e3dcc6"
+origin: Temperate regions across the Northern Hemisphere
+intendedUse: Stopping bleeding, healing wounds, and breaking fevers
+blurb: >-
+  Flat clusters of tiny white flowers over feathery, thousand-leaved foliage.
+  Named for the hero Achilles, yarrow is
+
+  one of the oldest wound herbs known, used to stanch bleeding on battlefields.
+evidence: "0"
+evidenceSummary: >-
+  Yarrow contains anti-inflammatory compounds (such as chamazulene) and has
+  shown wound-healing and
+
+  antispasmodic effects in animal studies. Human trials are very few, small, and
+  inconclusive, so it remains a
+
+  traditional remedy.
+sources:
+  - title: "Achillea millefolium: Mechanism of action, pharmacokinetic, clinical
+      drug-drug interactions and tolerability (Farasati et al., 2023, Heliyon)"
+    url: https://pubmed.ncbi.nlm.nih.gov/38076118/
+  - title: Achillea millefolium (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Achillea_millefolium
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–9
+  sun: Full sun
+  water: Low
+  soil: Poor to average, well-drained
+  propagation: Sow seed on the surface in spring or divide clumps. It spreads by
+    rhizomes and attracts many beneficial insects.
+  harvest: Cut flowering stems in summer when in full bloom. Hang to dry. Fresh
+    leaves are used on cuts.
+history: >-
+  Yarrow pollen was found in a roughly 60,000-year-old Neanderthal grave at
+  Shanidar Cave in Iraq, though whether
+
+  flowers were placed there deliberately is debated. In Greek legend,
+
+  Achilles was taught by the centaur Chiron to heal his soldiers' wounds with
+  yarrow. It was carried by soldiers through
+
+  the US Civil War.
+culture: >-
+  In China, dried yarrow stalks were the original tool for casting the *I
+  Ching*. Yarrow was used in European love
+
+  divination: sleeping with yarrow under your pillow on Midsummer's Eve was said
+  to reveal a future spouse. Many Native
+
+  American nations used it for wounds, colds, and fevers.
+preparations:
+  - method: Hot infusion
+    notes: Steep 1–2 tsp dried flowers and leaves for 10 minutes. Drink hot to
+      promote sweating during a cold, often with elderflower and peppermint.
+  - method: Poultice
+    notes: Crushed fresh leaves pressed onto small cuts to help stop bleeding.
+  - method: Tincture
+    notes: Used as a bitter digestive.
+risks: >-
+  Can cause allergic reactions, especially in people with daisy-family
+  allergies, and skin sensitivity to sunlight.
+
+  Contains thujone. It may interact with blood thinners, blood pressure drugs,
+  and lithium. Avoid in pregnancy
+
+  (traditionally used to bring on menstruation).
+pairsWith:
+  - elderflower
+  - peppermint
+  - calendula
+  - chamomile
+draft: true

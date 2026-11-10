@@ -1,0 +1,83 @@
+name: Mullein
+latin: Verbascum thapsus
+aliases:
+  - Great mullein
+  - Hag's taper
+  - Velvet plant
+category: herb
+status: collected
+jarColor: "#c9b968"
+origin: Europe, North Africa, and Asia; naturalized across North America
+intendedUse: Soothing coughs and irritated airways; ear oil
+blurb: >-
+  A towering roadside spire of yellow flowers above a rosette of leaves soft as
+  flannel. Mullein leaf tea is a
+
+  long-standing folk remedy for coughs, but it has barely been studied in
+  people.
+evidence: "1"
+evidenceSummary: >-
+  Mullein contains mucilage and saponins, which may soothe and loosen mucus, and
+  lab studies show some
+
+  antiviral and antibacterial activity. Clinical evidence is minimal: a couple
+  of small trials found that ear drops
+
+  containing mullein (with garlic and other herbs) eased children's ear pain
+  about as well as anesthetic drops.
+sources:
+  - title: "Health-promoting and disease-mitigating potential of Verbascum thapsus
+      L. (common mullein): A review (Gupta et al., 2022, Phytother Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/35088467/
+  - title: Verbascum thapsus (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Verbascum_thapsus
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–9 (biennial)
+  sun: Full sun
+  water: Low
+  soil: Poor, dry, disturbed soil
+  propagation: >-
+    Sow seed on the surface in fall or spring. It forms a rosette the first year
+    and sends up a flower spike up to
+
+    6 feet tall the second. Seeds stay viable in soil for decades.
+  harvest: Gather leaves from first-year rosettes and flowers as they open on the spike.
+history: >-
+  Dioscorides recommended mullein for lung ailments 2,000 years ago. Roman
+  soldiers dipped the dried stalks in tallow
+
+  to make torches, which is where the names "hag's taper" and "candlewick plant"
+  come from. Settlers brought it to North
+
+  America by the 1700s, and many Native American nations adopted it for coughs
+  and smoking blends.
+culture: >-
+  In European folklore, mullein torches were said to ward off witches and evil
+  spirits. The soft leaves were
+
+  tucked into shoes for warmth and used as "cowboy toilet paper."
+preparations:
+  - method: Infusion
+    notes: Steep 1–2 tsp dried leaf for 10–15 minutes, then strain through a coffee
+      filter to catch the tiny irritating hairs.
+  - method: Ear oil
+    notes: Flowers infused in olive oil (often with garlic), used warm for ear
+      aches, but only with an intact eardrum.
+  - method: Smoking blend
+    notes: Traditionally used as a mild, smooth base in herbal smoking mixtures.
+risks: >-
+  The fine leaf hairs can irritate the throat and skin, so filter tea well.
+  Seeds contain rotenone, a fish poison, and are
+
+  not used. Don't put anything in the ear if the eardrum might be perforated.
+  There's little safety data for pregnancy.
+
+  Smoking any plant material irritates the lungs.
+pairsWith:
+  - licorice-root
+  - peppermint
+  - elderflower
+  - ginger
+draft: true

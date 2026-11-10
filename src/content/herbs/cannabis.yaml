@@ -1,0 +1,115 @@
+name: Cannabis
+latin: Cannabis sativa
+aliases:
+  - Hemp
+  - Marijuana
+  - Ganja
+category: herb
+status: collected
+jarColor: "#6f8f4e"
+origin: Central Asia; one of humanity's oldest cultivated plants for fiber,
+  seed, and medicine
+intendedUse: Relief of chronic pain, nausea, and muscle spasm; relaxation and recreation
+blurb: >-
+  An ancient fiber, food, and medicine plant. Its cannabinoids, THC and CBD,
+  have real but often modest evidence
+
+  for chronic pain, chemotherapy nausea, and multiple sclerosis spasticity,
+  alongside well-documented risks.
+evidence: "3"
+evidenceSummary: >-
+  Large reviews, including the 2017 US National Academies report, found
+  substantial evidence that
+
+  cannabinoids help chronic pain in adults (modestly), chemotherapy-induced
+  nausea, and MS spasticity. CBD is FDA
+
+  approved (Epidiolex) for certain childhood epilepsies. Evidence for anxiety,
+  sleep, and PTSD is limited or mixed.
+
+  Risks are well established: dependence, psychosis risk in vulnerable people,
+  and impaired driving.
+sources:
+  - title: Cannabis and cannabinoids (NIH National Center for Complementary and
+      Integrative Health)
+    url: https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know
+  - title: "Medical cannabis or cannabinoids for chronic non-cancer and cancer
+      related pain: a systematic review and meta-analysis of randomised clinical
+      trials (Wang et al., 2021, BMJ)"
+    url: https://pubmed.ncbi.nlm.nih.gov/34497047/
+psychoactive: true
+legal: >-
+  Illegal under US federal law (THC-containing cannabis is Schedule I, though
+  rescheduling has been under review), but
+      legal for adult use or medical use in many US states, Canada, Uruguay, Germany, and elsewhere. Hemp with less than
+      0.3% THC is federally legal in the US. Laws change quickly, so check yours.
+growing:
+  zones: Annual; grows in most zones where legal
+  sun: Full sun, 8+ hours
+  water: Moderate; let topsoil dry between waterings
+  soil: Rich, airy, well-drained
+  propagation: >-
+    Where home growing is legal, start from seed or clones after the last frost.
+    Photoperiod strains flower as nights
+
+    lengthen in late summer. Only female plants produce resinous flowers, so
+    remove males to avoid seeds.
+  harvest: >-
+    Harvest when most pistils have darkened and trichomes turn milky to amber.
+    Hang to dry slowly for 7–14 days, then
+
+    cure in jars.
+history: >-
+  Hemp fiber and seeds have been used in China for at least 6,000 years, and the
+  herbal attributed to Shennong lists
+
+  cannabis as medicine. Burned cannabis was found in a 2,500-year-old tomb in
+  western China. Irish physician William
+
+  O'Shaughnessy introduced it to Western medicine in the 1840s after studying
+  its use in India. It was widely sold in
+
+  tinctures until 20th-century prohibition.
+culture: >-
+  Cannabis is part of Hindu devotion to Shiva, consumed as *bhang* at Holi and
+  Maha Shivaratri. Rastafarians use
+
+  ganja as a sacrament for reflection. It's a symbol of 20th-century
+  counterculture, and its prohibition has had deep
+
+  racial and social justice consequences in the United States.
+preparations:
+  - method: Smoked or vaporized flower
+    notes: Effects start within minutes and last 2–4 hours. Vaporizing avoids
+      combustion.
+  - method: Edibles
+    notes: Effects start in 30–120 minutes and last 6+ hours. Start low (2.5 mg THC)
+      and wait before taking more.
+  - method: Tincture or oil
+    notes: Under the tongue. CBD-dominant oils are non-intoxicating.
+  - method: Bhang
+    notes: Traditional Indian drink of cannabis paste with milk, nuts, and spices.
+risks: >-
+  Impairs coordination and memory, so don't drive. About 1 in 10 users develop
+  cannabis use disorder (higher with daily
+
+  use or adolescent use). High-potency THC increases the risk of psychosis and
+  schizophrenia in vulnerable people.
+
+  Heavy use can cause cannabinoid hyperemesis syndrome. Edibles cause frequent
+  accidental overdoses in children and
+
+  pets. Avoid in pregnancy. CBD and THC interact with many drugs via liver
+  enzymes.
+pairsWith:
+  - lavender
+  - chamomile
+  - lemon-balm
+image: ../../assets/herbs/cannabis.jpg
+imageAlt: Botanical illustration of cannabis (Cannabis sativa)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Cannabis_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-026.jpg
+  license: Public domain
+draft: true

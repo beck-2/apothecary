@@ -1,0 +1,109 @@
+name: St. John's Wort
+latin: Hypericum perforatum
+aliases:
+  - Hypericum
+  - Klamath weed
+category: herb
+status: collected
+jarColor: "#d9a83b"
+origin: Europe, western Asia, and North Africa; naturalized widely as a roadside weed
+intendedUse: Lifting mild to moderate depression
+blurb: >-
+  Sunny yellow flowers that bloom around the summer solstice and bleed red oil
+  when crushed. St. John's wort works
+
+  about as well as standard antidepressants for mild to moderate depression in
+  many trials, but it interacts with a
+
+  remarkable number of medications.
+evidence: "3"
+evidenceSummary: >-
+  A Cochrane review of 29 trials and later meta-analyses found standardized
+  extracts more effective than
+
+  placebo and similar to SSRIs for mild to moderate depression, with fewer side
+  effects. Results were stronger in
+
+  German-speaking trials than elsewhere, and it is not shown to help severe
+  depression. Hyperforin and hypericin are
+
+  the main active compounds.
+sources:
+  - title: St. John's wort (NIH National Center for Complementary and Integrative
+      Health)
+    url: https://www.nccih.nih.gov/health/st-johns-wort
+  - title: St John's wort for major depression (Linde et al., 2008, Cochrane
+      Database Syst Rev)
+    url: https://pubmed.ncbi.nlm.nih.gov/18843608/
+  - title: "The efficacy and safety of St. John's wort extract in depression therapy
+      compared to SSRIs in adults: A meta-analysis of randomized clinical trials
+      (Zhao et al., 2023, Adv Clin Exp Med)"
+    url: https://pubmed.ncbi.nlm.nih.gov/36226689/
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–8
+  sun: Full sun to light shade
+  water: Low to moderate
+  soil: Poor to average, well-drained
+  propagation: >-
+    Sow seed on the surface in spring (needs light to germinate), or divide
+    clumps. It is listed as a noxious weed
+
+    in several US states and toxic to grazing livestock, so check local rules
+    and deadhead before seeding.
+  harvest: Cut the flowering tops in full bloom around late June. Fresh flowers
+    steeped in oil turn it ruby red.
+history: >-
+  Greek physicians including Dioscorides and Hippocrates used *Hypericum* for
+  wounds and "melancholy." The tiny
+
+  translucent dots on its leaves look like perforations, which gives it the
+  species name *perforatum*. Medieval Europeans
+
+  hung it over doorways to ward off evil spirits. Interest revived in the 1990s
+  when German doctors prescribed it far
+
+  more than Prozac.
+culture: >-
+  The plant is named for John the Baptist, because it blooms around his feast
+  day (June 24), and the red oil
+
+  was linked to his martyrdom. It was gathered on Midsummer's Eve across Europe
+  for protection, and is still central
+
+  to Midsummer customs in parts of Scandinavia and the Baltics.
+preparations:
+  - method: Standardized extract
+    notes: Trials typically used 900 mg a day of extract standardized to 0.3%
+      hypericin, in 3 doses.
+  - method: Infusion
+    notes: Steep 1–2 tsp dried flowering tops for 10 minutes. Potency is
+      unpredictable.
+  - method: Infused oil
+    notes: Fresh flowers steeped in olive oil in the sun for 4–6 weeks, used on
+      bruises and minor burns.
+risks: >-
+  St. John's wort strongly induces liver enzymes (CYP3A4) and P-glycoprotein. It
+  can make birth control pills,
+
+  HIV drugs, transplant drugs, warfarin, digoxin, some chemotherapy, and many
+  other medicines fail. Combined with SSRIs or
+
+  other serotonergic drugs it can cause serotonin syndrome. It can cause
+  photosensitivity and may trigger mania in
+
+  bipolar disorder. Always talk to a clinician before using it with any
+  medication.
+pairsWith:
+  - lemon-balm
+  - saffron
+  - calendula
+image: ../../assets/herbs/st-johns-wort.jpg
+imageAlt: Botanical illustration of St. John's Wort (Hypericum perforatum)
+imageCredit:
+  artist: Otto Wilhelm Thomé
+  work: Flora von Deutschland, Österreich und der Schweiz (1885)
+  url: https://commons.wikimedia.org/wiki/File:Hypericum_perforatum_i01.jpg
+  license: Public domain
+draft: true

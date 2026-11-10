@@ -1,0 +1,97 @@
+name: Turmeric
+latin: Curcuma longa
+aliases: []
+category: spice
+status: collected
+jarColor: "#e0a12e"
+origin: South and Southeast Asia, especially India
+intendedUse: Easing joint inflammation and arthritis pain; a golden culinary spice
+blurb: >-
+  The golden-orange root that colors curries and golden milk. Its compound
+  curcumin is among the most researched
+
+  plant substances, and trials suggest it can modestly ease osteoarthritis pain.
+evidence: "3"
+evidenceSummary: >-
+  Many randomized trials and several meta-analyses suggest turmeric extracts and
+  curcumin reduce knee
+
+  osteoarthritis pain about as well as some NSAIDs, though most trials are short
+  and some are industry-funded. Curcumin
+
+  is poorly absorbed on its own; black pepper (piperine) or fat increases
+  absorption. Claims for cancer, depression,
+
+  and many other conditions remain preliminary.
+sources:
+  - title: Turmeric (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/turmeric
+  - title: "The efficacy and safety of Curcuma longa extract and curcumin
+      supplements on osteoarthritis: a systematic review and meta-analysis (Zeng
+      et al., 2021, Biosci Rep)"
+    url: https://pubmed.ncbi.nlm.nih.gov/34017975/
+psychoactive: false
+legal: ""
+growing:
+  zones: 8–11 outdoors; pots elsewhere
+  sun: Part shade
+  water: Moist during growth; drier in dormancy
+  soil: Rich, loose, well-drained
+  propagation: >-
+    Like ginger, start from fresh rhizome pieces with buds, planted 2 inches
+    deep in warm soil. It needs a long,
+
+    warm season of 8–10 months.
+  harvest: Dig when leaves die back in fall or winter. Boil, peel, and dry the
+    rhizomes before grinding, or use fresh.
+history: >-
+  Turmeric has been used in India for at least 4,000 years as food, dye, and
+  medicine. Marco Polo described it in
+
+  1280 as "a vegetable with the qualities of saffron." It reached Europe through
+  Arab traders and was long used as a
+
+  cheap saffron substitute and textile dye.
+culture: >-
+  Turmeric is sacred in Hindu ritual. A paste of turmeric is applied to the
+  bride and groom in the *haldi*
+
+  ceremony before weddings, and Buddhist monks' robes were traditionally dyed
+  with it. *Haldi doodh* (turmeric milk)
+
+  is a classic Indian home remedy that went global as "golden milk."
+preparations:
+  - method: Golden milk
+    notes: Warm 1 cup milk with ½ tsp turmeric, a pinch of black pepper, cinnamon,
+      ginger, and honey.
+  - method: Decoction
+    notes: Simmer sliced fresh root 10–15 minutes with a pinch of black pepper.
+  - method: Standardized extract
+    notes: Arthritis trials commonly used around 1 g a day of curcumin, often with
+      piperine.
+  - method: Culinary
+    notes: Curries, rice, pickles, soups, and eggs. Cooking with fat and pepper aids
+      absorption.
+risks: >-
+  Culinary amounts are safe. High-dose supplements can cause stomach upset and
+  have been linked to rare cases of
+
+  liver injury, especially with high-bioavailability formulas. They may increase
+  bleeding risk with blood thinners,
+
+  affect diabetes medications, and worsen gallbladder problems. Some imported
+  turmeric has been found adulterated with
+
+  lead chromate, so buy from reputable sources.
+pairsWith:
+  - ginger
+  - cinnamon
+  - black-seed
+image: ../../assets/herbs/turmeric.jpg
+imageAlt: Botanical illustration of turmeric (Curcuma longa)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Curcuma_longa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-199.jpg
+  license: Public domain
+draft: true

@@ -1,0 +1,95 @@
+name: Garlic
+latin: Allium sativum
+aliases: []
+category: spice
+status: collected
+jarColor: "#ece3cf"
+origin: Central Asia; one of the oldest cultivated plants
+intendedUse: Supporting healthy blood pressure and cholesterol; warding off colds
+blurb: >-
+  The pungent bulb at the heart of countless cuisines. When crushed, garlic
+  makes allicin, and trials show
+
+  supplements can modestly lower blood pressure in people with hypertension.
+evidence: "3"
+evidenceSummary: >-
+  Meta-analyses of randomized trials show garlic supplements (especially aged
+  garlic extract) lower
+
+  systolic blood pressure by roughly 8–10 mmHg in people with hypertension, and
+  modestly reduce total and LDL
+
+  cholesterol. Evidence that garlic prevents colds is weak. Raw crushed garlic
+  forms allicin. Aged extract relies on
+
+  S-allyl cysteine.
+sources:
+  - title: Garlic (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/garlic
+  - title: "Garlic Lowers Blood Pressure in Hypertensive Individuals, Regulates
+      Serum Cholesterol, and Stimulates Immunity: An Updated Meta-analysis and
+      Review (Ried et al., 2016, J Nutr)"
+    url: https://pubmed.ncbi.nlm.nih.gov/26764326/
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–9
+  sun: Full sun
+  water: Moderate; stop watering as bulbs mature
+  soil: Loose, rich, well-drained
+  propagation: >-
+    Plant individual cloves pointy end up, 2 inches deep, in fall about 4–6
+    weeks before the ground freezes.
+
+    Hardneck types give you scapes in early summer.
+  harvest: Dig in mid-summer when the lower third of leaves have browned. Cure in
+    a shady, airy spot for 2–3 weeks, then trim.
+history: >-
+  Garlic was found in Tutankhamun's tomb, and Egyptian pyramid workers were said
+  to be fed garlic for strength.
+
+  Greek Olympians ate it before competing, and Roman soldiers carried it on
+  campaign. Louis Pasteur noted its
+
+  antibacterial effects in 1858, and it was used on wounds in both World Wars
+  when antibiotics were scarce.
+culture: >-
+  Garlic famously wards off vampires in Eastern European folklore. It's a lucky
+  charm in many cultures and a
+
+  key part of Korean kimchi, Provençal aioli, and Chinese cooking. In Ayurveda
+  it's prized but avoided by some
+
+  ascetics, who consider it too stimulating.
+preparations:
+  - method: Raw, crushed
+    notes: Crush or chop and let it rest 10 minutes before cooking to let allicin
+      form.
+  - method: Aged garlic extract
+    notes: The form used in many blood-pressure trials, around 600–1,200 mg a day.
+  - method: Garlic honey
+    notes: "Peeled cloves covered in raw honey and left to ferment for a few weeks:
+      a folk cold remedy."
+  - method: Culinary
+    notes: Nearly everything savory.
+risks: >-
+  Causes bad breath, body odor, and heartburn. Supplements may increase bleeding
+  risk, so stop before surgery and use
+
+  caution with blood thinners. Garlic reduces levels of the HIV drug saquinavir.
+  Garlic stored in oil at room temperature
+
+  can grow botulism, so refrigerate it and use within a few days.
+pairsWith:
+  - ginger
+  - rosemary
+  - black-seed
+  - elderberry
+image: ../../assets/herbs/garlic.jpg
+imageAlt: Botanical illustration of garlic (Allium sativum)
+imageCredit:
+  artist: William Woodville
+  work: Medical Botany (1790–1793)
+  url: https://commons.wikimedia.org/wiki/File:Allium_sativum_Woodwill_1793.jpg
+  license: Public domain
+draft: true

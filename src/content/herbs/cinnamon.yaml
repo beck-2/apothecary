@@ -1,0 +1,86 @@
+name: Cinnamon
+latin: Cinnamomum verum (Ceylon) and C. cassia
+aliases:
+  - Ceylon cinnamon
+  - Cassia
+category: spice
+status: collected
+jarColor: "#a5552e"
+origin: Sri Lanka (Ceylon cinnamon) and southern China (cassia)
+intendedUse: Warming digestion and steadying blood sugar; a sweet spice
+blurb: >-
+  The curled inner bark of a tropical laurel tree, warm and sweet. Many small
+  trials suggest cinnamon modestly lowers
+
+  fasting blood sugar, and it has been one of the world's most treasured spices
+  for millennia.
+evidence: "2"
+evidenceSummary: >-
+  Dozens of trials and several meta-analyses find modest reductions in fasting
+  blood sugar and some
+
+  lipids in type 2 diabetes, usually with 1–6 g a day of cassia. Results are
+  inconsistent, and effects on HbA1c (long-term
+
+  blood sugar) are small or absent, so it doesn't replace diabetes treatment.
+sources:
+  - title: Cinnamon (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/cinnamon
+  - title: "The effect of cinnamon supplementation on glycemic control in patients
+      with type 2 diabetes mellitus: An updated systematic review and
+      dose-response meta-analysis of randomized controlled trials (Moridpour et
+      al., 2024, Phytother Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/37818728/
+psychoactive: false
+legal: ""
+growing:
+  zones: 10–12
+  sun: Full sun to part shade
+  water: Regular
+  soil: Sandy, rich, well-drained
+  propagation: Grow from seed or cuttings in a tropical climate or warm
+    greenhouse. Trees are coppiced so they send up many shoots.
+  harvest: >-
+    Cut 2-year-old shoots in the rainy season, scrape off the outer bark, and
+    peel the thin inner bark, which curls into
+
+    quills as it dries.
+history: >-
+  Ancient Egyptians used cinnamon in embalming, and it was more valuable than
+  gold in the Roman Empire. Arab traders
+
+  hid its origins with tales of giant birds building nests of cinnamon sticks.
+  The search for its source helped drive
+
+  Portuguese and Dutch colonial conquest of Sri Lanka.
+culture: >-
+  Cinnamon perfumed the Biblical holy anointing oil, Persian rice dishes,
+  Mexican hot chocolate (*canela*), Swedish
+
+  cinnamon buns (*kanelbullar*, celebrated every October 4th), and Moroccan
+  tagines. In Chinese medicine, cassia twig
+
+  (*gui zhi*) warms the body.
+preparations:
+  - method: Decoction
+    notes: Simmer a stick in water for 10–15 minutes, alone or in chai.
+  - method: Ground
+    notes: Sprinkle ½–1 tsp a day into oatmeal, coffee, or smoothies.
+  - method: Culinary
+    notes: Baking, curries, mulled wine, tagines, and pho broth.
+risks: >-
+  Cassia (the usual supermarket cinnamon) contains coumarin, which can damage
+  the liver in high doses. Sensitive people
+
+  should stay under about 1 tsp of cassia a day and use Ceylon cinnamon for
+  regular use. It may add to the effect of
+
+  diabetes medication. Inhaling the dry powder ("cinnamon challenge") is
+  dangerous. Cinnamon oil irritates skin and mouth.
+pairsWith:
+  - ginger
+  - cacao
+  - black-tea
+  - turmeric
+  - elderberry
+draft: true

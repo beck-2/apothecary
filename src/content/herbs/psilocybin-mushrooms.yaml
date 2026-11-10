@@ -1,0 +1,119 @@
+name: Psilocybin Mushrooms
+latin: Psilocybe cubensis, P. semilanceata, and others
+aliases:
+  - Magic mushrooms
+  - Teonanácatl
+  - Liberty caps
+category: fungus
+status: collected
+jarColor: "#b8a17c"
+origin: Found worldwide; P. cubensis in the tropics and subtropics, P.
+  semilanceata in temperate grasslands
+intendedUse: Spiritual and ceremonial experience; investigated for depression and addiction
+blurb: >-
+  Small brown mushrooms containing psilocybin, a powerful psychedelic. They are
+  sacred in Mazatec ceremony and now
+
+  the focus of serious clinical research: trials of psilocybin-assisted therapy
+  show large, fast effects on depression.
+evidence: "3"
+evidenceSummary: >-
+  Multiple randomized controlled trials and meta-analyses show psilocybin given
+  with psychological
+
+  support produces rapid, sometimes lasting reductions in treatment-resistant
+  and major depression, plus promising
+
+  results for end-of-life distress, alcohol use disorder, and smoking cessation.
+  Blinding is hard (people know they took
+
+  it), and trials use pure psilocybin with careful screening and therapy, not
+  wild mushrooms. The US FDA designated it a
+
+  "breakthrough therapy" for depression.
+sources:
+  - title: "Efficacy of psilocybin for treating symptoms of depression: systematic
+      review and meta-analysis (Metaxa et al., 2024, BMJ)"
+    url: https://pubmed.ncbi.nlm.nih.gov/38692686/
+  - title: "Psilocybin-assisted therapy for depression: A systematic review and
+      meta-analysis (Haikazian et al., 2023, Psychiatry Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/37844352/
+  - title: Psilocybin mushroom (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Psilocybin_mushroom
+psychoactive: true
+legal: >-
+  Psilocybin is a Schedule I controlled substance under US federal law and
+  illegal in most countries. Oregon and
+      Colorado have legal regulated programs, several US cities have deprioritized enforcement, and Australia allows
+      psychiatrist prescribing for some conditions. Know your local laws.
+growing:
+  zones: Indoors in sterile culture (not a garden plant)
+  sun: Not needed beyond indirect light
+  water: High humidity
+  soil: Grain spawn and pasteurized substrate
+  propagation: >-
+    Cultivation of psilocybin mushrooms is illegal in most places, even where
+    spores are legal to own. This entry
+
+    does not give growing instructions.
+  harvest: Not covered here for legal reasons.
+history: >-
+  Mushroom stones from Guatemala dating to around 500 BCE may reflect ancient
+  mushroom cults, and Spanish chroniclers
+
+  described the Aztec *teonanácatl*, "flesh of the gods." In 1955 R. Gordon
+  Wasson took part in a ceremony led by Mazatec
+
+  healer María Sabina, and his 1957 *Life* magazine article set off Western
+  interest. Albert Hofmann isolated psilocybin
+
+  in 1958. Research stopped after prohibition in 1970 and revived in the 2000s
+  at Johns Hopkins, NYU, and Imperial
+
+  College.
+culture: >-
+  For the Mazatec of Oaxaca, the mushrooms (*'ndi xijtho*) are sacred, used in
+  nighttime *veladas* for healing and
+
+  divination. María Sabina later regretted that the ceremonies she shared drew
+  crowds of foreigners and lost their
+
+  sacredness. Mushrooms also became an icon of the 1960s counterculture.
+preparations:
+  - method: Clinical dosing
+    notes: Trials use synthetic psilocybin, usually 25 mg, given in a calm room with
+      trained facilitators and preparation and integration sessions.
+  - method: Traditional
+    notes: In Mazatec veladas, fresh mushrooms are eaten in pairs at night with
+      prayer and chanting.
+  - method: Harm reduction
+    notes: Set (mindset) and setting (environment) shape the experience heavily. A
+      sober sitter is strongly advised.
+risks: >-
+  Can cause intense anxiety, paranoia, and confusion ("bad trips"), and risky
+  behavior while impaired. People with
+
+  personal or family history of psychosis or bipolar disorder are at risk of
+  triggering lasting episodes. Raises heart
+
+  rate and blood pressure. Dangerous with lithium (seizure reports) and
+  unpredictable with other psychiatric drugs.
+
+  Misidentifying wild mushrooms can be deadly, since some toxic *Galerina* look
+  similar. Hallucinogen persisting
+
+  perception disorder is rare but possible.
+pairsWith:
+  - ginger
+  - lemon-balm
+  - cacao
+image: ../../assets/herbs/psilocybin-mushrooms.jpg
+imageAlt: Botanical illustration of psilocybin mushrooms (Psilocybe cubensis, P.
+  semilanceata, and others), including the liberty cap (Psilocybe semilanceata)
+  beside a lookalike
+imageCredit:
+  artist: James Sowerby
+  work: Coloured Figures of English Fungi or Mushrooms (1797–1815)
+  url: https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._248.jpg
+  license: Public domain
+draft: true

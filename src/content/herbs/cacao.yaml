@@ -1,0 +1,102 @@
+name: Cacao
+latin: Theobroma cacao
+aliases:
+  - Cocoa
+  - Chocolate
+category: seed
+status: collected
+jarColor: "#6b3e26"
+origin: The upper Amazon basin; domesticated in Ecuador over 5,000 years ago
+intendedUse: Heart health, mood, and gentle stimulation; ceremonial drink
+blurb: >-
+  The bitter seed behind chocolate, called "food of the gods" in its Latin name.
+  Cocoa flavanols have solid trial
+
+  evidence for modest improvements in blood vessel function and blood pressure,
+  and cacao has a mild, warming lift
+
+  from theobromine.
+evidence: "3"
+evidenceSummary: >-
+  Meta-analyses of randomized trials show cocoa flavanols modestly improve
+  flow-mediated dilation (blood
+
+  vessel function) and slightly lower blood pressure, insulin resistance, and
+  LDL. The large COSMOS trial found cocoa
+
+  extract did not significantly reduce total cardiovascular events, though it
+  reduced cardiovascular deaths. Benefits
+
+  depend on high-flavanol cocoa, not sugary chocolate.
+sources:
+  - title: "Cocoa Flavanol Intake and Biomarkers for Cardiometabolic Health: A
+      Systematic Review and Meta-Analysis of Randomized Controlled Trials (Lin
+      et al., 2016, J Nutr)"
+    url: https://pubmed.ncbi.nlm.nih.gov/27683874/
+  - title: Cocoa bean (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Cocoa_bean
+psychoactive: false
+legal: ""
+growing:
+  zones: 11–12 (tropical understory tree)
+  sun: Filtered shade
+  water: High humidity and steady moisture
+  soil: Deep, rich, well-drained
+  propagation: >-
+    Grow from fresh seed straight from the pod (seeds die if dried). Outside the
+    tropics it needs a warm greenhouse,
+
+    and it's tricky to fruit.
+  harvest: >-
+    Pods grow directly on the trunk. Ferment the beans in their pulp for about
+    5–7 days, then dry, roast, and winnow
+
+    them to get nibs.
+history: >-
+  The earliest cacao use found so far is in Ecuador around 3300 BCE. The Olmec,
+  Maya, and Aztec drank it frothy
+
+  and bitter, spiced with chili and vanilla, and Aztecs used cacao beans as
+  currency. Spanish colonizers brought it to
+
+  Europe in the 1500s, added sugar, and it became an aristocratic craze. In 1753
+  Linnaeus named it *Theobroma*, "food
+
+  of the gods."
+culture: >-
+  In Maya culture cacao was sacred, used in marriage rites, offerings, and royal
+  burials. Mesoamerican drinking
+
+  chocolate lives on in Oaxacan *tejate* and Mexican *champurrado*. Modern
+  "cacao ceremonies" borrow from this history,
+
+  though their connection to specific Indigenous practices is debated.
+preparations:
+  - method: Ceremonial-style drink
+    notes: Melt 20–40 g of pure cacao paste in hot water with chili, cinnamon, and a
+      little honey, then froth.
+  - method: Cacao nibs
+    notes: Crunchy roasted bits for granola, cookies, or steeped as "cacao tea" from
+      the husks.
+  - method: Hot cocoa
+    notes: Natural (non-alkalized) cocoa keeps more flavanols than Dutch-processed.
+risks: >-
+  Theobromine and caffeine can cause jitters, insomnia, and heart palpitations
+  in sensitive people, and may trigger
+
+  migraines or reflux. Some cocoa and dark chocolate contains cadmium and lead,
+  so vary brands. Very toxic to dogs and
+
+  cats.
+pairsWith:
+  - cinnamon
+  - reishi
+  - damiana
+image: ../../assets/herbs/cacao.jpg
+imageAlt: Botanical illustration of cacao (Theobroma cacao)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Theobroma_cacao_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-136.jpg
+  license: Public domain
+draft: true

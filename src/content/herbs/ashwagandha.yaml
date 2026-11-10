@@ -1,0 +1,94 @@
+name: Ashwagandha
+latin: Withania somnifera
+aliases:
+  - Indian ginseng
+  - Winter cherry
+category: root
+status: collected
+jarColor: "#c6a77c"
+origin: India, the Middle East, and parts of Africa
+intendedUse: Easing stress and anxiety; supporting sleep and stamina
+blurb: >-
+  A humble nightshade root that smells faintly of horse, which is what its
+  Sanskrit name means. It's Ayurveda's
+
+  star adaptogen, and a growing set of trials suggests it lowers stress and
+  anxiety.
+evidence: "2"
+evidenceSummary: >-
+  About a dozen randomized trials and several meta-analyses report reduced
+  perceived stress, anxiety,
+
+  and cortisol, plus modest improvements in sleep, with 250–600 mg a day of root
+  extract for 6–12 weeks. Most trials
+
+  are small, short, from India, and often funded by extract manufacturers.
+  Long-term safety isn't well established.
+sources:
+  - title: Ashwagandha (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/ashwagandha
+  - title: "Effects of Ashwagandha (Withania Somnifera) on stress and anxiety: A
+      systematic review and meta-analysis (Arumugam et al., 2024, Explore (NY))"
+    url: https://pubmed.ncbi.nlm.nih.gov/39348746/
+psychoactive: false
+legal: ""
+growing:
+  zones: 8–11 as a perennial; annual elsewhere
+  sun: Full sun
+  water: Low; drought tolerant
+  soil: Sandy, well-drained, slightly alkaline
+  propagation: Start seed indoors 6–8 weeks before the last frost, in warm soil.
+    Transplant after frost danger has passed.
+  harvest: >-
+    Dig the roots after about 150–180 days, when the leaves dry and the berries
+    ripen to red. Wash and dry them, then
+
+    grind them to powder.
+history: >-
+  Ashwagandha has been part of Ayurvedic medicine for about 3,000 years and is
+  described in the classic texts of
+
+  Charaka and Sushruta as a *rasayana*, a rejuvenating tonic. It was also used
+  in Unani medicine. The 2010s
+
+  "adaptogen" wellness trend made it one of the fastest-growing supplements in
+  the West.
+culture: >-
+  The Sanskrit *ashwagandha* means "smell of a horse," referring both to its
+  scent and to the strength of a horse
+
+  it was said to give. Traditionally it was taken as powder in warm milk with
+  ghee and honey before bed.
+preparations:
+  - method: Moon milk
+    notes: Warm ½–1 tsp root powder in milk with cinnamon, cardamom, nutmeg, and
+      honey.
+  - method: Extract
+    notes: Trials used 250–600 mg a day of standardized root extract (such as KSM-66
+      or Sensoril).
+  - method: Decoction
+    notes: Simmer 1 tsp of root in water or milk for 15 minutes.
+risks: >-
+  Can cause stomach upset, drowsiness, and loose stools. Rare but serious cases
+  of liver injury have been reported. It
+
+  may raise thyroid hormone levels and interact with thyroid medication,
+  sedatives, immunosuppressants, and diabetes and
+
+  blood pressure drugs. Avoid in pregnancy, since it was traditionally used to
+  induce abortion. Denmark banned it in 2023
+
+  over safety concerns.
+pairsWith:
+  - holy-basil
+  - cinnamon
+  - reishi
+  - rhodiola
+image: ../../assets/herbs/ashwagandha.jpg
+imageAlt: Botanical illustration of ashwagandha (Withania somnifera)
+imageCredit:
+  artist: Ferdinand Bauer for John Sibthorp
+  work: Flora Graeca (1806–1840)
+  url: https://commons.wikimedia.org/wiki/File:Withania_somnifera_illustration.jpg
+  license: Public domain
+draft: true

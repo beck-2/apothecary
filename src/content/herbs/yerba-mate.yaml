@@ -1,0 +1,89 @@
+name: Yerba Mate
+latin: Ilex paraguariensis
+aliases:
+  - Mate
+  - Chimarrão
+  - Erva-mate
+category: tea
+status: collected
+jarColor: "#7e8d4b"
+origin: The subtropical Atlantic Forest of Paraguay, southern Brazil, and
+  northeastern Argentina
+intendedUse: Steady energy and focus; a social, shared drink
+blurb: >-
+  The leaves of a South American holly, sipped from a hollow gourd through a
+  metal straw. Mate offers coffee-strength
+
+  caffeine with a grassy, earthy taste, and trials show modest effects on
+  cholesterol and exercise metabolism.
+evidence: "2"
+evidenceSummary: >-
+  Small randomized trials suggest yerba mate can modestly lower LDL cholesterol
+  and boost fat oxidation
+
+  during exercise, and a 2022 meta-analysis supports the lipid effect. It
+  contains caffeine, theobromine, and lots of
+
+  polyphenols. Large observational studies link very hot mate drinking to
+  esophageal cancer, an effect mainly attributed
+
+  to temperature.
+sources:
+  - title: "Physiological effects of yerba maté (Ilex paraguariensis): a systematic
+      review (José et al., 2023, Nutr Rev)"
+    url: https://pubmed.ncbi.nlm.nih.gov/36647770/
+  - title: "Effect of Yerba Mate (Ilex paraguariensis) on Lipid Levels: A Systematic
+      Review and Meta-Analysis (Masson et al., 2022, Plant Foods Hum Nutr)"
+    url: https://pubmed.ncbi.nlm.nih.gov/35829819/
+psychoactive: false
+legal: ""
+growing:
+  zones: 9–11
+  sun: Part shade (forest understory)
+  water: Regular, humid
+  soil: Acidic, rich, well-drained
+  propagation: Seeds are very slow and erratic to germinate, so cuttings are
+    easier. It grows as a shrub in a pot in cooler climates.
+  harvest: Cut leafy branches, briefly flame-dry them (*sapecado*) to stop
+    oxidation, then dry and age them for months.
+history: >-
+  The Guaraní people drank mate long before European contact and taught it to
+  Spanish colonists. In the 1600s, Jesuit
+
+  missionaries cracked the secret of germinating the seed and built plantations,
+  and "Jesuit tea" became a major export.
+
+  After the Jesuits were expelled in 1767, cultivation knowledge was lost for
+  over a century.
+culture: >-
+  Mate is the national drink of Argentina, Uruguay, and Paraguay, shared in a
+  circle from a single gourd. The
+
+  *cebador* fills and passes it, and saying "thank you" means you're done. In
+  Paraguay it's drunk cold as *tereré* with
+
+  herbs (*yuyos*). In the Guaraní legend, the moon goddess Yasí gave the plant
+  as a gift of friendship.
+preparations:
+  - method: Traditional gourd
+    notes: Fill a gourd two-thirds with yerba, tilt, wet with cool water, insert the
+      bombilla, and add hot (not boiling, about 70–80 °C) water repeatedly.
+  - method: Tereré
+    notes: The same, with ice water and fresh mint, lemon verbena, or citrus.
+  - method: French press
+    notes: Steep 1–2 Tbsp for 5 minutes.
+risks: >-
+  Contains caffeine (about 30–80 mg per serving), so it can cause insomnia,
+  jitters, and a fast heartbeat. Habitually
+
+  drinking it very hot is linked to esophageal and oral cancers, so let it cool
+  a bit. Some products contain polycyclic
+
+  aromatic hydrocarbons from smoke-drying; choose air-dried (sin humo). Avoid
+  large amounts in pregnancy.
+pairsWith:
+  - peppermint
+  - lemongrass
+  - matcha
+  - ginger
+draft: true

@@ -9,3 +9,9 @@ export const evidenceFor = (level: number) => EVIDENCE[Math.max(0, Math.min(3, l
 
 export const paragraphs = (text: string) =>
   text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+
+/** Escape HTML, then turn *text* into <em>text</em>. Lets plain-text fields carry italics. */
+export const inline = (text: string) =>
+  text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+    .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');

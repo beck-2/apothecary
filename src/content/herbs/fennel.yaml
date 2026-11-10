@@ -1,0 +1,96 @@
+name: Fennel
+latin: Foeniculum vulgare
+aliases:
+  - Sweet fennel
+category: seed
+status: collected
+jarColor: "#a8b06a"
+origin: The Mediterranean coast
+intendedUse: Easing bloating, gas, and colic; soothing menstrual cramps
+blurb: >-
+  Feathery anise-scented fronds and sweet licorice-flavored seeds that are
+  chewed after meals across India. Fennel
+
+  is a classic digestive, with small trials for menstrual cramps, colic, and
+  menopause symptoms.
+evidence: "2"
+evidenceSummary: >-
+  Small randomized trials and meta-analyses suggest fennel reduces menstrual
+  cramp pain about as well as
+
+  some NSAIDs (mefenamic acid), and may ease hot flashes and other menopause
+  symptoms. A few small trials found fennel
+
+  oil reduced infant colic. It's widely used for bloating and gas, but few
+  rigorous studies test that.
+sources:
+  - title: "Efficacy of herbal medicine (cinnamon/fennel/ginger) for primary
+      dysmenorrhea: a systematic review and meta-analysis of randomized
+      controlled trials (Xu et al., 2020, J Int Med Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/32603204/
+  - title: "Fennel (Foeniculum vulgare Miller) for the management of menopausal
+      women's health: A systematic review and meta-analysis (Lee et al., 2021,
+      Complement Ther Clin Pract)"
+    url: https://pubmed.ncbi.nlm.nih.gov/33725577/
+psychoactive: false
+legal: ""
+growing:
+  zones: 4–9 (perennial); often grown as an annual
+  sun: Full sun
+  water: Moderate
+  soil: Rich, well-drained
+  propagation: >-
+    Sow seed directly in spring. It doesn't like being transplanted. Keep it
+    away from dill to avoid cross-pollination.
+
+    It can be invasive in California and Australia.
+  harvest: Snip fronds anytime. Cut seed heads when seeds turn greenish-brown,
+    then dry them in a paper bag.
+history: >-
+  Fennel was prized by Greeks and Romans: the town of Marathon, site of the
+  famous battle, was named for the
+
+  fennel (*marathon*) growing there, and Prometheus smuggled fire to humans in a
+  stalk of its relative, giant fennel. Charlemagne required it in imperial
+  gardens. Puritans chewed
+
+  "meeting seeds" (fennel and dill) during long church services.
+culture: >-
+  In India, roasted and candy-coated fennel seeds (*saunf*, *mukhwas*) are
+  offered after meals to freshen breath
+
+  and help digestion. Fennel is a key spice in Chinese five-spice, Italian
+  sausage, and Bengali *panch phoron*. Gripe
+
+  water for colicky babies traditionally included fennel.
+preparations:
+  - method: Infusion
+    notes: Lightly crush 1–2 tsp seeds and steep, covered, for 10 minutes.
+  - method: After-meal chew
+    notes: A pinch of plain or candied seeds.
+  - method: Culinary
+    notes: Roasted bulb, shaved fennel salad, and seeds in breads, sausage, and curry.
+risks: >-
+  Safe in food amounts. Can cause allergic reactions, especially in people
+  allergic to carrot, celery, or mugwort.
+
+  Estragole in the seeds is a possible carcinogen in high doses in animals, so
+  avoid long-term high doses and don't give
+
+  concentrated fennel oil to infants without medical advice. It may have weak
+  estrogenic effects and can interact with
+
+  ciprofloxacin.
+pairsWith:
+  - peppermint
+  - chamomile
+  - ginger
+  - licorice-root
+image: ../../assets/herbs/fennel.jpg
+imageAlt: Botanical illustration of fennel (Foeniculum vulgare)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Foeniculum_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-148.jpg
+  license: Public domain
+draft: true

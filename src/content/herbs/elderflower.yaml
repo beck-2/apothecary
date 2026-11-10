@@ -1,0 +1,88 @@
+name: Elderflower
+latin: Sambucus nigra (flowers)
+aliases:
+  - Elder blossom
+category: flower
+status: collected
+jarColor: "#f0e8c8"
+origin: Europe and western Asia, blooming in early summer
+intendedUse: Fever-breaking tea for colds; fragrant cordials and spritzers
+blurb: >-
+  The creamy, lacy blossoms of the elder tree, smelling of honey and muscat
+  grape. Elderflower is traditionally drunk
+
+  hot to promote sweating during colds, and made into cordial all over Europe.
+evidence: "1"
+evidenceSummary: >-
+  Elderflower has very little clinical research on its own. Lab studies show
+  anti-inflammatory and
+
+  antiviral activity, and it appears in a few combination products (such as one
+  for sinusitis) that were studied.
+
+  The European Medicines Agency recognizes it only as a "traditional use" remedy
+  for early cold symptoms.
+sources:
+  - title: European elder (NIH National Center for Complementary and Integrative
+      Health)
+    url: https://www.nccih.nih.gov/health/european-elder
+  - title: "Sambucus nigra flower and berry extracts for food and therapeutic
+      applications: effect of gastrointestinal digestion on in vitro and in vivo
+      bioactivity and toxicity (Ferreira-Santos et al., 2022, Food Funct)"
+    url: https://pubmed.ncbi.nlm.nih.gov/35666472/
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–9
+  sun: Full sun to part shade
+  water: Moist
+  soil: Rich, adaptable
+  propagation: Same shrub as elderberry; see the elderberry jar.
+  harvest: >-
+    Cut flower heads on a warm, dry morning when freshly open and fragrant.
+    Shake out insects. Don't wash them, because
+
+    the pollen holds the flavor. Use within hours or dry them quickly. Leave
+    some flowers to become berries!
+history: >-
+  Elderflower water was a classic 18th- and 19th-century complexion wash.
+  Elderflower "champagne" (a wild ferment)
+
+  and cordial were ways to bottle the early summer. Commercial cordials took off
+  in Britain in the 1980s and 1990s.
+culture: >-
+  Gathering elderflowers is a beloved early-summer ritual in the UK,
+  Scandinavia, Germany, and Central Europe.
+
+  Romanian *socată*, Swedish *fläderblomssaft*, and St-Germain liqueur all
+  capture it. It flavored the cake at Prince
+
+  Harry and Meghan Markle's 2018 wedding.
+preparations:
+  - method: Infusion
+    notes: Steep 2 tsp dried flowers for 10 minutes. Drink hot for colds, often with
+      peppermint and yarrow.
+  - method: Cordial
+    notes: Steep about 20 heads with lemon slices and citric acid in sugar syrup for
+      24–48 hours, then strain.
+  - method: Fritters
+    notes: Dip whole heads in light batter, fry, and dust with sugar.
+risks: >-
+  Flowers are much safer than other parts of the plant, but remove as much green
+  stem as possible. Can cause allergy in
+
+  people sensitive to elder pollen. Wild elderflower "champagne" can
+  over-carbonate and burst bottles.
+pairsWith:
+  - elderberry
+  - peppermint
+  - yarrow
+  - lemon-balm
+image: ../../assets/herbs/elderflower.jpg
+imageAlt: Botanical illustration of elderflower (Sambucus nigra (flowers))
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Sambucus_nigra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-127.jpg
+  license: Public domain
+draft: true

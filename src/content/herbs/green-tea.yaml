@@ -1,0 +1,95 @@
+name: Green Tea
+latin: Camellia sinensis
+aliases:
+  - Sencha
+  - Lü cha
+category: tea
+status: collected
+jarColor: "#9cb36a"
+origin: Southwest China and the bordering highlands of Myanmar and India
+intendedUse: Calm, alert focus; a daily drink linked to heart and metabolic health
+blurb: >-
+  Unoxidized tea leaves, steamed or pan-fired to keep them green. L-theanine
+  plus caffeine gives green tea its
+
+  famously calm alertness, and large population studies link regular drinking to
+  better heart health.
+evidence: "3"
+evidenceSummary: >-
+  Large observational studies associate regular green tea drinking with lower
+  cardiovascular and
+
+  all-cause mortality, and trials show small improvements in LDL cholesterol and
+  blood pressure. The caffeine and
+
+  L-theanine combination improves attention in short lab studies. Weight-loss
+  effects of extracts are small, and
+
+  cancer-prevention evidence is inconsistent.
+sources:
+  - title: Green tea (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/green-tea
+  - title: Tea consumption enhances endothelial-dependent vasodilation; a
+      meta-analysis (Ras et al., 2011, PLoS One)
+    url: https://pubmed.ncbi.nlm.nih.gov/21394199/
+psychoactive: false
+legal: ""
+growing:
+  zones: 7–9 (hardy camellia shrub)
+  sun: Part shade to sun
+  water: Regular, even moisture
+  soil: Acidic (pH 4.5–6), rich, well-drained
+  propagation: >-
+    Grow from semi-hardwood cuttings or fresh seed. Plants take about 3 years
+    before you can harvest regularly.
+
+    They grow well in large pots.
+  harvest: >-
+    Pluck "two leaves and a bud" from new spring flushes. For green tea, quickly
+    steam or pan-fire the leaves to stop
+
+    oxidation, then roll and dry them.
+history: >-
+  Chinese legend credits Emperor Shennong with discovering tea around 2737 BCE
+  when leaves blew into his boiling
+
+  water. Lu Yu's *Classic of Tea* (around 760 CE) was the first book devoted to
+  it. Buddhist monks carried tea seeds to
+
+  Japan in the 9th and 12th centuries, where it became central to Zen practice.
+culture: >-
+  Tea is woven into daily life across East Asia, from Chinese *gongfu cha* to
+  Japanese everyday sencha. Offering
+
+  tea is a basic gesture of hospitality, and in China pouring tea for elders is
+  a sign of respect.
+preparations:
+  - method: Infusion
+    notes: Steep 1 tsp leaves in water around 70–80 °C (160–175 °F) for 1–3 minutes.
+      Boiling water makes it bitter.
+  - method: Cold brew
+    notes: Steep in cold water in the fridge for 6–8 hours for a sweet,
+      low-bitterness tea.
+  - method: Multiple infusions
+    notes: Good loose leaf can be re-steeped 2–4 times.
+risks: >-
+  Contains caffeine (roughly 25–45 mg per cup), which can disturb sleep or cause
+  jitters. Concentrated green tea
+
+  extract supplements, unlike the beverage, have been linked to liver injury,
+  especially on an empty stomach. Green tea
+
+  can reduce iron absorption and interacts with the blood-pressure drug nadolol.
+pairsWith:
+  - lemongrass
+  - peppermint
+  - ginger
+  - matcha
+image: ../../assets/herbs/green-tea.jpg
+imageAlt: Botanical illustration of green tea (Camellia sinensis)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg
+  license: Public domain
+draft: true

@@ -1,0 +1,84 @@
+name: Rooibos
+latin: Aspalathus linearis
+aliases:
+  - Red bush tea
+  - Bush tea
+category: tea
+status: collected
+jarColor: "#b4502c"
+origin: The Cederberg mountains of South Africa's Western Cape
+intendedUse: A caffeine-free, antioxidant-rich everyday tea
+blurb: >-
+  A needle-leaved South African shrub that grows nowhere else on Earth. When
+  fermented it turns fox-red and tastes
+
+  naturally sweet and nutty. It's caffeine-free and full of unusual
+  antioxidants.
+evidence: "1"
+evidenceSummary: >-
+  Rooibos contains unique polyphenols like aspalathin and nothofagin, which
+  improve blood sugar and
+
+  cholesterol in animal studies. Human evidence is very limited: one small trial
+  in at-risk adults found six cups a day
+
+  improved lipid profiles and antioxidant status. Lab results are promising, but
+  well-designed clinical trials are lacking.
+sources:
+  - title: Aspalathus linearis (Rooibos) - a functional food targeting
+      cardiovascular disease (Smith et al., 2018, Food Funct)
+    url: https://pubmed.ncbi.nlm.nih.gov/30183052/
+  - title: Rooibos (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Rooibos
+psychoactive: false
+legal: ""
+growing:
+  zones: 9–11 (Mediterranean-type climate)
+  sun: Full sun
+  water: Low; winter rain, summer drought
+  soil: Sandy, acidic, nutrient-poor
+  propagation: >-
+    Rooibos is notoriously hard to grow outside its homeland. It needs acidic
+    sandy soil and specific soil microbes.
+
+    Seed is scarified and sown in autumn.
+  harvest: >-
+    Cut branches in summer, chop them, bruise them, and let them ferment in
+    heaps for 12–24 hours before sun-drying. Unfermented
+
+    "green rooibos" is dried immediately.
+history: >-
+  The Khoi and San peoples of the Cederberg gathered wild rooibos, beat it with
+  hammers, and fermented it for tea long
+
+  before colonization. In 1904, Russian immigrant Benjamin Ginsberg began
+  trading it, and in the 1930s local doctor
+
+  Pieter le Fras Nortier worked out how to cultivate it. A shortage of black tea
+  during World War II made it popular.
+culture: >-
+  In 2019, a landmark benefit-sharing agreement recognized the Khoi and San as
+  the traditional knowledge holders of
+
+  rooibos, and they now receive a share of industry revenue. "Rooibos" is a
+  protected geographical name in the EU.
+
+  In South Africa it's drunk with milk and sugar, or as a "red cappuccino."
+preparations:
+  - method: Infusion
+    notes: Steep 1 tsp in boiling water for 5–10 minutes. It never turns bitter, so
+      long steeps are fine.
+  - method: Red latte
+    notes: Brew strong, then add steamed milk, honey, and vanilla.
+  - method: Iced
+    notes: Cold brew with orange peel and hibiscus.
+risks: >-
+  Very safe for most people. A few case reports link heavy consumption to liver
+  injury, but causation is unclear. High
+
+  doses may have mild estrogenic activity in lab studies.
+pairsWith:
+  - hibiscus
+  - cinnamon
+  - lemongrass
+draft: true

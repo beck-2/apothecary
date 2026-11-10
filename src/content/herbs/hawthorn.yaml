@@ -1,0 +1,84 @@
+name: Hawthorn
+latin: Crataegus monogyna and C. laevigata
+aliases:
+  - May tree
+  - Whitethorn
+category: seed
+status: collected
+jarColor: "#a03a2e"
+origin: Europe, North Africa, and western Asia
+intendedUse: Strengthening the heart and circulation
+blurb: >-
+  A thorny hedgerow tree with frothy white May blossom and dark red berries.
+  Hawthorn is Western herbalism's classic
+
+  "heart herb," and older trials suggest it can help mild heart failure symptoms
+  as an add-on.
+evidence: "2"
+evidenceSummary: >-
+  A 2008 Cochrane review of 14 trials found hawthorn extract improved exercise
+  tolerance and symptoms in
+
+  chronic heart failure as an add-on to standard treatment. However, the large
+  SPICE trial found no reduction in
+
+  cardiac events, and newer heart failure drugs weren't used in older trials.
+  Evidence for blood pressure is modest.
+sources:
+  - title: Hawthorn (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/hawthorn
+  - title: Hawthorn extract for treating chronic heart failure (Pittler et al.,
+      2008, Cochrane Database Syst Rev)
+    url: https://pubmed.ncbi.nlm.nih.gov/18254076/
+psychoactive: false
+legal: ""
+growing:
+  zones: 4–8
+  sun: Full sun to part shade
+  water: Moderate
+  soil: Adaptable
+  propagation: >-
+    Grow from cold-stratified seed (it can take 18 months to germinate) or buy
+    young hedging plants. It makes an
+
+    excellent wildlife hedge.
+  harvest: Pick flowering tips with leaves in spring and berries in autumn when
+    deep red. Dry them or make syrup or jelly.
+history: >-
+  Dioscorides mentioned hawthorn for heart problems. In the late 1800s, Irish
+  physician Dr. Green reportedly built a
+
+  famous practice around a secret heart remedy, which was revealed after his
+  death to be hawthorn berry tincture. It's
+
+  now an approved treatment for mild heart failure in Germany.
+culture: >-
+  Hawthorn is deeply woven into Celtic and European folklore as a fairy tree;
+  cutting a lone hawthorn was said to bring
+
+  misfortune. Its blossom is the "May" of May Day garlands. The Glastonbury
+  Thorn is said to have grown from Joseph of
+
+  Arimathea's staff. Chinese hawthorn (*shan zha*) becomes candied haws and the
+  sweet *tanghulu*.
+preparations:
+  - method: Infusion
+    notes: Steep 1–2 tsp dried leaf and flower for 10–15 minutes.
+  - method: Berry syrup
+    notes: Simmer berries with water and honey, then strain.
+  - method: Standardized extract
+    notes: Heart failure trials used about 160–1,800 mg a day of leaf-and-flower
+      extract (WS 1442).
+risks: >-
+  Generally well tolerated, with occasional dizziness or nausea. Hawthorn can
+  interact with heart medications
+
+  including digoxin, beta-blockers, calcium channel blockers, and nitrates. Do
+  not use it to self-treat heart
+
+  disease, and talk with your cardiologist first.
+pairsWith:
+  - lemon-balm
+  - hibiscus
+  - cacao
+draft: true

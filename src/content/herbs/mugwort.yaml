@@ -1,0 +1,98 @@
+name: Mugwort
+latin: Artemisia vulgaris
+aliases:
+  - Cronewort
+  - Sailor's tobacco
+  - Ssuk
+  - Yomogi
+category: herb
+status: collected
+jarColor: "#8a9a86"
+origin: Europe, Asia, and North Africa; naturalized widely
+intendedUse: Vivid dreams, women's health, and moxibustion
+blurb: >-
+  A silvery-backed roadside weed with a deep sacred history. Mugwort is famous
+  as a dream herb tucked under pillows,
+
+  the source of moxa for acupuncture, and a spring green in East Asian cooking.
+evidence: "0"
+evidenceSummary: >-
+  Mugwort itself has almost no clinical research. Moxibustion (burning mugwort
+  near acupuncture points)
+
+  has been tested for turning breech babies, and a 2023 Cochrane review found
+  low-certainty evidence that it may reduce
+
+  the need for cesarean birth. Claims about vivid dreams come from tradition and
+  anecdote, not studies. It contains
+
+  thujone, which affects GABA receptors.
+sources:
+  - title: Cephalic version by moxibustion for breech presentation (Coyle et al.,
+      2023, Cochrane Database Syst Rev)
+    url: https://pubmed.ncbi.nlm.nih.gov/37158339/
+  - title: Artemisia vulgaris (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Artemisia_vulgaris
+psychoactive: true
+legal: Legal and unregulated nearly everywhere.
+growing:
+  zones: 3–8
+  sun: Full sun to part shade
+  water: Low to moderate
+  soil: Adaptable; thrives in disturbed ground
+  propagation: >-
+    Grows readily from seed, division, or even small root pieces. It spreads
+    aggressively by rhizomes and is
+
+    considered invasive in parts of North America, so contain it.
+  harvest: >-
+    Cut leafy tops just before flowering in mid-summer. Hang to dry. For moxa,
+    the soft underside fibers of aged leaves are
+
+    used.
+history: >-
+  Mugwort was one of the Anglo-Saxon Nine Herbs, called "oldest of herbs." Roman
+  soldiers put it in their sandals
+
+  against fatigue, and it was used to flavor beer before hops. In China,
+  moxibustion with mugwort has been practiced for
+
+  over 2,000 years.
+culture: >-
+  On Midsummer's Eve in Europe, people wore mugwort belts and threw them into
+  the fire for protection, which gave it
+
+  the name "St. John's plant." In Korea, mugwort (*ssuk*) is eaten in rice cakes
+  and soup and appears in the founding
+
+  myth of Korea, where a bear became a woman by eating mugwort and garlic. In
+  Japan, *yomogi* colors springtime mochi
+
+  green.
+preparations:
+  - method: Dream pillow
+    notes: A small sachet of dried mugwort (often with lavender) tucked inside the
+      pillowcase.
+  - method: Infusion
+    notes: Steep 1 tsp dried herb for 5–10 minutes. Bitter, so add honey or mint.
+      Use occasionally rather than daily.
+  - method: Moxa
+    notes: Aged mugwort wool, rolled into sticks or cones and burned near the skin
+      by trained practitioners.
+  - method: Culinary
+    notes: Young leaves in Korean ssuk tteok, Japanese yomogi mochi, and soups.
+risks: >-
+  Mugwort pollen is a major hay fever allergen, and it cross-reacts with celery,
+  carrot, and spices (celery-mugwort-spice
+
+  syndrome). It can trigger reactions in people allergic to the daisy family.
+  Thujone is neurotoxic in large doses. Do not
+
+  use in pregnancy, as it has been used to stimulate menstruation and the
+  uterus.
+pairsWith:
+  - lavender
+  - chamomile
+  - blue-lotus
+  - yarrow
+draft: true

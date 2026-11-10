@@ -1,0 +1,96 @@
+name: Matcha
+latin: Camellia sinensis (shade-grown)
+aliases:
+  - Tencha (unground leaf)
+category: tea
+status: collected
+jarColor: "#7fa84a"
+origin: Japan (Uji, Nishio), descended from Song dynasty China powdered tea
+intendedUse: Focused energy and ceremony; whisked green tea where you drink the whole leaf
+blurb: >-
+  Shade-grown green tea leaves stone-ground into a vivid powder and whisked into
+  a froth. Because you drink the whole
+
+  leaf, matcha delivers more caffeine, L-theanine, and catechins than steeped
+  green tea.
+evidence: "2"
+evidenceSummary: >-
+  Matcha shares green tea's well-studied compounds, and shading boosts its
+  L-theanine and chlorophyll.
+
+  Matcha-specific human research is small: short randomized trials suggest
+  modest effects on fat oxidation during
+
+  exercise, fatigue, and possibly attention, but more and larger studies are
+  needed. Most long-term evidence comes from
+
+  green tea in general.
+sources:
+  - title: Green tea (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/green-tea
+  - title: "Effect of matcha green tea on cognitive functions and sleep quality in
+      older adults with cognitive decline: A randomized controlled study over 12
+      months (Uchida et al., 2024, PLoS One)"
+    url: https://pubmed.ncbi.nlm.nih.gov/39213264/
+psychoactive: false
+legal: ""
+growing:
+  zones: 7–9
+  sun: Shaded for 3–4 weeks before harvest
+  water: Regular, even moisture
+  soil: Acidic, rich, well-drained
+  propagation: >-
+    Same as any tea plant: cuttings or seed. To make matcha-style leaf, cover
+    the bushes with shade cloth about
+
+    20 days before the spring harvest.
+  harvest: >-
+    Pick the tender spring flush, steam it, dry it flat (this is *tencha*),
+    remove stems and veins, and stone-grind it
+
+    very slowly so it doesn't heat up.
+history: >-
+  Powdered, whisked tea was the fashion in Song dynasty China (960–1279). The
+  monk Eisai brought the method to
+
+  Japan in 1191 along with Zen Buddhism. While the practice faded in China,
+  Japan refined it into *chanoyu*, the tea
+
+  ceremony, codified by Sen no Rikyū in the 16th century.
+culture: >-
+  In the Japanese tea ceremony, every gesture is choreographed around four
+  principles: harmony, respect,
+
+  purity, and tranquility (*wa kei sei jaku*). Thick *koicha* and thin *usucha*
+  are distinct preparations. Matcha
+
+  lattes and desserts made it a global café staple in the 2010s.
+preparations:
+  - method: Usucha (thin tea)
+    notes: Sift 1–2 g (about 1 tsp) into a bowl, add 70 mL water at 75–80 °C, and
+      whisk briskly in a W motion until frothy.
+  - method: Koicha (thick tea)
+    notes: About 4 g with 30–40 mL water, kneaded slowly into a glossy paste. Use
+      the best grade.
+  - method: Latte
+    notes: Whisk with a little hot water, then add steamed milk and a touch of honey.
+risks: >-
+  Higher caffeine than steeped green tea (roughly 60–80 mg per 2 g serving).
+  Because you consume the whole leaf, any
+
+  contaminants such as lead or fluoride are ingested too, so choose reputable
+  Japanese sources. Same iron-absorption
+
+  and medication cautions as green tea.
+pairsWith:
+  - green-tea
+  - butterfly-pea
+  - yerba-mate
+image: ../../assets/herbs/matcha.jpg
+imageAlt: Botanical illustration of matcha (Camellia sinensis (shade-grown))
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg
+  license: Public domain
+draft: true

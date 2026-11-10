@@ -1,0 +1,85 @@
+name: Holy Basil
+latin: Ocimum tenuiflorum
+aliases:
+  - Tulsi
+  - Ocimum sanctum
+category: herb
+status: collected
+jarColor: "#8c9a5c"
+origin: The Indian subcontinent
+intendedUse: Easing stress and supporting metabolism; a sacred everyday tea
+blurb: >-
+  A clove-scented basil sacred in Hinduism, grown in a special pot at the heart
+  of many Indian homes. A modest body
+
+  of human trials suggests tulsi may help stress, blood sugar, and cholesterol.
+evidence: "2"
+evidenceSummary: >-
+  A 2017 systematic review found 24 human studies reporting benefits for
+  metabolic markers (blood sugar,
+
+  lipids, blood pressure), stress, mood, and immunity, with no serious side
+  effects. However, most studies were small,
+
+  short, and of low quality, so the evidence is promising but weak.
+sources:
+  - title: "The Clinical Efficacy and Safety of Tulsi in Humans: A Systematic Review
+      of the Literature (Jamshidi et al., 2017, Evid Based Complement Alternat
+      Med)"
+    url: https://pubmed.ncbi.nlm.nih.gov/28400848/
+psychoactive: false
+legal: ""
+growing:
+  zones: 10–11 as a perennial; annual elsewhere
+  sun: Full sun
+  water: Moderate
+  soil: Rich, well-drained
+  propagation: >-
+    Start seed indoors in warm soil 6 weeks before the last frost, or root
+    cuttings in water. It loves heat and
+
+    dislikes cold nights.
+  harvest: Pinch leaves and flower tops regularly to keep it bushy. Dry in shade.
+history: >-
+  Tulsi is mentioned in Ayurvedic texts like the *Charaka Samhita*, where it was
+  valued for respiratory problems,
+
+  fevers, and as a general tonic. It has been used medicinally in India for more
+  than 3,000 years.
+culture: >-
+  In Hinduism, tulsi is the earthly form of the goddess Tulsi (Vrinda), consort
+  of Vishnu. Many Hindu households keep
+
+  a *tulsi vrindavan* (a raised planter) in the courtyard and worship it daily.
+  Malas (prayer beads) are made from tulsi
+
+  stems, and the annual *Tulsi Vivah* festival celebrates her marriage to
+  Vishnu.
+preparations:
+  - method: Infusion
+    notes: Steep 1–2 tsp dried leaf (or 5–10 fresh leaves) for 5–10 minutes. Lovely
+      with ginger or green tea.
+  - method: Kadha
+    notes: A spiced decoction of tulsi, ginger, black pepper, cinnamon, and jaggery
+      for colds.
+  - method: Extract
+    notes: Studies used 300 mg to 3 g a day.
+risks: >-
+  Generally safe as a tea. May lower blood sugar (watch with diabetes
+  medication) and may slow blood clotting. Animal
+
+  studies suggest effects on fertility and pregnancy, so avoid medicinal doses
+  when pregnant or trying to conceive.
+pairsWith:
+  - ashwagandha
+  - ginger
+  - green-tea
+  - lemongrass
+image: ../../assets/herbs/holy-basil.jpg
+imageAlt: Botanical illustration of holy basil (Ocimum tenuiflorum)
+imageCredit:
+  artist: Francisco Manuel Blanco
+  work: Flora de Filipinas (1880–1883)
+  url: https://commons.wikimedia.org/wiki/File:Ocimum_tenuiflorum_Blanco2.257.jpg
+  license: Public domain
+draft: true

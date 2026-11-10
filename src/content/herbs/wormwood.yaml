@@ -1,0 +1,90 @@
+name: Wormwood
+latin: Artemisia absinthium
+aliases:
+  - Absinthe wormwood
+  - Grand wormwood
+category: herb
+status: collected
+jarColor: "#a7b29a"
+origin: Temperate Europe, North Africa, and western Asia
+intendedUse: Stimulating digestion as a bitter tonic; the key herb of absinthe
+blurb: >-
+  A silvery, intensely bitter herb named in the Bible as a symbol of bitterness
+  and in the 1800s as the soul of
+
+  absinthe. Its bitterness stimulates digestion, and one small trial even tested
+  it for Crohn's disease.
+evidence: "0"
+evidenceSummary: >-
+  Wormwood is one of the bitterest herbs known, and bitter compounds stimulate
+  digestive secretions,
+
+  which is the basis of its traditional use. A couple of small trials in Germany
+  found wormwood powder reduced Crohn's
+
+  disease symptoms and allowed steroid reduction, but these haven't been
+  replicated. Thujone, its controversial
+
+  compound, is too low in modern absinthe to cause hallucinations.
+sources:
+  - title: Systematic review of complementary and alternative medicine treatments in
+      inflammatory bowel diseases (Langhorst et al., 2015, J Crohns Colitis)
+    url: https://pubmed.ncbi.nlm.nih.gov/25518050/
+  - title: Artemisia absinthium (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Artemisia_absinthium
+psychoactive: true
+legal: >-
+  Legal as an herb in most countries. Absinthe was banned in the US and much of
+  Europe in the early 1900s and legalized
+      again in the 2000s with thujone limits (in the US, under 10 mg/kg).
+growing:
+  zones: 4–9
+  sun: Full sun
+  water: Low
+  soil: Poor, dry, well-drained
+  propagation: >-
+    Grows easily from seed, cuttings, or division. Its roots release a compound
+    that inhibits nearby plants, so
+
+    give it its own spot.
+  harvest: Cut flowering tops and leaves in mid-to-late summer. Dry them in bundles.
+history: >-
+  The Ebers Papyrus (about 1550 BCE) mentions wormwood for worms, hence its
+  English name. The Greeks used it in wine.
+
+  In the 1790s, absinthe was created in Switzerland as a medicinal elixir. It
+  became the "green fairy" of Belle Époque
+
+  Paris, beloved by Van Gogh, Toulouse-Lautrec, and Verlaine, and was then
+  banned amid moral panic about "absinthism,"
+
+  which was more likely plain alcoholism.
+culture: >-
+  In the Bible's Book of Revelation, a star named Wormwood falls and turns the
+  waters bitter. Wormwood flavors
+
+  vermouth (from the German *Wermut*), and in Morocco a sprig of a close
+  relative (*chiba*) is added to mint tea in winter.
+preparations:
+  - method: Bitter infusion
+    notes: Steep ¼–½ tsp dried herb for 5 minutes. Very bitter; sip a small amount
+      before meals.
+  - method: Digestive bitters
+    notes: Tinctured with orange peel and other botanicals, a few drops before meals.
+  - method: Absinthe
+    notes: Distilled with anise and fennel; served with ice water dripped over a
+      sugar cube.
+risks: >-
+  Thujone is neurotoxic in high doses and can cause seizures and kidney failure;
+  wormwood essential oil is especially
+
+  dangerous and should never be swallowed. Use only small amounts for short
+  periods. Avoid in pregnancy, with seizure
+
+  disorders, porphyria, or daisy-family allergies.
+pairsWith:
+  - fennel
+  - peppermint
+  - mugwort
+  - yarrow
+draft: true

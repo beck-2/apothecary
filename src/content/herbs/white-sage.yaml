@@ -1,0 +1,91 @@
+name: White Sage
+latin: Salvia apiana
+aliases:
+  - Sacred sage
+  - Bee sage
+category: herb
+status: collected
+jarColor: "#cfd5c9"
+origin: Coastal sage scrub of Southern California and Baja California
+intendedUse: Ceremonial purification and prayer among many Indigenous peoples
+blurb: >-
+  A pale, silvery sage that grows only in Southern California's chaparral. It's
+  sacred to the Indigenous peoples of
+
+  the region, and soaring commercial demand for "smudge sticks" has led to
+  illegal overharvesting. Grow it, or support
+
+  Native-led sources.
+evidence: "0"
+evidenceSummary: >-
+  Lab studies show white sage contains diterpenes and essential oils with
+  antimicrobial activity. There are
+
+  no human clinical trials. A 2007 lab study reported that burning a mix of
+  medicinal herbs (not white sage specifically) reduced
+
+  airborne bacteria in a closed room, but this is not evidence of health
+  benefits from smudging.
+sources:
+  - title: "White Sage (Salvia apiana)-a Ritual and Medicinal Plant of the
+      Chaparral: Plant Characteristics in Comparison with Other Salvia Species
+      (Krol et al., 2022, Planta Med)"
+    url: https://pubmed.ncbi.nlm.nih.gov/33890254/
+  - title: Salvia apiana (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Salvia_apiana
+psychoactive: false
+legal: >-
+  Legal to grow, but harvesting wild white sage without permission is illegal on
+  public and private land in California.
+      Poaching is a serious and growing problem.
+growing:
+  zones: 8–11
+  sun: Full sun
+  water: Very low; overwatering kills it
+  soil: Sandy, rocky, very well-drained
+  propagation: >-
+    Grow from seed (cold-stratify or smoke-treat for better germination) or
+    cuttings. It hates humidity and wet winters,
+
+    so in other climates grow it in a terracotta pot with gritty mix.
+  harvest: Take leaves sparingly from your own plants, never more than a third at
+    a time.
+history: >-
+  The Chumash, Tongva, Cahuilla, Kumeyaay, and other California peoples have
+  used white sage for millennia, for
+
+  ceremony as well as food (seeds) and medicine (colds, washing). The 1978
+  American Indian Religious Freedom Act finally
+
+  protected Native ceremonies that had been banned or suppressed for decades.
+culture: >-
+  For many California and Plains Indigenous peoples, burning white sage is a
+  prayer practice tied to specific
+
+  protocols and relationships with the land. Many Native voices ask that
+  non-Native people not appropriate the practice
+
+  or buy commercial smudge sticks, which fuel poaching. Respectful alternatives
+  include growing your own, buying from
+
+  Native-owned businesses, or using garden sage or rosemary from your own
+  traditions.
+preparations:
+  - method: Ceremonial use
+    notes: Traditionally burned in a shell or bowl as part of prayer, guided by
+      community protocols.
+  - method: Infusion
+    notes: A few leaves steeped briefly. Very strong and resinous.
+  - method: Culinary
+    notes: A leaf used sparingly to season meat; the seeds were a traditional food.
+risks: >-
+  Smoke irritates the lungs; avoid with asthma and ventilate well. Contains
+  thujone, so avoid large internal amounts,
+
+  especially in pregnancy and breastfeeding. Never buy wild-harvested sage of
+  unknown origin.
+pairsWith:
+  - lavender
+  - rosemary
+  - yarrow
+draft: true

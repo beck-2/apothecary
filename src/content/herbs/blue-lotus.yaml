@@ -1,0 +1,88 @@
+name: Blue Lotus
+latin: Nymphaea caerulea
+aliases:
+  - Blue water lily
+  - Sacred blue lily of the Nile
+category: flower
+status: collected
+jarColor: "#5a7fb5"
+origin: The Nile valley and East Africa
+intendedUse: Gentle euphoria and relaxation; a sacred ceremonial flower
+blurb: >-
+  The sky-blue water lily that opens at dawn and closes at dusk, painted on
+  countless Egyptian tomb walls. It's mildly
+
+  psychoactive and was likely steeped in wine for ceremony. Today it's sipped as
+  a dreamy, relaxing tea.
+evidence: "0"
+evidenceSummary: >-
+  There are essentially no clinical studies of blue lotus in humans. It contains
+  the alkaloids apomorphine
+
+  and nuciferine, which act on dopamine and serotonin receptors in the lab, but
+  the amounts in the flower are low and
+
+  variable. Reports of mild sedation and euphoria come from users. A 2023 case
+  series documented toxicity in people
+
+  who used concentrated products.
+sources:
+  - title: "Toxicity From Blue Lotus (Nymphaea caerulea) After Ingestion or
+      Inhalation: A Case Series (Schimpf et al., 2023, Mil Med)"
+    url: https://pubmed.ncbi.nlm.nih.gov/34345890/
+  - title: Nymphaea caerulea (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Nymphaea_caerulea
+psychoactive: true
+legal: >-
+  Legal in the US and most countries, though not approved for consumption by the
+  FDA. Some countries, including Russia,
+      Poland, and Latvia, restrict or ban it.
+growing:
+  zones: 10–11 outdoors; a tropical pond plant elsewhere
+  sun: Full sun, 6+ hours
+  water: Submerged in a pond or tub
+  soil: Heavy clay-loam in a pot under water
+  propagation: >-
+    Grow from tubers or seed in warm water (75°F / 24°C or above). In colder
+    climates, keep it in a tub or aquarium and
+
+    overwinter the tubers indoors.
+  harvest: Pick flowers on the first day they open in the morning and dry them whole.
+history: >-
+  Blue lotus appears constantly in ancient Egyptian art: at banquets, in
+  offerings, and on Tutankhamun's tomb,
+
+  where his body was covered in its petals. Some Egyptologists have argued it
+  was soaked in wine for its effects,
+
+  though this is debated. The flower's daily rising and closing linked it to the
+  sun god Ra and rebirth.
+culture: >-
+  To ancient Egyptians, the blue lotus symbolized creation: in one myth, the sun
+  emerged from a blue lotus at the
+
+  beginning of time. Nefertem, god of perfume, wears a lotus on his head. It was
+  a symbol of Upper Egypt, and remains
+
+  one of Egypt's national symbols.
+preparations:
+  - method: Infusion
+    notes: Steep 3–5 g of dried flowers in hot (not boiling) water for 10–15 minutes.
+  - method: Wine maceration
+    notes: "Historical style: flowers soaked in wine for several days to a few weeks."
+  - method: Smoking
+    notes: Dried petals are sometimes smoked in blends.
+risks: >-
+  Little safety data exists. It can cause drowsiness, nausea, and dizziness, and
+  concentrated extracts have caused
+
+  toxicity requiring emergency care. Don't drive or combine with alcohol,
+  sedatives, or dopamine-affecting drugs. Avoid
+
+  in pregnancy and breastfeeding.
+pairsWith:
+  - mugwort
+  - chamomile
+  - damiana
+  - lavender
+draft: true

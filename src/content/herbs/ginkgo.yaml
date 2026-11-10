@@ -1,0 +1,96 @@
+name: Ginkgo
+latin: Ginkgo biloba
+aliases:
+  - Maidenhair tree
+category: herb
+status: collected
+jarColor: "#d4c05a"
+origin: Southwestern China; a living fossil whose lineage is about 270 million
+  years old
+intendedUse: Traditionally taken for memory and circulation
+blurb: >-
+  Fan-shaped leaves from a "living fossil" tree that outlived the dinosaurs.
+  Ginkgo is one of the best-studied
+
+  herbs, and that research mostly shows it doesn't prevent dementia or sharpen
+  memory in healthy people.
+evidence: "3"
+evidenceSummary: >-
+  This is a well-studied herb with mostly negative results. The large GEM trial
+  (over 3,000 older
+
+  adults for about 6 years) found the standardized extract EGb 761 did not
+  prevent dementia or cognitive decline.
+
+  Some meta-analyses suggest small benefits in people who already have dementia,
+  and possible help for claudication
+
+  (leg pain from poor circulation), but the evidence is inconsistent.
+sources:
+  - title: Ginkgo (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/ginkgo
+  - title: "Efficacy and adverse effects of ginkgo biloba for cognitive impairment
+      and dementia: a systematic review and meta-analysis (Tan et al., 2015, J
+      Alzheimers Dis)"
+    url: https://pubmed.ncbi.nlm.nih.gov/25114079/
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–9
+  sun: Full sun
+  water: Moderate
+  soil: Adaptable; tolerates city conditions
+  propagation: >-
+    Grow from cuttings or seed. Plant male (fruitless) cultivars unless you
+    enjoy fallen fruit that smells like
+
+    rancid butter.
+  harvest: Pick leaves while green in summer, or gather golden ones in fall. Seeds
+    (nuts) from female trees must be cooked.
+history: >-
+  Ginkgo trees were preserved for centuries in Chinese and Japanese temple
+  gardens, and were nearly extinct in the
+
+  wild. Engelbert Kaempfer introduced them to Europe around 1690. Goethe wrote a
+  famous love poem about the two-lobed
+
+  leaf in 1815. Six ginkgo trees about a mile from the Hiroshima blast survived
+  and still stand.
+culture: >-
+  Ginkgo is a symbol of longevity and resilience in East Asia, and is Tokyo's
+  official tree. Roasted ginkgo nuts
+
+  are served at Japanese and Korean autumn festivals and in Chinese congee. In
+  traditional Chinese medicine the seed,
+
+  not the leaf, was the main medicine.
+preparations:
+  - method: Standardized extract
+    notes: Trials used 120–240 mg a day of extract standardized to 24% flavone
+      glycosides and 6% terpene lactones.
+  - method: Leaf tea
+    notes: Steep 1 tsp dried leaf. Home-made leaf preparations can contain ginkgolic
+      acids, which are allergenic.
+  - method: Roasted nuts
+    notes: A few cooked seeds as a snack. Raw seeds are toxic.
+risks: >-
+  Extracts may increase bleeding risk, especially with blood thinners or before
+  surgery. Raw or excessive ginkgo seeds
+
+  can cause seizures (from ginkgotoxin), particularly in children. Ginkgolic
+  acid in crude leaf can cause allergic
+
+  reactions. An NIH study found ginkgo extract caused cancer in rodents at high
+  doses.
+pairsWith:
+  - rosemary
+  - lions-mane
+  - ginseng
+image: ../../assets/herbs/ginkgo.jpg
+imageAlt: Botanical illustration of ginkgo (Ginkgo biloba)
+imageCredit:
+  artist: Larousse du XXe siècle
+  work: Larousse du XXe siècle (1932)
+  url: https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_Larousse_Extracted.png
+  license: CC0
+draft: true

@@ -4,7 +4,7 @@ import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
 import Jar from '../components/Jar.astro';
 import EvidenceBadge from '../components/EvidenceBadge.astro';
-import { EVIDENCE } from '../lib/evidence';
+import { EVIDENCE, inline } from '../lib/evidence';
 
 const herbs = (await getCollection('herbs')).sort((a, b) => a.data.name.localeCompare(b.data.name));
 const potions = (await getCollection('potions')).sort(
@@ -67,7 +67,7 @@ const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tinctur
     <dialog id={`herb-${h.id}`} class="blurb" aria-labelledby={`herb-${h.id}-title`}>
       <form method="dialog"><button class="close" aria-label="Close">×</button></form>
       {h.data.image && (
-        <Image src={h.data.image} alt={h.data.imageAlt} width={220} widths={[220, 440]} sizes="220px" loading="lazy" class="thumb" />
+        <Image src={h.data.image} alt={h.data.imageAlt} width={220} widths={[220, 440]} sizes="220px" quality={72} loading="lazy" class="thumb" />
       )}
       <div>
         <h2 id={`herb-${h.id}-title`}>{h.data.name}</h2>
@@ -76,7 +76,7 @@ const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tinctur
           <EvidenceBadge level={h.data.evidence} />
           {h.data.psychoactive && <span class="chip psy">Psychoactive</span>}
         </p>
-        <p class="blurb-text">{h.data.blurb}</p>
+        <p class="blurb-text" set:html={inline(h.data.blurb)} />
         <dl>
           <dt>Origin</dt><dd>{h.data.origin}</dd>
           <dt>Used for</dt><dd>{h.data.intendedUse}</dd>

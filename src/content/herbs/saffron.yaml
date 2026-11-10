@@ -1,0 +1,94 @@
+name: Saffron
+latin: Crocus sativus
+aliases: []
+category: spice
+status: collected
+jarColor: "#c8452a"
+origin: Domesticated in Greece or the eastern Mediterranean; major growers today
+  are Iran, Spain, and Kashmir
+intendedUse: Brightening mood and easing mild depression; a precious golden spice
+blurb: >-
+  The crimson stigmas of an autumn crocus, hand-picked three per flower. It's
+  the world's most expensive spice by
+
+  weight. Surprisingly, a few dozen small trials suggest saffron can ease mild
+  to moderate depression.
+evidence: "3"
+evidenceSummary: >-
+  More than a dozen randomized trials, mostly from Iran, found 30 mg a day of
+  saffron extract better than
+
+  placebo and comparable to fluoxetine or imipramine for mild to moderate
+  depression, and meta-analyses agree. Trials
+
+  are small and short, and many come from a few research groups, so independent
+  replication is needed. Crocin and
+
+  safranal are thought to act on serotonin.
+sources:
+  - title: "Saffron (Crocus sativus) for depression: a systematic review of clinical
+      studies and examination of underlying antidepressant mechanisms of action
+      (Lopresti et al., 2014, Hum Psychopharmacol)"
+    url: https://pubmed.ncbi.nlm.nih.gov/25384672/
+  - title: "Effect of Saffron Versus Selective Serotonin Reuptake Inhibitors (SSRIs)
+      in Treatment of Depression and Anxiety: A Meta-analysis of Randomized
+      Controlled Trials (Shafiee et al., 2025, Nutr Rev)"
+    url: https://pubmed.ncbi.nlm.nih.gov/38913392/
+psychoactive: false
+legal: ""
+growing:
+  zones: 6–9
+  sun: Full sun
+  water: Dry summers are essential; moderate in fall
+  soil: Sandy, very well-drained
+  propagation: >-
+    Plant corms 4 inches deep in late summer. They flower in October, and each
+    corm multiplies over the years.
+
+    You need around 50–70 flowers for a single recipe's worth.
+  harvest: >-
+    Pick the flowers early in the morning as soon as they open, pluck the three
+    red stigmas, and dry them gently
+
+    (warm, not hot) until brittle.
+history: >-
+  Saffron appears in Bronze Age Minoan frescoes on Santorini, where young women
+  gather crocus stigmas. Cleopatra
+
+  reportedly bathed in it. In the 14th century, the "Saffron War" broke out when
+  a shipment was stolen in Basel, and
+
+  adulterators in Nuremberg could be burned alive along with their fake saffron.
+culture: >-
+  Saffron is the soul of Spanish paella, Persian *tahdig* and rice dishes,
+  Milanese risotto, and Swedish
+
+  *lussekatter* buns for St. Lucia's Day. Its color is sacred in Hinduism and
+  Buddhism, and Buddhist monastic robes
+
+  were originally dyed with saffron or turmeric.
+preparations:
+  - method: Steeped threads
+    notes: Crush a pinch (about 20 threads) and steep in 2–3 Tbsp warm water or milk
+      for 20 minutes before adding to food.
+  - method: Tea
+    notes: A few threads with green tea, cardamom, and honey (as in Kashmiri *kahwa*).
+  - method: Extract
+    notes: Depression trials used 30 mg a day of standardized extract.
+risks: >-
+  Safe in food amounts. Doses above about 5 g are toxic, and 12–20 g can be
+  fatal. High doses may stimulate the uterus,
+
+  so avoid medicinal doses in pregnancy. Adulteration with safflower, turmeric,
+  or dyed corn silk is common.
+pairsWith:
+  - cinnamon
+  - green-tea
+image: ../../assets/herbs/saffron.jpg
+imageAlt: Botanical illustration of saffron (Crocus sativus)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Crocus_sativus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-194.jpg
+  license: Public domain
+draft: true

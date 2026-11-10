@@ -1,0 +1,90 @@
+name: Echinacea
+latin: Echinacea purpurea
+aliases:
+  - Purple coneflower
+category: flower
+status: collected
+jarColor: "#c47a9a"
+origin: The prairies and open woodlands of central and eastern North America
+intendedUse: Fending off and shortening the common cold
+blurb: >-
+  The bristly-centered purple coneflower of North American prairies, used by
+  many Plains nations. It's one of the
+
+  most popular cold remedies, though trials show at most a small preventive
+  effect.
+evidence: "2"
+evidenceSummary: >-
+  A Cochrane review of 24 trials found echinacea products don't clearly shorten
+  colds once started.
+
+  Pooled data hint at a small reduction (10–20%) in the chance of catching a
+  cold, but the effect may not be meaningful.
+
+  Products vary hugely by species, plant part, and extraction method.
+sources:
+  - title: Echinacea (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/echinacea
+  - title: Echinacea for preventing and treating the common cold (Karsch-Völk et
+      al., 2014, Cochrane Database Syst Rev)
+    url: https://pubmed.ncbi.nlm.nih.gov/24554461/
+  - title: "Evaluation of echinacea for the prevention and treatment of the common
+      cold: a meta-analysis (Shah et al., 2007, Lancet Infect Dis)"
+    url: https://pubmed.ncbi.nlm.nih.gov/17597571/
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–9
+  sun: Full sun
+  water: Low; drought tolerant
+  soil: Average to poor, well-drained
+  propagation: >-
+    Sow seed in fall or cold-stratify it for 4 weeks before spring sowing.
+    Divide clumps in spring. Pollinators and
+
+    goldfinches love it.
+  harvest: Aerial parts can be harvested in bloom. Roots are dug in fall from
+    plants 3+ years old.
+history: >-
+  Echinacea was perhaps the most widely used medicinal plant among Plains
+  nations such as the Lakota, Cheyenne, and
+
+  Comanche, used for wounds, snakebite, toothache, and infections. Settlers
+  adopted it, and 19th-century "Eclectic"
+
+  physicians made it a best-selling remedy. It faded with antibiotics, then was
+  revived in Germany in the 1930s.
+culture: >-
+  Echinacea is a symbol of prairie restoration and native gardening.
+  Overharvesting of wild *E. angustifolia*
+
+  roots threatens some populations, so cultivated sources are preferred.
+preparations:
+  - method: Tincture
+    notes: Often taken as 1–2 mL several times daily at the first sign of a cold. It
+      makes the tongue tingle.
+  - method: Infusion
+    notes: Steep 1–2 tsp dried flower and leaf for 10–15 minutes.
+  - method: Decoction
+    notes: Simmer 1 tsp dried root for 15 minutes.
+risks: >-
+  Usually well tolerated. It can trigger allergic reactions, especially in
+  people allergic to ragweed and daisies, and
+
+  rarely asthma attacks. It may interact with immunosuppressants and some drugs
+  metabolized by the liver. Not
+
+  recommended for children under 12 in some countries due to rash risk.
+pairsWith:
+  - elderberry
+  - ginger
+  - peppermint
+  - elderflower
+image: ../../assets/herbs/echinacea.jpg
+imageAlt: Botanical illustration of echinacea (Echinacea purpurea)
+imageCredit:
+  artist: Sydenham Edwards
+  work: Curtis's Botanical Magazine, plate 2 (1787)
+  url: https://commons.wikimedia.org/wiki/File:Echinacea_purpurea-1787.jpg
+  license: Public domain
+draft: true

@@ -75,7 +75,11 @@ risks: >-
   Large amounts may interact with blood thinners such as warfarin. In
   pregnancy, ordinary tea amounts are usually considered fine, but
   concentrated extracts are not well studied.
-pairsWith: []
+pairsWith:
+  - lavender
+  - lemon-balm
+  - passionflower
+  - peppermint
 image: ../../assets/herbs/chamomile.jpg
 imageAlt: Botanical plate of chamomile showing the branching stem, feathery leaves, and small white daisy flowers, with dissected flower parts
 imageCredit:

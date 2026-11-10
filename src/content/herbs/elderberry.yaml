@@ -1,0 +1,104 @@
+name: Elderberry
+latin: Sambucus nigra
+aliases:
+  - Black elder
+  - European elder
+category: seed
+status: collected
+jarColor: "#4b2a4a"
+origin: Europe, North Africa, and western Asia; American elder (S. canadensis)
+  is a close relative
+intendedUse: Shortening colds and flu; a winter immune syrup
+blurb: >-
+  Clusters of tiny inky-purple berries, cooked into the classic winter syrup. A
+  few small trials suggest elderberry
+
+  can shorten colds and flu, though the evidence is still thin.
+evidence: "2"
+evidenceSummary: >-
+  A handful of small randomized trials (for example in air travelers and flu
+  patients) and a 2019
+
+  meta-analysis suggest elderberry extract reduces the duration and severity of
+  upper respiratory symptoms. A 2021
+
+  systematic review rated the evidence as low certainty, and a larger US trial
+  found no benefit for influenza. It hasn't
+
+  been shown to prevent illness.
+sources:
+  - title: European elder (NIH National Center for Complementary and Integrative
+      Health)
+    url: https://www.nccih.nih.gov/health/european-elder
+  - title: "Elderberry for prevention and treatment of viral respiratory illnesses:
+      a systematic review (Wieland et al., 2021, BMC Complement Med Ther)"
+    url: https://pubmed.ncbi.nlm.nih.gov/33827515/
+  - title: "Black elderberry (Sambucus nigra) supplementation effectively treats
+      upper respiratory symptoms: A meta-analysis of randomized, controlled
+      clinical trials (Hawkins et al., 2019, Complement Ther Med)"
+    url: https://pubmed.ncbi.nlm.nih.gov/30670267/
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–9
+  sun: Full sun to part shade
+  water: Moist, tolerates wet spots
+  soil: Rich, moist, adaptable
+  propagation: >-
+    Hardwood cuttings in winter root easily, or plant nursery shrubs. Two
+    varieties planted together improve fruiting.
+
+    Elders grow fast into large shrubs.
+  harvest: >-
+    Cut whole clusters in late summer when all the berries are dark purple.
+    Strip berries with a fork, freeze the clusters
+
+    first to make it easier, and discard every stem and green berry.
+history: >-
+  Elder pollen has been found in Stone Age sites in Europe. Hippocrates called
+  elder his "medicine chest." In 1995,
+
+  Israeli virologist Madeleine Mumcuoglu developed the elderberry extract
+  Sambucol, which sparked modern research and
+
+  the supplement boom.
+culture: >-
+  In Northern European folklore, a spirit called the Elder Mother lives in the
+  tree, and you must ask her permission
+
+  before cutting it. Elder was planted by doors to keep witches away. Elder
+  wands appear in Harry Potter's "Elder Wand."
+
+  Elderberry wine and pie are old countryside traditions.
+preparations:
+  - method: Syrup
+    notes: Simmer 1 cup dried (or 2 cups fresh) berries in 4 cups water with ginger,
+      cinnamon, and cloves for 45 minutes until halved, then strain and stir in
+      honey once warm. Refrigerate.
+  - method: Extract
+    notes: Trials often used about 15 mL of syrup or lozenges 4 times a day for 2–5
+      days.
+  - method: Culinary
+    notes: Jam, pie, wine, and cordial. Always cooked.
+risks: >-
+  Raw berries, stems, leaves, and unripe fruit contain compounds that release
+  cyanide and can cause nausea, vomiting,
+
+  and diarrhea, so always cook berries well. Never use red elderberry (*S.
+  racemosa*). It may stimulate the immune system,
+
+  so check before using with autoimmune disease or immunosuppressants. Honey
+  syrups are not for babies under 1.
+pairsWith:
+  - ginger
+  - cinnamon
+  - echinacea
+  - elderflower
+image: ../../assets/herbs/elderberry.jpg
+imageAlt: Botanical illustration of elderberry (Sambucus nigra)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Sambucus_nigra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-127.jpg
+  license: Public domain
+draft: true

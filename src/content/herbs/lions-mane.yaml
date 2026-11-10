@@ -1,0 +1,88 @@
+name: Lion's Mane
+latin: Hericium erinaceus
+aliases:
+  - Yamabushitake
+  - Hedgehog mushroom
+  - Monkey head mushroom
+category: fungus
+status: collected
+jarColor: "#efe6d2"
+origin: Hardwood forests of North America, Europe, and Asia
+intendedUse: Supporting memory, focus, and nerve health; a delicious "crab-like" mushroom
+blurb: >-
+  A shaggy white mushroom that grows like a frozen waterfall of icicles on
+  hardwood trees. Lab studies show it
+
+  stimulates nerve growth factor, and a few small human trials hint at benefits
+  for cognition and mood.
+evidence: "2"
+evidenceSummary: >-
+  Compounds called hericenones and erinacines stimulate nerve growth factor in
+  cells and animals. A few
+
+  small randomized trials in people with mild cognitive impairment, and in
+  healthy adults, reported modest improvements
+
+  in cognitive scores or mood, but samples are tiny and results inconsistent. A
+  2025 systematic review called the
+
+  evidence promising but preliminary.
+sources:
+  - title: "Benefits, side effects, and uses of Hericium erinaceus as a supplement:
+      a systematic review (Menon et al., 2025, Front Nutr)"
+    url: https://pubmed.ncbi.nlm.nih.gov/40959699/
+psychoactive: false
+legal: ""
+growing:
+  zones: Grown on logs outdoors (zones 4–9) or indoors
+  sun: Shade
+  water: High humidity
+  soil: Hardwood logs or supplemented sawdust
+  propagation: >-
+    Buy plug or sawdust spawn and inoculate fresh hardwood logs (oak, maple,
+    beech), or use a grow kit indoors.
+
+    Fruits in autumn.
+  harvest: Cut when the spines are long and white, before they turn yellow or
+    brown. Cook fresh, or dry and powder it.
+history: >-
+  Lion's mane has long been eaten in China and Japan, where it was reportedly
+  reserved for royalty in some eras. In
+
+  Japan it's called *yamabushitake*, after the mountain hermit monks
+  (*yamabushi*) whose robes have similar fringe. Modern
+
+  research began with Japanese chemist Hirokazu Kawagishi in the 1990s.
+culture: >-
+  Lion's mane is a gourmet mushroom in East Asian vegetarian and Buddhist temple
+  cooking, often used as a meat
+
+  substitute. It became a staple of Western "functional mushroom" coffees in the
+  2020s.
+preparations:
+  - method: Culinary
+    notes: Tear into pieces, dry-sauté until golden, then add butter and garlic.
+      Tastes like crab or lobster.
+  - method: Hot water extract
+    notes: Simmer dried pieces for an hour or more for tea or broth.
+  - method: Powder/extract
+    notes: Studies used 1–3 g a day of dried fruiting body or mycelium.
+risks: >-
+  Generally well tolerated. Allergic reactions and skin rashes have been
+  reported. It may lower blood sugar and slow
+
+  clotting. Many supplements are grown on grain and contain mostly mycelium and
+  filler, so look for fruiting-body products.
+pairsWith:
+  - reishi
+  - cacao
+  - ginkgo
+  - rosemary
+image: ../../assets/herbs/lions-mane.jpg
+imageAlt: Botanical illustration of lion's mane (Hericium erinaceus)
+imageCredit:
+  artist: Pierre Bulliard
+  work: Herbier de la France (1780–1798)
+  url: https://commons.wikimedia.org/wiki/File:Herbier_de_la_France_(Pl._34)_(6050085712).jpg
+  license: Public domain
+draft: true

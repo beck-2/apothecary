@@ -1,0 +1,94 @@
+name: Passionflower
+latin: Passiflora incarnata
+aliases:
+  - Maypop
+  - Wild passion vine
+category: flower
+status: collected
+jarColor: "#9a8ac0"
+origin: The southeastern United States
+intendedUse: Calming anxiety and quieting a busy mind before sleep
+blurb: >-
+  A wildly intricate purple flower on a vining native plant whose fruit "pops"
+  when stepped on. Passionflower is a
+
+  gentle calming herb, and small trials suggest it can reduce anxiety, including
+  before surgery.
+evidence: "2"
+evidenceSummary: >-
+  Several small randomized trials found passionflower reduced anxiety before
+  surgery or dental work, and one
+
+  found it comparable to oxazepam for generalized anxiety. A 2020 systematic
+  review called the evidence encouraging but
+
+  limited by small, short studies. Effects may involve GABA, and chrysin is one
+  of its flavonoids.
+sources:
+  - title: Passionflower (NIH National Center for Complementary and Integrative
+      Health)
+    url: https://www.nccih.nih.gov/health/passionflower
+  - title: Passiflora incarnata in Neuropsychiatric Disorders-A Systematic Review
+      (Janda et al., 2020, Nutrients)
+    url: https://pubmed.ncbi.nlm.nih.gov/33352740/
+psychoactive: false
+legal: ""
+growing:
+  zones: 5–9
+  sun: Full sun to part shade
+  water: Moderate
+  soil: Average, well-drained
+  propagation: >-
+    Grow from scarified seed, cuttings, or root suckers. It spreads by
+    underground runners and climbs vigorously on
+
+    a trellis or fence. It's a host plant for gulf fritillary butterflies.
+  harvest: >-
+    Cut leafy vines and flowers in summer during bloom and dry them. The
+    egg-shaped yellow fruits (maypops) are edible when
+
+    wrinkled and ripe.
+history: >-
+  Cherokee, Powhatan, and other southeastern peoples ate maypop fruit and used
+  the plant for wounds and calming.
+
+  In the 1600s, Spanish missionaries saw Christ's Passion symbolized in the
+  flower, giving it its name. 19th-century
+
+  American Eclectic physicians used it for insomnia, nervous restlessness, and
+  seizures.
+culture: >-
+  Missionaries read the flower as a teaching tool: the corona as the crown of
+  thorns, the five anthers as the five
+
+  wounds, and the three stigmas as the nails. Passionflower is the state
+  wildflower of Tennessee.
+preparations:
+  - method: Infusion
+    notes: Steep 1 tsp dried herb in hot water for 10 minutes. Drink in the evening.
+  - method: Tincture
+    notes: Often 1–4 mL up to three times a day.
+  - method: Extract
+    notes: Trials used about 45–90 drops of extract or 500 mg tablets.
+risks: >-
+  May cause drowsiness, dizziness, and confusion; avoid driving after medicinal
+  doses. It adds to the effect of
+
+  sedatives and alcohol. Avoid in pregnancy, since some compounds may stimulate
+  the uterus. Don't confuse with
+
+  *Passiflora caerulea*, whose leaves contain cyanogenic compounds.
+pairsWith:
+  - chamomile
+  - lemon-balm
+  - valerian
+  - lavender
+  - kava
+image: ../../assets/herbs/passionflower.jpg
+imageAlt: Botanical illustration of passionflower (Passiflora incarnata)
+imageCredit:
+  artist: Unknown artist
+  work: Curtis's Botanical Magazine, plate 3697
+  url: https://commons.wikimedia.org/wiki/File:Curtis%27s_botanical_magazine_(Plate_3697)_(8387509782).jpg
+  license: Public domain
+draft: true

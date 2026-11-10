@@ -1,0 +1,76 @@
+name: Damiana
+latin: Turnera diffusa
+aliases:
+  - Mexican damiana
+  - Hierba de la pastora
+category: herb
+status: collected
+jarColor: "#a3a35a"
+origin: Mexico, Central America, the Caribbean, and southern Texas
+intendedUse: Lifting mood and libido; a relaxing tea and liqueur
+blurb: >-
+  A small aromatic shrub with yellow flowers and a spicy-sweet scent. Damiana
+  has been prized as an aphrodisiac and
+
+  mood-lifter in Mexico since the time of the Maya, though modern science hasn't
+  caught up.
+evidence: "0"
+evidenceSummary: >-
+  Animal studies suggest damiana may affect sexual behavior and anxiety, and it
+  contains flavonoids such as
+
+  apigenin. The only human data come from combination supplements, so there's no
+  reliable evidence for damiana on
+
+  its own.
+sources:
+  - title: Damiana (Memorial Sloan Kettering, About Herbs)
+    url: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/damiana
+  - title: Ethnobotany, phytochemistry, and bioactivity of the genus Turnera
+      (Passifloraceae) with a focus on damiana--Turnera diffusa (Szewczyk et
+      al., 2014, J Ethnopharmacol)
+    url: https://pubmed.ncbi.nlm.nih.gov/24468305/
+psychoactive: true
+legal: Legal in the US and most countries.
+growing:
+  zones: 9–11
+  sun: Full sun
+  water: Low
+  soil: Sandy or rocky, well-drained
+  propagation: Grow from seed or cuttings in warm conditions. It does well in pots
+    in cooler climates when brought indoors in winter.
+  harvest: Pick leaves and flowering tops during flowering and dry them in shade.
+history: >-
+  Spanish missionaries recorded that the Maya and other Indigenous peoples of
+  Mexico drank damiana with sugar as a
+
+  love potion. It was exported to the US in the 1870s as a "nerve tonic" and
+  aphrodisiac and was listed in the National
+
+  Formulary until 1947.
+culture: >-
+  Damiana liqueur, sold in a curvy goddess-shaped bottle, is a Baja California
+  specialty and is said to have
+
+  been used in some of the earliest margaritas. In Mexican folk medicine it's
+  called
+
+  *hierba de la pastora*, "the shepherdess's herb."
+preparations:
+  - method: Infusion
+    notes: Steep 1–2 tsp dried leaf for 10 minutes. Lovely with rose and cacao.
+  - method: Liqueur
+    notes: Steep damiana in brandy or tequila with honey for a few weeks.
+  - method: Smoking blend
+    notes: Sometimes smoked for mild relaxation.
+risks: >-
+  Little safety data exists. It may lower blood sugar. High doses have been
+  reported to cause convulsions in rare old
+
+  reports. Avoid in pregnancy and breastfeeding.
+pairsWith:
+  - cacao
+  - blue-lotus
+  - cinnamon
+  - lavender
+draft: true

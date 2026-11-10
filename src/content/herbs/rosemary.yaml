@@ -1,0 +1,90 @@
+name: Rosemary
+latin: Salvia rosmarinus (formerly Rosmarinus officinalis)
+aliases:
+  - Dew of the sea
+category: herb
+status: collected
+jarColor: "#6e8c7a"
+origin: The Mediterranean coast
+intendedUse: Remembrance and focus; scalp and hair care; a culinary herb
+blurb: >-
+  A resinous, piney evergreen herb from Mediterranean sea cliffs. "There's
+  rosemary, that's for remembrance,"
+
+  says Ophelia, and small studies suggest its aroma may sharpen memory. Its oil
+  is also tested for hair loss.
+evidence: "2"
+evidenceSummary: >-
+  Small human studies suggest rosemary aroma or low doses of dried leaf may
+  modestly improve memory
+
+  speed and alertness. One small trial found rosemary oil comparable to 2%
+  minoxidil for androgenetic alopecia after
+
+  6 months. Animal studies on cognition are promising, but human evidence is
+  limited and small.
+sources:
+  - title: "Cognition enhancing effect of rosemary (Rosmarinus officinalis L.) in
+      lab animal studies: a systematic review and meta-analysis (Hussain et al.,
+      2022, Braz J Med Biol Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/35170682/
+  - title: Rosemary (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Rosemary
+psychoactive: false
+legal: ""
+growing:
+  zones: 7–10 (some cultivars hardy to zone 6)
+  sun: Full sun
+  water: Low; let soil dry out
+  soil: Lean, sandy, very well-drained
+  propagation: >-
+    Take 4-inch softwood cuttings in spring or summer. Seed is slow and
+    unreliable. Grow it in pots in cold
+
+    climates and bring it indoors to a cool bright window in winter.
+  harvest: Snip sprigs anytime. It's most aromatic just before flowering.
+history: >-
+  Ancient Greek students wore rosemary garlands while studying to improve
+  memory. Rosemary was burned in sickrooms
+
+  and carried during plagues. The 14th-century "Queen of Hungary's Water," a
+  rosemary-infused alcohol, was reportedly
+
+  Europe's first alcohol-based perfume.
+culture: >-
+  Rosemary symbolizes remembrance and fidelity. It was woven into bridal wreaths
+  and thrown into graves. Australians
+
+  and New Zealanders wear sprigs on Anzac Day. In Spanish folklore, the Virgin
+  Mary spread her cloak on a rosemary bush
+
+  and its white flowers turned blue.
+preparations:
+  - method: Infusion
+    notes: Steep 1 tsp dried leaf or a fresh sprig for 5–10 minutes.
+  - method: Hair rinse/oil
+    notes: A strong cooled infusion as a rinse, or a few drops of essential oil in
+      carrier oil on the scalp.
+  - method: Culinary
+    notes: Roasted potatoes and meats, focaccia, lemonade, and infused olive oil and
+      salt.
+risks: >-
+  Very safe in food amounts. Large medicinal doses may cause vomiting, and the
+  essential oil should not be swallowed.
+
+  The concentrated oil may trigger seizures in people with epilepsy. Avoid large
+  doses in pregnancy.
+pairsWith:
+  - lavender
+  - garlic
+  - lemon-balm
+  - ginkgo
+image: ../../assets/herbs/rosemary.jpg
+imageAlt: Botanical illustration of rosemary (Salvia rosmarinus (formerly
+  Rosmarinus officinalis))
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Rosmarinus_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-258.jpg
+  license: Public domain
+draft: true

@@ -1,0 +1,88 @@
+name: Rhodiola
+latin: Rhodiola rosea
+aliases:
+  - Golden root
+  - Roseroot
+  - Arctic root
+category: root
+status: collected
+jarColor: "#c48a5e"
+origin: Cold, rocky Arctic and alpine regions of Europe, Asia, and North America
+intendedUse: Fighting fatigue and stress; boosting stamina
+blurb: >-
+  A hardy succulent of Arctic cliffs whose root smells of roses when cut. Used
+  by Vikings and Siberian peoples for
+
+  strength, it's an "adaptogen" with some trial evidence for reducing fatigue.
+evidence: "2"
+evidenceSummary: >-
+  Several randomized trials suggest rhodiola extract (often SHR-5) reduces
+  fatigue and burnout symptoms and
+
+  may help mild depression, and some small studies show improved endurance. But
+  trials are small, often poorly designed,
+
+  and results inconsistent. Salidroside and rosavins are the key compounds.
+sources:
+  - title: Rhodiola (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/rhodiola
+  - title: "Effects of Rhodiola Rosea Supplementation on Exercise and Sport: A
+      Systematic Review (Lu et al., 2022, Front Nutr)"
+    url: https://pubmed.ncbi.nlm.nih.gov/35464040/
+psychoactive: false
+legal: ""
+growing:
+  zones: 1–7
+  sun: Full sun
+  water: Low to moderate
+  soil: Sandy or rocky, very well-drained
+  propagation: >-
+    Grow from cold-stratified seed or division. It's slow-growing and loves cold
+    winters. Wild populations are
+
+    overharvested in some regions, so grow your own or buy cultivated.
+  harvest: Dig the roots after 3–5 years in late summer or fall. Wash, slice, and
+    dry them.
+history: >-
+  Dioscorides described *rodia riza* in 77 CE. Vikings reportedly used it for
+  strength and endurance. In Siberia,
+
+  a gift of golden root was said to bring health and long life. The Soviet Union
+  studied it intensively as an
+
+  "adaptogen" for soldiers, athletes, and cosmonauts, and kept much of the
+  research classified.
+culture: >-
+  In parts of Siberia and Central Asia, rhodiola tea was given to newlyweds to
+  ensure fertility and healthy
+
+  children. The root was a valuable trade good across the Caucasus.
+preparations:
+  - method: Decoction
+    notes: Simmer 1 tsp dried root in water for 10–15 minutes. Rosy and astringent.
+  - method: Extract
+    notes: Studies used 200–600 mg a day of standardized extract, taken in the
+      morning.
+  - method: Tincture
+    notes: Traditionally made in vodka in Russia.
+risks: >-
+  Can cause dizziness, dry mouth, insomnia, or jitteriness, so take it early in
+  the day. It may interact with
+
+  antidepressants, diabetes and blood pressure drugs, and could trigger mania in
+  bipolar disorder. Products are often
+
+  adulterated with other *Rhodiola* species.
+pairsWith:
+  - ginseng
+  - ashwagandha
+  - green-tea
+image: ../../assets/herbs/rhodiola.jpg
+imageAlt: Botanical illustration of rhodiola (Rhodiola rosea), with a small fly
+  perched on the flowers
+imageCredit:
+  artist: John Curtis
+  work: British Entomology (1824–1840)
+  url: https://commons.wikimedia.org/wiki/File:Britishentomologyvolume8Plate637.jpg
+  license: Public domain
+draft: true

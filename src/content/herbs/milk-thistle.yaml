@@ -1,0 +1,93 @@
+name: Milk Thistle
+latin: Silybum marianum
+aliases:
+  - Mary's thistle
+  - Silymarin
+category: seed
+status: collected
+jarColor: "#9b8f7a"
+origin: The Mediterranean region
+intendedUse: Supporting and protecting the liver
+blurb: >-
+  A spiny thistle with white-veined leaves and purple flowers whose seeds have
+  been a liver remedy for 2,000 years.
+
+  Its extract, silymarin, is widely studied, but results for liver disease are
+  mixed.
+evidence: "2"
+evidenceSummary: >-
+  Silymarin shows antioxidant and liver-protective effects in lab and animal
+  studies. Human trials for
+
+  alcoholic liver disease and hepatitis C were largely disappointing. A 2024
+  meta-analysis found improvements in liver
+
+  enzymes and fat in non-alcoholic fatty liver disease, but trial quality was
+  variable. An IV form (silibinin) is used
+
+  in Europe for death cap mushroom poisoning.
+sources:
+  - title: Milk thistle (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/milk-thistle
+  - title: "Administration of silymarin in NAFLD/NASH: A systematic review and
+      meta-analysis (Li et al., 2024, Ann Hepatol)"
+    url: https://pubmed.ncbi.nlm.nih.gov/38579127/
+psychoactive: false
+legal: ""
+growing:
+  zones: Annual or biennial; most zones
+  sun: Full sun
+  water: Low
+  soil: Poor to average, well-drained
+  propagation: >-
+    Sow seed directly in spring. It self-seeds aggressively and is listed as a
+    noxious weed in some places. Wear gloves
+
+    because the spines are fierce.
+  harvest: >-
+    Cut flower heads as they dry and the white pappus (fluff) appears. Dry them
+    in paper bags, then shake out and winnow the
+
+    seeds.
+history: >-
+  Dioscorides and Pliny the Elder recommended milk thistle for "carrying off
+  bile." Medieval European herbals,
+
+  including Culpeper's, used it for liver and spleen ailments. German
+  researchers isolated silymarin in 1968.
+culture: >-
+  Legend says the white veins on the leaves came from drops of the Virgin Mary's
+  milk as she nursed Jesus, which
+
+  gave it the names "milk thistle" and "Mary's thistle." The young leaves,
+  stems, and flower heads were once eaten as
+
+  vegetables, like artichokes.
+preparations:
+  - method: Ground seed
+    notes: Grind seeds fresh and add 1–2 tsp to smoothies or food. Silymarin isn't
+      very water-soluble, so tea is weak.
+  - method: Standardized extract
+    notes: Trials usually used 420–600 mg a day of silymarin (70–80%).
+  - method: Tincture
+    notes: An alcohol extract captures more silymarin than tea.
+risks: >-
+  Generally well tolerated, with occasional digestive upset or a laxative
+  effect. It can trigger allergy in people
+
+  sensitive to the daisy family. It may lower blood sugar and might interact
+  with some drugs metabolized by the liver.
+
+  Silymarin may have weak estrogen-like effects.
+pairsWith:
+  - nettle
+  - turmeric
+  - licorice-root
+image: ../../assets/herbs/milk-thistle.jpg
+imageAlt: Botanical illustration of milk thistle (Silybum marianum)
+imageCredit:
+  artist: Otto Wilhelm Thomé
+  work: Flora von Deutschland, Österreich und der Schweiz (1885)
+  url: https://commons.wikimedia.org/wiki/File:Illustration_Silybum_marianum0.jpg
+  license: Public domain
+draft: true

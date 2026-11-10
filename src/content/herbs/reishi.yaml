@@ -1,0 +1,95 @@
+name: Reishi
+latin: Ganoderma lucidum (and G. lingzhi)
+aliases:
+  - Lingzhi
+  - Mushroom of immortality
+category: fungus
+status: collected
+jarColor: "#8a3324"
+origin: Temperate and subtropical forests of Asia, Europe, and North America
+intendedUse: Calming the spirit, supporting immunity and sleep
+blurb: >-
+  A glossy, lacquered red shelf fungus that is too woody to eat, so it's
+  simmered into a bitter tea. It's a symbol
+
+  of longevity in Chinese art, and studied as an add-on in cancer care, though
+  human evidence is limited.
+evidence: "2"
+evidenceSummary: >-
+  Polysaccharides and triterpenes from reishi affect immune cells in lab and
+  animal studies. A Cochrane
+
+  review of cancer patients found possible improvement in immune markers and
+  quality of life when added to standard
+
+  treatment, but the trials were low quality. Evidence for sleep, fatigue, and
+  other uses is preliminary.
+sources:
+  - title: Reishi mushroom (Memorial Sloan Kettering, About Herbs)
+    url: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/reishi-mushroom
+  - title: "Medicinal Mushroom Supplements in Cancer: A Systematic Review of
+      Clinical Studies (Narayanan et al., 2023, Curr Oncol Rep)"
+    url: https://pubmed.ncbi.nlm.nih.gov/36995535/
+psychoactive: false
+legal: ""
+growing:
+  zones: Outdoors on logs (zones 5–10) or indoors
+  sun: Shade
+  water: High humidity
+  soil: Hardwood logs or sawdust blocks
+  propagation: >-
+    Inoculate hardwood logs (maple, oak) with spawn, or buy a kit. Low CO₂ gives
+    the classic kidney-shaped cap,
+
+    while high CO₂ gives antler forms.
+  harvest: >-
+    Harvest when the white growing edge on the cap turns red-brown and the cap
+    stops expanding. Slice while fresh, since
+
+    it dries rock hard.
+history: >-
+  Lingzhi is ranked as a top "superior" herb in the *Shennong Bencao Jing*
+  (about 200 CE), promoting longevity
+
+  without harm. Wild specimens were rare and treasured, and Taoist practitioners
+  sought them for immortality. Reliable
+
+  cultivation was only developed in Japan in the 1970s.
+culture: >-
+  The *lingzhi* shape (*ruyi*) appears everywhere in Chinese art: on scepters,
+  embroidery, and palace
+
+  carvings, symbolizing good fortune and long life. In legend, the White Snake
+  braves heaven to steal lingzhi to revive
+
+  her husband.
+preparations:
+  - method: Decoction
+    notes: Simmer 3–5 g of thinly sliced reishi in 1 liter of water for 1–2 hours.
+      Bitter, so pair with cacao, cinnamon, or jujubes.
+  - method: Dual extract
+    notes: Hot water extraction followed by alcohol extraction captures both
+      polysaccharides and triterpenes.
+  - method: Powder
+    notes: 1–2 g of extract powder stirred into hot cocoa.
+risks: >-
+  May cause dry mouth, stomach upset, or dizziness. Rare cases of liver toxicity
+  (often with powdered products) have
+
+  been reported. It may slow clotting, lower blood pressure, and lower blood
+  sugar, and could interact with
+
+  immunosuppressants. Stop before surgery.
+pairsWith:
+  - cacao
+  - lions-mane
+  - cinnamon
+  - ashwagandha
+image: ../../assets/herbs/reishi.jpg
+imageAlt: Botanical illustration of reishi (Ganoderma lucidum (and G. lingzhi))
+imageCredit:
+  artist: James Sowerby
+  work: Coloured Figures of English Fungi or Mushrooms (1797–1815)
+  url: https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._134.jpg
+  license: Public domain
+draft: true

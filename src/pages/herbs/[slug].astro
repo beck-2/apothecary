@@ -3,7 +3,7 @@ import { getCollection, getEntries } from 'astro:content';
 import { Image } from 'astro:assets';
 import Base from '../../layouts/Base.astro';
 import EvidenceBadge from '../../components/EvidenceBadge.astro';
-import { evidenceFor, paragraphs } from '../../lib/evidence';
+import { evidenceFor, paragraphs, inline } from '../../lib/evidence';
 
 export async function getStaticPaths() {
   const herbs = await getCollection('herbs');
@@ -27,7 +27,7 @@ const growRows = [
     <header class="hero">
       {h.image && (
         <figure>
-          <Image src={h.image} alt={h.imageAlt} widths={[320, 640]} sizes="(max-width: 700px) 60vw, 320px" loading="eager" />
+          <Image src={h.image} alt={h.imageAlt} widths={[320, 640]} sizes="(max-width: 700px) 60vw, 320px" quality={72} loading="eager" />
           {h.imageCredit && (
             <figcaption>
               {h.imageCredit.artist}{h.imageCredit.work && <>, <em>{h.imageCredit.work}</em></>}.{' '}
@@ -46,7 +46,7 @@ const growRows = [
           <span class="chip">{h.status === 'growing' ? 'Growing in my garden' : h.status === 'wishlist' ? 'On my wishlist' : 'In my collection'}</span>
           {h.draft && <span class="chip draft" title="Claude-written draft, not yet rewritten">Draft</span>}
         </p>
-        <p class="lede">{h.blurb}</p>
+        <p class="lede" set:html={inline(h.blurb)} />
         <dl class="facts">
           <dt>Origin</dt><dd>{h.origin}</dd>
           <dt>Used for</dt><dd>{h.intendedUse}</dd>
@@ -59,18 +59,18 @@ const growRows = [
       {growRows.length > 0 && (
         <dl class="facts">{growRows.map(([k, v]) => <><dt>{k}</dt><dd>{v}</dd></>)}</dl>
       )}
-      {g.propagation && <><h3>Propagation</h3>{paragraphs(g.propagation).map((p) => <p>{p}</p>)}</>}
-      {g.harvest && <><h3>Harvest</h3>{paragraphs(g.harvest).map((p) => <p>{p}</p>)}</>}
+      {g.propagation && <><h3>Propagation</h3>{paragraphs(g.propagation).map((p) => <p set:html={inline(p)} />)}</>}
+      {g.harvest && <><h3>Harvest</h3>{paragraphs(g.harvest).map((p) => <p set:html={inline(p)} />)}</>}
     </section>
 
-    {h.history && <section><h2>History</h2>{paragraphs(h.history).map((p) => <p>{p}</p>)}</section>}
-    {h.culture && <section><h2>Cultural significance</h2>{paragraphs(h.culture).map((p) => <p>{p}</p>)}</section>}
+    {h.history && <section><h2>History</h2>{paragraphs(h.history).map((p) => <p set:html={inline(p)} />)}</section>}
+    {h.culture && <section><h2>Cultural significance</h2>{paragraphs(h.culture).map((p) => <p set:html={inline(p)} />)}</section>}
 
     {h.preparations.length > 0 && (
       <section>
         <h2>Common preparations</h2>
         <dl class="preps">
-          {h.preparations.map((p) => <><dt>{p.method}</dt><dd>{p.notes}</dd></>)}
+          {h.preparations.map((p) => <><dt>{p.method}</dt><dd set:html={inline(p.notes)} /></>)}
         </dl>
       </section>
     )}
@@ -78,15 +78,15 @@ const growRows = [
     {(h.risks || h.legal) && (
       <section class="risks">
         <h2>Potential risks</h2>
-        {paragraphs(h.risks).map((p) => <p>{p}</p>)}
-        {h.legal && <p><strong>Legal status:</strong> {h.legal}</p>}
+        {paragraphs(h.risks).map((p) => <p set:html={inline(p)} />)}
+        {h.legal && <p><strong>Legal status:</strong> <span set:html={inline(h.legal)} /></p>}
       </section>
     )}
 
     <section>
       <h2>What the research says</h2>
       <p class="evidence-line"><EvidenceBadge level={h.evidence} /> {evidenceFor(h.evidence).long}</p>
-      {paragraphs(h.evidenceSummary).map((p) => <p>{p}</p>)}
+      {paragraphs(h.evidenceSummary).map((p) => <p set:html={inline(p)} />)}
       {h.sources.length > 0 && (
         <ul class="sources">{h.sources.map((s) => <li><a href={s.url}>{s.title}</a></li>)}</ul>
       )}

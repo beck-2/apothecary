@@ -1,0 +1,105 @@
+name: Kava
+latin: Piper methysticum
+aliases:
+  - Kava kava
+  - "'Awa"
+  - Yaqona
+category: root
+status: collected
+jarColor: "#a78b5d"
+origin: Vanuatu and the western Pacific; spread across Polynesia, Melanesia, and
+  Micronesia by voyagers
+intendedUse: Relaxation, social connection, and easing anxiety
+blurb: >-
+  A peppery Pacific root that numbs the tongue and relaxes the body while
+  keeping the mind clear. It's been the
+
+  ceremonial and social drink of Pacific Islanders for millennia, and trials
+  show it can ease anxiety.
+evidence: "3"
+evidenceSummary: >-
+  Several randomized trials and meta-analyses found kava extracts reduce anxiety
+  more than placebo,
+
+  though results are mixed, and one larger trial in generalized anxiety disorder
+  found no significant benefit.
+
+  Kavalactones act on GABA-A receptors and other targets. Concerns about liver
+  injury in the early 2000s led several
+
+  countries to ban it temporarily. Later analyses pointed to poor-quality
+  products, stem and leaf material, or solvent
+
+  extracts, rather than traditional water-based root preparations.
+sources:
+  - title: Kava (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/kava
+  - title: "Medicinal herbs for the treatment of anxiety: A systematic review and
+      network meta-analysis (Zhang et al., 2022, Pharmacol Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/35378276/
+  - title: Kava hepatotoxicity--a clinical review (Teschke et al., 2010, Ann Hepatol)
+    url: https://pubmed.ncbi.nlm.nih.gov/20720265/
+psychoactive: true
+legal: >-
+  Legal in the US as a dietary supplement. In 2002 Germany, the UK, and others
+  restricted it over liver concerns;
+      Germany's ban was overturned in 2014. The FDA has issued safety advisories. Rules differ by country.
+growing:
+  zones: 10–12; tropical
+  sun: Partial shade
+  water: Abundant, frequent, never waterlogged
+  soil: Rich, loose, well-drained volcanic soil is ideal
+  propagation: >-
+    Kava is sterile and grown only from stem cuttings with nodes, planted in
+    humid warmth. It needs a tropical
+
+    climate or a heated greenhouse.
+  harvest: >-
+    Roots are harvested after 3–5 years. Only the root and rootstock (not stems
+    or leaves) are traditionally used.
+
+    Wash, chop, and dry them.
+history: >-
+  Kava was domesticated in northern Vanuatu around 3,000 years ago and carried
+  across the Pacific in voyaging
+
+  canoes. Captain Cook's expeditions recorded it in the 1770s, and Georg
+  Forster, a naturalist on the second voyage, later
+
+  named it *methysticum*, "intoxicating."
+
+  Missionaries tried to suppress it in some islands, but it remained central to
+  Pacific life.
+culture: >-
+  In Fiji, the *yaqona* ceremony welcomes guests and seals agreements; visitors
+  bring kava root as a gift
+
+  (*sevusevu*). In Samoa and Tonga, the *'ava* ceremony marks chiefly titles and
+  important events with precise
+
+  protocol. Kava bars ("nakamals" in Vanuatu) are social hubs, and kava bars
+  have spread to US cities.
+preparations:
+  - method: Traditional water extraction
+    notes: Knead 2–4 Tbsp of finely ground root in a strainer bag in cool water for
+      10 minutes, wring it out, and drink from a coconut shell.
+  - method: Instant kava
+    notes: Dried juice powder stirred into water.
+  - method: Extract capsules
+    notes: Anxiety trials used 120–280 mg kavalactones a day for up to a few months.
+risks: >-
+  Rare but serious liver injury has been reported, so avoid with liver disease,
+  alcohol, acetaminophen, or other
+
+  liver-toxic drugs, and buy noble root (not "tudei") cultivars. Don't drive
+  after drinking. Heavy long-term use
+
+  causes a reversible scaly skin rash (kava dermopathy). Kava adds to the effect
+  of sedatives and can interact with
+
+  many drugs through liver enzymes. Avoid in pregnancy and breastfeeding.
+pairsWith:
+  - passionflower
+  - lemon-balm
+  - chamomile
+draft: true

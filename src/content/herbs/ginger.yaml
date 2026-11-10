@@ -1,0 +1,97 @@
+name: Ginger
+latin: Zingiber officinale
+aliases: []
+category: spice
+status: collected
+jarColor: "#d7b46a"
+origin: Maritime Southeast Asia; cultivated in India and China for thousands of years
+intendedUse: Calming nausea, warming digestion, and easing aches
+blurb: >-
+  The warming, spicy rhizome behind gingerbread and chai. Ginger has good
+  clinical evidence for easing nausea,
+
+  especially morning sickness, and has been a cornerstone of Ayurvedic and
+  Chinese medicine for millennia.
+evidence: "3"
+evidenceSummary: >-
+  Randomized trials and meta-analyses support ginger for pregnancy-related
+  nausea and vomiting, and it
+
+  may help with chemotherapy and postoperative nausea as an add-on. Smaller
+  trials suggest modest benefits for
+
+  menstrual cramps and osteoarthritis pain. The active compounds include
+  gingerols and shogaols.
+sources:
+  - title: Ginger (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/ginger
+  - title: A systematic review and meta-analysis of the effect and safety of ginger
+      in the treatment of pregnancy-associated nausea and vomiting (Viljoen et
+      al., 2014, Nutr J)
+    url: https://pubmed.ncbi.nlm.nih.gov/24642205/
+psychoactive: false
+legal: ""
+growing:
+  zones: 9–12 outdoors; grow in pots elsewhere
+  sun: Partial shade, bright indirect light
+  water: Evenly moist, never soggy
+  soil: Loose, rich, well-drained
+  propagation: >-
+    Plant a plump grocery-store rhizome with visible "eyes" (soak it overnight
+    first), eyes up and just under the
+
+    surface. Start indoors in late winter in cooler climates.
+  harvest: >-
+    After 8–10 months, when leaves yellow, dig the whole clump. You can also
+    sneak small pieces from the edge
+
+    after about 4 months. Save a piece to replant.
+history: >-
+  Ginger was one of the first spices traded from Asia to the Roman Empire, and
+  Confucius was said to never eat
+
+  without it. In medieval Europe, a pound of ginger cost about as much as a
+  sheep. Elizabeth I is credited with
+
+  gingerbread figures, and ginger beer was a 19th-century English tavern staple.
+culture: >-
+  In Ayurveda ginger is called *vishwabheshaj*, "the universal medicine." In
+  Chinese medicine, fresh ginger
+
+  (*sheng jiang*) and dried ginger (*gan jiang*) are distinct remedies. Ginger
+  tea with honey and lemon is a
+
+  near-universal cold-weather comfort, from Korean *saenggang-cha* to Jamaican
+  ginger tea.
+preparations:
+  - method: Decoction
+    notes: Simmer 1–2 inches of sliced fresh root in water for 10–20 minutes. Longer
+      means spicier.
+  - method: Infusion
+    notes: Steep 1 tsp dried ginger or grated fresh root, covered, for 10 minutes.
+  - method: Capsules
+    notes: Studies often used 1 g a day of dried ginger, split into doses.
+  - method: Culinary
+    notes: Curries, stir-fries, chai, candied ginger, ginger syrup, and switchel.
+risks: >-
+  Very safe in food amounts. High doses can cause heartburn, gas, and mouth
+  irritation. Ginger may slightly increase
+
+  bleeding risk alongside blood thinners such as warfarin. Pregnant people
+  commonly use up to about 1 g a day, but should
+
+  check with a clinician, especially near delivery.
+pairsWith:
+  - turmeric
+  - cinnamon
+  - lemongrass
+  - peppermint
+  - elderberry
+image: ../../assets/herbs/ginger.jpg
+imageAlt: Botanical illustration of ginger (Zingiber officinale)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Zingiber_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-146.jpg
+  license: Public domain
+draft: true

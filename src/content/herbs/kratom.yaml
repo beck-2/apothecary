@@ -1,0 +1,89 @@
+name: Kratom
+latin: Mitragyna speciosa
+aliases:
+  - Ketum
+  - Biak
+category: herb
+status: collected
+jarColor: "#55703f"
+origin: "Southeast Asia: Thailand, Malaysia, Indonesia, and Papua New Guinea"
+intendedUse: Traditionally chewed for energy during labor; now used for pain,
+  mood, and opioid withdrawal
+blurb: >-
+  The glossy leaves of a tropical coffee-family tree, chewed by Thai and
+  Malaysian farmers for stamina in the
+
+  fields. Kratom acts on opioid receptors: stimulating at low doses and sedating
+  at high doses, with real risks of
+
+  dependence.
+evidence: "1"
+evidenceSummary: >-
+  Mitragynine and 7-hydroxymitragynine act on opioid receptors, among others.
+  Most human evidence comes from
+
+  surveys of users, who report relief of pain, anxiety, and opioid withdrawal.
+  Controlled clinical trials are only
+
+  beginning. A 2024 meta-analysis found kratom use associated with both
+  short-term mood benefits and dependence.
+sources:
+  - title: Kratom (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/kratom
+  - title: "Kratom (Mitragyna speciosa) Use and Mental Health: A Systematic Review
+      and Multilevel Meta-Analysis (Yang et al., 2024, Eur Addict Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/38889703/
+psychoactive: true
+legal: >-
+  Not federally scheduled in the US, but banned in several states and cities,
+  and the FDA warns against its use.
+      Illegal or controlled in many countries; Thailand decriminalized it in 2021. Laws change quickly.
+growing:
+  zones: 10–12 (tropical tree)
+  sun: Full sun to part shade
+  water: High humidity and moisture
+  soil: Rich, moist
+  propagation: Grown from very small seeds or cuttings in tropical warmth and
+    humidity. It's difficult to grow outside the tropics.
+  harvest: Leaves are picked fresh, then dried and powdered.
+history: >-
+  Kratom has been used in Southeast Asia for at least a century and probably
+  much longer. Dutch botanist Pieter
+
+  Korthals described it in 1839. Thailand banned it in 1943, partly to protect
+  opium tax revenue, and lifted the ban in
+
+  2021. It spread to Western markets in the 2000s and 2010s.
+culture: >-
+  In southern Thailand and Malaysia, chewing fresh kratom leaves is a
+  traditional custom among farmers and laborers,
+
+  and leaves are offered to guests. A boiled kratom drink is part of social
+  gatherings. In the US, many people use it to
+
+  self-manage pain or quit opioids, which makes it a contested public health
+  issue.
+preparations:
+  - method: Traditional chew
+    notes: Fresh leaves are chewed with the stem removed.
+  - method: Tea
+    notes: Dried powder or leaves simmered in water with lemon.
+  - method: Note
+    notes: Effects vary greatly with dose; harm reduction groups advise starting
+      very low and avoiding daily use.
+risks: >-
+  Regular use can lead to dependence and withdrawal (irritability, cravings,
+  muscle aches). Reported harms include
+
+  liver injury, seizures, and heart problems, and deaths have occurred, often in
+  combination with other drugs. Combining
+
+  it with opioids, alcohol, or sedatives is dangerous. Products are unregulated
+  and have been contaminated with
+
+  salmonella and heavy metals. Not for pregnancy, as babies can be born with
+  withdrawal.
+pairsWith:
+  - ginger
+  - lemongrass
+draft: true

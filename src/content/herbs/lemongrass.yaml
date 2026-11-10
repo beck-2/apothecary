@@ -1,0 +1,80 @@
+name: Lemongrass
+latin: Cymbopogon citratus
+aliases:
+  - Fever grass
+  - Takrai
+  - Capim-santo
+category: herb
+status: collected
+jarColor: "#c9d27a"
+origin: South and Southeast Asia (Sri Lanka and Malaysia)
+intendedUse: Soothing digestion and calming nerves; a bright culinary herb
+blurb: >-
+  A tall tropical grass that smells like lemon candy when you crush it. It's
+  essential to Thai and Vietnamese
+
+  cooking and a popular folk remedy for fever, digestion, and anxiety, with only
+  limited human research.
+evidence: "1"
+evidenceSummary: >-
+  Lemongrass oil (rich in citral) has antimicrobial and antifungal activity in
+  the lab. A few small human
+
+  studies tested its aroma for anxiety and its tea for blood pressure and
+  cholesterol, with mixed results. The tea is
+
+  widely used in Brazil as a calming drink, but a small Brazilian trial found no
+  sedative effect in healthy volunteers.
+sources:
+  - title: Lemongrass (Memorial Sloan Kettering, About Herbs)
+    url: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lemongrass
+  - title: "Antifungal Properties of Essential Oils Derived from the Genus
+      Cymbopogon: A Systematic Review (Butzge et al., 2023, Chem Biodivers)"
+    url: https://pubmed.ncbi.nlm.nih.gov/37574454/
+psychoactive: false
+legal: ""
+growing:
+  zones: 9–11 perennial; grow in pots elsewhere
+  sun: Full sun
+  water: Regular
+  soil: Rich, moist, well-drained
+  propagation: >-
+    Root grocery-store stalks in water for 2–3 weeks, then plant them. It grows
+    into a big clump. Bring pots indoors
+
+    before frost.
+  harvest: Cut stalks at the base when about ½ inch thick. Use the tender lower
+    bulb for cooking and dry the leaves for tea.
+history: >-
+  Lemongrass has been used in Ayurveda and Southeast Asian folk medicine for
+  centuries. The plant was grown in
+
+  Jamaica by the late 1700s, and its oil became a major perfume ingredient.
+culture: >-
+  It's the backbone of Thai *tom yum*, Vietnamese *bún bò Huế*, and Indonesian
+  curries. In Brazil it's called
+
+  *capim-santo*, "holy grass," and drunk as a calming tea. In the Caribbean it's
+  called "fever grass." Its oil is used
+
+  in citronella-style mosquito repellents.
+preparations:
+  - method: Infusion
+    notes: Steep 1–2 tsp dried leaf or a chopped fresh stalk for 5–10 minutes.
+  - method: Culinary
+    notes: Bruise the lower stalk and simmer in soups and curries. Mince finely for
+      marinades.
+  - method: Syrup
+    notes: Simmer with ginger and sugar for drinks and cocktails.
+risks: >-
+  Safe in food amounts. The essential oil can irritate skin and should not be
+  swallowed. Large amounts may affect the
+
+  uterus, so avoid medicinal doses in pregnancy.
+pairsWith:
+  - ginger
+  - green-tea
+  - butterfly-pea
+  - holy-basil
+  - hibiscus
+draft: true

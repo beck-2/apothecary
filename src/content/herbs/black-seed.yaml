@@ -1,0 +1,98 @@
+name: Black Seed
+latin: Nigella sativa
+aliases:
+  - Black cumin
+  - Kalonji
+  - Habbat al-barakah
+  - Nigella
+category: seed
+status: collected
+jarColor: "#2f2b2a"
+origin: Southwest Asia and the eastern Mediterranean
+intendedUse: Supporting breathing, blood pressure, and metabolism; a peppery seed for bread
+blurb: >-
+  Tiny jet-black seeds with an oniony, peppery bite, scattered on naan and
+  Middle Eastern breads. Revered as a
+
+  "seed of blessing," black seed has a surprising number of small trials for
+  asthma, blood pressure, and cholesterol.
+evidence: "2"
+evidenceSummary: >-
+  Meta-analyses of randomized trials report modest improvements in asthma
+  control, blood pressure,
+
+  cholesterol, blood sugar, and body weight with black seed oil or powder.
+  Thymoquinone is the main active compound.
+
+  Many trials are small, short, and from a limited number of countries, so the
+  overall evidence is promising but
+
+  moderate at best.
+sources:
+  - title: "Antihypertensive effects of Nigella sativa supplementation: An updated
+      systematic review and meta-analysis of randomized controlled trials
+      (Kavyani et al., 2023, Phytother Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/37341696/
+  - title: "The influence of Nigella sativa for asthma control: A meta-analysis (He
+      et al., 2020, Am J Emerg Med)"
+    url: https://pubmed.ncbi.nlm.nih.gov/31892440/
+psychoactive: false
+legal: ""
+growing:
+  zones: Annual; most zones
+  sun: Full sun
+  water: Moderate
+  soil: Average, well-drained
+  propagation: >-
+    Sow seed directly in early spring. It's the same plant family as the garden
+    flower love-in-a-mist (*N. damascena*)
+
+    and has similar pale blue blooms.
+  harvest: Cut the inflated seed pods when they turn papery and brown but before
+    they split. Dry them and shake out the seeds.
+history: >-
+  Black seed was found in Tutankhamun's tomb, and Egyptian physicians used it
+  for colds and headaches. Dioscorides
+
+  recorded its use for headaches and toothache. Avicenna's *Canon of Medicine*
+  described it as stimulating the body's
+
+  energy and helping recovery from fatigue.
+culture: >-
+  A hadith of the Prophet Muhammad states that black seed "is a cure for every
+  disease except death," and it
+
+  remains a staple of Islamic Prophetic Medicine. In South Asia, *kalonji* is a
+  pickling spice and part of Bengali
+
+  *panch phoron*. Israeli and Armenian string cheese and Turkish *çörek* bread
+  are dotted with it.
+preparations:
+  - method: Toasted seed
+    notes: Dry-toast briefly and sprinkle on breads, salads, dal, or eggs.
+  - method: Oil
+    notes: Trials used 1–3 g a day of cold-pressed oil, often by the teaspoon with
+      honey.
+  - method: Tea
+    notes: Steep ½ tsp crushed seed with honey for 10 minutes.
+risks: >-
+  Generally safe in food amounts. Oil can cause stomach upset and allergic skin
+  rash when applied topically. It may lower
+
+  blood sugar and blood pressure and slow clotting, so check with medication.
+  Rare kidney injury has been reported with
+
+  high doses. Avoid large doses in pregnancy.
+pairsWith:
+  - turmeric
+  - garlic
+  - cinnamon
+  - fennel
+image: ../../assets/herbs/black-seed.jpg
+imageAlt: Botanical illustration of black seed (Nigella sativa)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Nigella_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-227.jpg
+  license: Public domain
+draft: true

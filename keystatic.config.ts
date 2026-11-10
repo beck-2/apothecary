@@ -7,7 +7,11 @@ const storage = import.meta.env.PROD
   : ({ kind: 'local' } as const);
 
 const longText = (label: string, description?: string) =>
-  fields.text({ label, description, multiline: true });
+  fields.text({
+    label,
+    description: [description, 'Wrap words in *asterisks* for italics. Leave a blank line between paragraphs.'].filter(Boolean).join(' · '),
+    multiline: true,
+  });
 
 export default config({
   storage,

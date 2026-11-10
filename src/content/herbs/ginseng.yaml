@@ -1,0 +1,104 @@
+name: Ginseng
+latin: Panax ginseng
+aliases:
+  - Asian ginseng
+  - Korean ginseng
+  - Red ginseng
+category: root
+status: collected
+jarColor: "#c99a6b"
+origin: The mountain forests of Manchuria, Korea, and the Russian Far East
+intendedUse: Restoring energy, sharpening thinking, and building resilience
+blurb: >-
+  A slow-growing, human-shaped forest root revered for millennia as a whole-body
+  tonic. Trials suggest modest
+
+  effects on fatigue and some aspects of thinking, but results vary a lot with
+  preparation.
+evidence: "3"
+evidenceSummary: >-
+  Dozens of randomized trials exist. Meta-analyses suggest small benefits for
+  some cognitive measures and
+
+  fatigue, modest blood sugar lowering, and possible benefit for erectile
+  dysfunction. Many trials are small and of
+
+  mixed quality, and the active ginsenosides vary greatly between products.
+  American ginseng (*Panax quinquefolius*)
+
+  is a related species with its own research.
+sources:
+  - title: Asian ginseng (NIH National Center for Complementary and Integrative
+      Health)
+    url: https://www.nccih.nih.gov/health/asian-ginseng
+  - title: "Effects of Ginseng on Cognitive Function: A Systematic Review and
+      Meta-Analysis (Zeng et al., 2024, Phytother Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/39474788/
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–8
+  sun: Deep shade (70–90%), like a hardwood forest floor
+  water: Moist, never waterlogged
+  soil: Rich, loamy forest soil, slightly acidic
+  propagation: >-
+    Sow stratified seed in fall, about 1 inch deep. Seed takes up to 18 months
+    to germinate. Roots need 4–6+ years
+
+    to mature, so this is a patience project.
+  harvest: >-
+    Dig mature roots in fall after the berries ripen, replanting the berries
+    nearby. Wild American ginseng harvest is
+
+    regulated, with permits and seasons in most US states.
+history: >-
+  Ginseng appears in China's oldest herbal, the *Shennong Bencao Jing* (about
+  200 CE), as a superior tonic.
+
+  Imperial demand nearly wiped out wild Manchurian ginseng. In 1716 a Jesuit
+  discovered American ginseng in Quebec, and
+
+  it soon became one of the young United States' first major exports to China, a
+  trade Daniel Boone took part in.
+culture: >-
+  *Panax* comes from the Greek for "all-healing." In Korea, red ginseng
+  (*hongsam*) is a national treasure and
+
+  is given at holidays, and *samgyetang* (ginseng chicken soup) is eaten on the
+  hottest days of summer. Wild roots of
+
+  unusual age can sell for tens of thousands of dollars.
+preparations:
+  - method: Decoction
+    notes: Simmer 1–2 g of sliced dried root for 20–30 minutes. Slices can be chewed
+      afterward.
+  - method: Red ginseng
+    notes: Steamed and dried root, believed to be more warming. Available as
+      extract, tea, or honey slices.
+  - method: Extract
+    notes: Studies typically used 200–400 mg a day of standardized extract.
+  - method: Soup
+    notes: "Samgyetang: a small chicken stuffed with rice, ginseng, jujubes, and
+      garlic."
+risks: >-
+  Can cause insomnia, headache, and digestive upset. It may lower blood sugar
+  (watch with diabetes medication),
+
+  interact with warfarin, and have estrogen-like effects. Often recommended in
+  cycles rather than continuously. Avoid in
+
+  pregnancy.
+pairsWith:
+  - ginger
+  - rhodiola
+  - ginkgo
+  - licorice-root
+image: ../../assets/herbs/ginseng.jpg
+imageAlt: Botanical illustration of ginseng (Panax ginseng) (American ginseng, a
+  close relative)
+imageCredit:
+  artist: Unknown artist
+  work: University of Wisconsin Digital Collections
+  url: https://commons.wikimedia.org/wiki/File:Panax_quinquefolium,_ginseng_(3543549600).jpg
+  license: CC BY 2.0
+draft: true

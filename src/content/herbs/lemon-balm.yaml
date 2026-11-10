@@ -1,0 +1,88 @@
+name: Lemon Balm
+latin: Melissa officinalis
+aliases:
+  - Melissa
+  - Balm
+category: herb
+status: collected
+jarColor: "#b6c97a"
+origin: Southern Europe, the Mediterranean, and western Asia
+intendedUse: Calming nerves, lifting mood, and soothing sleep and digestion
+blurb: >-
+  A lemony mint-family herb that bees adore (*melissa* is Greek for honeybee).
+  Small trials suggest it can calm
+
+  anxiety and improve mood and sleep, and it makes a lovely bright tea.
+evidence: "2"
+evidenceSummary: >-
+  Several small randomized trials and a 2021 meta-analysis suggest lemon balm
+  reduces anxiety and
+
+  depressive symptoms, and short lab studies show improved calmness and mood
+  after a single dose. It is often tested in
+
+  combination with valerian. Topical cream shows some benefit for cold sores.
+  Trials are small and short.
+sources:
+  - title: "The effects of lemon balm (Melissa officinalis L.) on depression and
+      anxiety in clinical trials: A systematic review and meta-analysis
+      (Ghazizadeh et al., 2021, Phytother Res)"
+    url: https://pubmed.ncbi.nlm.nih.gov/34449930/
+psychoactive: false
+legal: ""
+growing:
+  zones: 4–9
+  sun: Full sun to part shade
+  water: Moderate
+  soil: Average, well-drained
+  propagation: >-
+    Easy from seed (needs light to germinate), cuttings, or division. It
+    self-seeds enthusiastically, so cut
+
+    flowers before seeds form.
+  harvest: Snip leaves anytime before flowering for the best flavor. Dry quickly
+    in shade, since it loses scent easily.
+history: >-
+  Lemon balm was planted near beehives in ancient Greece and Rome to keep bees
+  close. The Arab physician Avicenna
+
+  wrote that it "causeth the mind and heart to become merry." Carmelite nuns in
+  17th-century Paris made Carmelite Water,
+
+  a lemon balm cordial that was sold for centuries.
+culture: >-
+  Paracelsus called it the "elixir of life," and John Evelyn wrote that it "is
+  sovereign for the brain,
+
+  strengthening the memory." Tea of lemon balm and honey was a traditional drink
+  for long life, and it's still common
+
+  in European herbal tea blends for "nerves."
+preparations:
+  - method: Infusion
+    notes: Steep 1–2 tsp dried leaf or a handful fresh, covered, for 5–10 minutes.
+  - method: Iced tea
+    notes: Fresh lemon balm and mint in cold water overnight.
+  - method: Extract
+    notes: Trials used 300–600 mg of dried extract.
+  - method: Culinary
+    notes: Sorbets, fruit salads, pesto, and infused honey.
+risks: >-
+  Generally very safe. It may cause mild drowsiness and add to the effect of
+  sedatives. Some evidence suggests it may
+
+  affect thyroid function, so use caution with thyroid conditions or medication.
+pairsWith:
+  - chamomile
+  - lavender
+  - passionflower
+  - peppermint
+  - valerian
+image: ../../assets/herbs/lemon-balm.jpg
+imageAlt: Botanical illustration of lemon balm (Melissa officinalis)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Melissa_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-094.jpg
+  license: Public domain
+draft: true

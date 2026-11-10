@@ -1,0 +1,84 @@
+name: Calendula
+latin: Calendula officinalis
+aliases:
+  - Pot marigold
+  - Mary's gold
+category: flower
+status: collected
+jarColor: "#ec9a2a"
+origin: Southern Europe and the Mediterranean
+intendedUse: Healing skin, wounds, and rashes; brightening food
+blurb: >-
+  Cheerful orange and gold flowers that follow the sun, infused into healing
+  salves for centuries. Small studies
+
+  support calendula for wound healing and skin irritation.
+evidence: "1"
+evidenceSummary: >-
+  Lab and animal studies show anti-inflammatory and wound-healing effects. A few
+  small human trials found
+
+  calendula ointment helped venous leg ulcers and diaper rash, and one
+  well-known trial found it reduced radiation
+
+  dermatitis in breast cancer patients, but later trials didn't confirm that.
+  Overall, evidence is preliminary.
+sources:
+  - title: Calendula (Memorial Sloan Kettering, About Herbs)
+    url: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/calendula
+  - title: A systematic review of Calendula officinalis extract for wound healing
+      (Givol et al., 2019, Wound Repair Regen)
+    url: https://pubmed.ncbi.nlm.nih.gov/31145533/
+psychoactive: false
+legal: ""
+growing:
+  zones: Annual; all zones
+  sun: Full sun to part shade
+  water: Moderate
+  soil: Average, well-drained
+  propagation: >-
+    Sow the curly seeds directly in early spring or fall. Easy and quick to
+    flower, and it self-seeds happily. It
+
+    prefers cool weather and sulks in midsummer heat.
+  harvest: >-
+    Pick flowers every few days when fully open (more picking means more
+    blooms). Dry them on screens until crisp. Resinous
+
+    flowers that leave sticky fingers make the best oils.
+history: >-
+  The name comes from the Latin *calendae* (the first day of the month), because
+  it blooms nearly every month.
+
+  During the US Civil War and World War I, field surgeons used calendula on
+  wounds. Nicknamed "poor man's saffron," it was used
+
+  to color butter, cheese, and soups.
+culture: >-
+  Calendula garlands are offered in Hindu temples and weddings in India (often
+  alongside *Tagetes* marigolds).
+
+  In medieval Europe, it was called "Mary's gold" in honor of the Virgin Mary.
+  It is a staple of European folk skin care.
+preparations:
+  - method: Infused oil
+    notes: Fill a jar with dried flowers, cover with olive oil, and steep in a warm
+      spot for 4–6 weeks (or gently heat for a few hours). Strain.
+  - method: Salve
+    notes: Melt 1 part beeswax into 4–5 parts infused oil, then pour into tins.
+  - method: Infusion
+    notes: Steep 1–2 tsp petals for 10 minutes as a mouth rinse or skin wash.
+  - method: Culinary
+    notes: Sprinkle petals on salads, rice, and cakes.
+risks: >-
+  Can cause allergic reactions in people sensitive to the daisy family. Avoid
+  internal use during pregnancy because it was
+
+  traditionally used to bring on menstruation. Topical use is generally very
+  safe.
+pairsWith:
+  - chamomile
+  - lavender
+  - yarrow
+  - nettle
+draft: true

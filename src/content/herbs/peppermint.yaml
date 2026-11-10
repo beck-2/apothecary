@@ -1,0 +1,110 @@
+name: Peppermint
+latin: Mentha × piperita
+aliases:
+  - Mint
+category: herb
+status: collected
+jarColor: "#8fb59a"
+origin: A natural hybrid of watermint and spearmint, first cultivated in England
+  in the late 1600s
+intendedUse: Soothing digestion, easing IBS cramps, and clearing a stuffy head
+blurb: >-
+  A cool, bright hybrid mint whose menthol-rich oil is one of the best-supported
+  herbal remedies for
+
+  irritable bowel syndrome. As a tea it's a classic after-dinner digestive and a
+  gentle pick-me-up.
+evidence: "3"
+evidenceSummary: >-
+  Multiple randomized trials and meta-analyses show that enteric-coated
+  peppermint oil capsules
+
+  reduce abdominal pain and global symptoms in irritable bowel syndrome better
+  than placebo. Menthol relaxes
+
+  smooth muscle in the gut by blocking calcium channels. Evidence for peppermint
+  tea specifically is much thinner,
+
+  and topical peppermint oil shows some promise for tension headaches.
+sources:
+  - title: Peppermint oil (NIH National Center for Complementary and Integrative
+      Health)
+    url: https://www.nccih.nih.gov/health/peppermint-oil
+  - title: "Systematic review and meta-analysis: efficacy of peppermint oil in
+      irritable bowel syndrome (Ingrosso et al., 2022, Aliment Pharmacol Ther)"
+    url: https://pubmed.ncbi.nlm.nih.gov/35942669/
+psychoactive: false
+legal: ""
+growing:
+  zones: 3–8 (perennial)
+  sun: Full sun to part shade
+  water: Keep consistently moist
+  soil: Rich, moist, well-drained
+  propagation: >-
+    Peppermint is a sterile hybrid, so it rarely comes true from seed. Grow it
+    from cuttings or root divisions.
+
+    It spreads aggressively by runners, so a pot or buried container is the
+    kindest option for the rest of your garden.
+  harvest: >-
+    Snip stems just before flowering when oil content peaks, ideally mid-morning
+    after the dew dries. Cut back by a
+
+    third several times a season. Hang bunches to dry or strip leaves onto a
+    screen.
+history: >-
+  Mint leaves turn up in Egyptian tombs, and the Greeks and Romans used mints to
+  scent baths and tables. True
+
+  peppermint was first described by the English botanist John Ray in 1696. It
+  entered the London Pharmacopoeia in 1721
+
+  and soon became a staple of apothecary digestive cordials. Peppermint oil was
+  later one of the first plant oils
+
+  studied in modern gastroenterology trials in the 1970s and 1980s.
+culture: >-
+  Mint tea is a ritual of hospitality across North Africa and the Middle East,
+  though that is usually spearmint
+
+  with green tea. Peppermint became the flavor of Western candy canes, chewing
+  gum, and toothpaste, so its smell now
+
+  means "clean" and "fresh" to many people.
+preparations:
+  - method: Infusion (tea)
+    notes: Steep 1–2 tsp dried leaf (or a handful of fresh) in just-boiled water,
+      covered, 5–10 minutes.
+  - method: Enteric-coated oil capsules
+    notes: Used in IBS trials, typically 0.2 mL (about 180–225 mg) up to three times
+      a day before meals.
+  - method: Diluted topical oil
+    notes: A few drops in a carrier oil on the temples for tension headache. Never
+      neat on skin.
+  - method: Culinary
+    notes: Syrups, sorbets, chocolate, and fresh herb salads.
+risks: >-
+  Peppermint can worsen heartburn and reflux because it relaxes the lower
+  esophageal sphincter (the enteric
+
+  coating helps avoid this). Concentrated oil is toxic if swallowed in larger
+  amounts and should never be applied to
+
+  the faces of infants or young children, as menthol can trigger breathing
+  problems. Peppermint oil may interact with
+
+  cyclosporine and with drugs that reduce stomach acid, which can dissolve the
+  capsule coating early.
+pairsWith:
+  - ginger
+  - fennel
+  - chamomile
+  - lemon-balm
+image: ../../assets/herbs/peppermint.jpg
+imageAlt: Botanical illustration of peppermint (Mentha × piperita)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Mentha_%C3%97_piperita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-095.jpg
+  license: Public domain
+draft: true

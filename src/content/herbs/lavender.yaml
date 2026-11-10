@@ -1,0 +1,98 @@
+name: Lavender
+latin: Lavandula angustifolia
+aliases:
+  - English lavender
+  - True lavender
+category: flower
+status: collected
+jarColor: "#a99cc8"
+origin: "The western Mediterranean: Spain, southern France, and Italy"
+intendedUse: Calming anxiety, aiding sleep, and scenting linens and baths
+blurb: >-
+  The purple spikes of Provence fields and grandmother's linen closets. A
+  specific oral lavender oil extract
+
+  (Silexan) has good trial evidence for anxiety, and the scent itself is a
+  time-honored way to unwind.
+evidence: "3"
+evidenceSummary: >-
+  Several randomized controlled trials, mostly using the standardized oral oil
+  preparation Silexan
+
+  (80 mg/day), found reductions in generalized and subthreshold anxiety
+  comparable to some medications. Aromatherapy
+
+  studies show smaller, less consistent benefits for sleep and anxiety, partly
+  because scent is hard to blind.
+sources:
+  - title: Lavender (NIH National Center for Complementary and Integrative Health)
+    url: https://www.nccih.nih.gov/health/lavender
+  - title: "Effects of lavender on anxiety: A systematic review and meta-analysis
+      (Donelli et al., 2019, Phytomedicine)"
+    url: https://pubmed.ncbi.nlm.nih.gov/31655395/
+psychoactive: false
+legal: ""
+growing:
+  zones: 5–9
+  sun: Full sun
+  water: Low; drought tolerant once established
+  soil: Lean, gritty, very well-drained, slightly alkaline
+  propagation: >-
+    Take softwood cuttings in spring or semi-ripe cuttings in late summer. Seed
+    is slow and variable. Wet feet in
+
+    winter kills lavender more often than cold, so plant in a raised spot.
+  harvest: >-
+    Cut flower stems when about half the buds on the spike have opened, in the
+    morning. Hang upside down to dry. Prune
+
+    after flowering, but never into old bare wood.
+history: >-
+  The name probably comes from the Latin *lavare*, "to wash," because Romans
+  scented bathwater with it. Medieval
+
+  monasteries grew it in physic gardens. Queen Elizabeth I reportedly wanted
+  lavender conserve at every meal. In the
+
+  1910s, French chemist René-Maurice Gattefossé's writings about lavender oil
+  helped launch modern aromatherapy.
+culture: >-
+  Lavender is the symbol of Provence, and of devotion and purity in the
+  Victorian language of flowers. Sachets
+
+  of lavender were tucked into drawers to deter moths and scent linens. In the
+  20th century, "lavender" also became a
+
+  symbol of LGBTQ+ identity, as in the "Lavender Scare" and the "Lavender
+  Menace."
+preparations:
+  - method: Infusion
+    notes: Steep 1 tsp dried buds for 5–10 minutes. A little goes a long way and it
+      turns soapy if overdone.
+  - method: Aromatherapy
+    notes: A few drops of essential oil in a diffuser, or a sachet by the pillow.
+  - method: Silexan capsules
+    notes: "The studied form for anxiety: 80 mg once a day."
+  - method: Culinary
+    notes: Shortbread, lemonade, honey, simple syrup, and herbes de Provence blends.
+risks: >-
+  Oral lavender oil commonly causes burping and mild stomach upset. Topical oil
+  can irritate skin. Very rarely,
+
+  repeated use of lavender and tea tree products has been linked to breast
+  growth in prepubertal boys, though this is
+
+  debated. Lavender may add to the effect of sedatives. Never swallow undiluted
+  essential oil.
+pairsWith:
+  - chamomile
+  - lemon-balm
+  - passionflower
+image: ../../assets/herbs/lavender.jpg
+imageAlt: Botanical illustration of lavender (Lavandula angustifolia)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-087.jpg
+  license: Public domain
+draft: true

@@ -1,0 +1,98 @@
+name: Hibiscus
+latin: Hibiscus sabdariffa
+aliases:
+  - Roselle
+  - Jamaica
+  - Sorrel
+  - Bissap
+category: flower
+status: collected
+jarColor: "#b0213f"
+origin: West Africa; now grown throughout the tropics
+intendedUse: Lowering blood pressure; a tart, ruby-red cooling drink
+blurb: >-
+  Not the showy garden hibiscus, but the fleshy red calyces of roselle, brewed
+  into a tart, cranberry-like drink.
+
+  Several trials show hibiscus tea modestly lowers blood pressure.
+evidence: "2"
+evidenceSummary: >-
+  Meta-analyses of randomized trials found hibiscus tea or extract lowered
+  systolic blood pressure by
+
+  about 7 mmHg compared with placebo, and some trials found effects similar to
+  captopril. A Cochrane review called the
+
+  evidence low quality because trials were small and had design problems.
+  Anthocyanins and organic acids are thought to
+
+  act as mild diuretics and ACE inhibitors.
+sources:
+  - title: A systematic review and meta-analysis of the effects of Hibiscus
+      sabdariffa on blood pressure and cardiometabolic markers (Ellis et al.,
+      2022, Nutr Rev)
+    url: https://pubmed.ncbi.nlm.nih.gov/34927694/
+  - title: Roselle for hypertension in adults (Pattanittum et al., 2021, Cochrane
+      Database Syst Rev)
+    url: https://pubmed.ncbi.nlm.nih.gov/34837382/
+psychoactive: false
+legal: ""
+growing:
+  zones: Annual in most areas; perennial in 10–11
+  sun: Full sun
+  water: Regular
+  soil: Rich, well-drained
+  propagation: >-
+    Start seed indoors 6–8 weeks before the last frost. It needs a long, hot
+    season and short autumn days to flower,
+
+    so northern gardeners may only get calyces in a warm fall.
+  harvest: >-
+    Pick the plump red calyces about 10 days after flowers fade, before the seed
+    pods dry. Pop out the green seed pod and
+
+    dry the calyces.
+history: >-
+  Roselle was likely domesticated in West Africa (Sudan and Senegal region) and
+  carried to the Americas through the
+
+  transatlantic slave trade in the 1600s. It became a staple across the
+  Caribbean and Mexico.
+culture: >-
+  It goes by many names: *agua de jamaica* in Mexico, *sorrel* at Jamaican and
+  Trinidadian Christmas (spiced with
+
+  ginger, clove, and rum), *bissap* (Senegal's national drink), *zobo* in
+  Nigeria, and *karkadeh* in Egypt and Sudan,
+
+  where it's served at weddings.
+preparations:
+  - method: Hot infusion
+    notes: Steep 1–2 tsp dried calyces for 5–10 minutes. Very tart, so add honey or
+      mix with other teas.
+  - method: Agua de jamaica
+    notes: Steep ½ cup calyces in 4 cups hot water, strain, sweeten, and chill.
+  - method: Christmas sorrel
+    notes: Steep with ginger, cloves, cinnamon, and orange peel overnight, sweeten,
+      and add rum if you like.
+risks: >-
+  Generally safe as a drink. It can lower blood pressure further if you take
+  antihypertensives, and may interact with
+
+  hydrochlorothiazide, acetaminophen, and chloroquine. Avoid medicinal amounts
+  in pregnancy (it may affect hormones and
+
+  uterine contractions).
+pairsWith:
+  - ginger
+  - cinnamon
+  - rooibos
+  - lemongrass
+image: ../../assets/herbs/hibiscus.jpg
+imageAlt: Botanical illustration of hibiscus (Hibiscus sabdariffa)
+imageCredit:
+  artist: Michel Étienne Descourtilz
+  work: Flore médicale des Antilles (1821–1829)
+  url: https://commons.wikimedia.org/wiki/File:Flore_m%C3%A9dicale_des_Antilles,_ou,_Trait%C3%A9_des_plantes_usuelles_(9916702164).jpg
+  license: Public domain
+draft: true
