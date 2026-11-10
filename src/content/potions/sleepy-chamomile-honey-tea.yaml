@@ -1,0 +1,19 @@
+name: Sleepy Chamomile Honey Tea
+type: beverage
+ingredients:
+  - herb: chamomile
+    other: ''
+    amount: 1 tbsp dried flowers
+  - herb: null
+    other: Honey
+    amount: 1 tsp
+  - herb: null
+    other: Lemon peel
+    amount: 1 strip
+method: >-
+  Bring water just to a boil. Pour over the chamomile and lemon peel, cover,
+  and steep for 7 minutes. Strain, then stir in honey once it's cool enough to
+  sip.
+notes: An example potion. Replace it with your own!
+made: 2026-11-09
+rating: 4

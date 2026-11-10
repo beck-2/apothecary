@@ -1,0 +1,86 @@
+name: Chamomile
+latin: Matricaria chamomilla
+aliases:
+  - German chamomile
+  - Matricaria recutita
+category: flower
+status: collected
+jarColor: '#e9d98f'
+origin: Southern and Eastern Europe and Western Asia; now grown worldwide
+intendedUse: A gentle, calming tea for sleep, anxiety, and an unsettled stomach
+blurb: >-
+  Little apple-scented daisies that have been steeped into bedtime tea for at
+  least two thousand years. Chamomile is one of the most studied calming herbs:
+  trials suggest modest help with mild anxiety and sleep quality, and it's a
+  traditional remedy for an upset stomach.
+evidence: '3'
+evidenceSummary: >-
+  Several randomized controlled trials and a meta-analysis exist. Chamomile
+  extract showed modest benefit for generalized anxiety disorder, and pooled
+  trials suggest improved sleep quality. Evidence for insomnia
+  itself is weaker, and many studies are small. The flavonoid apigenin, which
+  binds GABA-A receptors in lab studies, is thought to drive much of the effect.
+sources:
+  - title: 'Long-term chamomile treatment for generalized anxiety disorder: a randomized clinical trial (Mao et al., 2016, Phytomedicine)'
+    url: https://pubmed.ncbi.nlm.nih.gov/27912875/
+  - title: 'Chamomile for anxiety, insomnia, and sleep quality: a systematic review and meta-analysis (Hieu et al., 2019, Phytotherapy Research)'
+    url: https://pubmed.ncbi.nlm.nih.gov/31006899/
+  - title: 'Chamomile: what you need to know (NIH NCCIH)'
+    url: https://www.nccih.nih.gov/health/chamomile
+psychoactive: false
+legal: ''
+growing:
+  zones: Annual; grows in zones 2–9
+  sun: Full sun to light shade
+  water: Moderate. Tolerates dry spells once established
+  soil: Light, well-drained, not too rich
+  propagation: >-
+    Sow seed directly on the soil surface in early spring or fall. Seeds need
+    light to germinate, so press them in without covering. Chamomile self-sows
+    readily, so expect volunteers next year.
+  harvest: >-
+    Pick flower heads on a dry morning when the petals are fully open and just
+    starting to fold back. Harvest every few days to keep it blooming. Dry on a
+    screen out of direct sun.
+history: >-
+  Ancient Egyptians dedicated chamomile to the sun god Ra and used it in
+  embalming oils. Greek and Roman physicians, including Dioscorides and Galen,
+  prescribed it for fevers and women's complaints. In medieval Europe it was a
+  "strewing herb," scattered on floors so it released its scent when walked on,
+  and it was one of the nine sacred herbs of the Anglo-Saxon Nine Herbs Charm.
+
+  It was listed in many national pharmacopoeias through the 20th century and
+  remains one of the most widely drunk herbal teas in the world.
+culture: >-
+  In German-speaking households Kamillentee is the classic cure-all, given
+  for colds, stomach aches, and sore eyes alike. In Mexico and Latin America,
+  manzanilla tea is a first remedy for colicky babies and stomach aches. In
+  Peter Rabbit, Mrs. Rabbit doses Peter with chamomile tea after his adventure,
+  which made it a classic picture of a gentle home remedy.
+preparations:
+  - method: Infusion (tea)
+    notes: >-
+      Steep 1–2 tablespoons of dried flowers (or 2–4 g) in a cup of just-boiled
+      water, covered, for 5–10 minutes. Covering it keeps the volatile oils in.
+  - method: Tincture
+    notes: Typically 1:5 in 45% alcohol. Often used at 1–4 mL up to three times a day.
+  - method: Compress or bath
+    notes: A strong cooled infusion is used on irritated skin and tired eyes.
+  - method: Culinary
+    notes: Infuse into syrups, custards, or honey. Pairs nicely with lemon, vanilla, and honey.
+risks: >-
+  Generally very safe as a tea. People allergic to ragweed, chrysanthemums,
+  marigolds, or other daisy-family plants can react, and in rare cases this
+  includes anaphylaxis. It may add to the effect of sedatives and alcohol.
+  Large amounts may interact with blood thinners such as warfarin. In
+  pregnancy, ordinary tea amounts are usually considered fine, but
+  concentrated extracts are not well studied.
+pairsWith: []
+image: ../../assets/herbs/chamomile.jpg
+imageAlt: Botanical plate of chamomile showing the branching stem, feathery leaves, and small white daisy flowers, with dissected flower parts
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Matricaria_recutita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-091.jpg
+  license: Public domain
+draft: true

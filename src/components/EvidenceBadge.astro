@@ -1,0 +1,17 @@
+---
+import { evidenceFor } from '../lib/evidence';
+interface Props { level: number; showLabel?: boolean }
+const { level, showLabel = true } = Astro.props;
+const e = evidenceFor(level);
+---
+<span class="evidence" title={e.long} aria-label={`Evidence: ${e.long}`}>
+  <span aria-hidden="true">{e.icon}</span>{showLabel && <span>{e.label}</span>}
+</span>
+<style>
+  .evidence {
+    display: inline-flex; align-items: center; gap: 0.35em;
+    font-size: 0.85rem; padding: 0.15em 0.6em; border-radius: 999px;
+    background: var(--chip); color: var(--ink-soft); border: 1px solid var(--line);
+    white-space: nowrap;
+  }
+</style>

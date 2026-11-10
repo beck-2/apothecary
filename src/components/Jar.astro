@@ -1,0 +1,32 @@
+---
+interface Props { slug: string; name: string; color: string }
+const { slug, name, color } = Astro.props;
+---
+<button class="jar" type="button" data-open={`herb-${slug}`} style={`--jar:${color}`} aria-haspopup="dialog">
+  <span class="lid" aria-hidden="true"></span>
+  <span class="neck" aria-hidden="true"></span>
+  <span class="body">
+    <span class="label">{name}</span>
+  </span>
+</button>
+<style>
+  .jar {
+    all: unset; cursor: pointer; display: flex; flex-direction: column; align-items: center;
+    width: 92px; transition: transform 0.15s ease;
+  }
+  .jar:hover, .jar:focus-visible { transform: translateY(-4px) rotate(-1.5deg); }
+  .jar:focus-visible { outline: 2px solid var(--plum); outline-offset: 4px; border-radius: 8px; }
+  .lid { width: 58%; height: 12px; background: var(--wood-dark); border-radius: 3px 3px 1px 1px; box-shadow: inset 0 -3px 0 rgba(0,0,0,0.18); }
+  .neck { width: 48%; height: 7px; background: color-mix(in srgb, var(--jar) 55%, #fff); }
+  .body {
+    position: relative; width: 100%; height: 96px; border-radius: 14px 14px 18px 18px;
+    background: linear-gradient(100deg, color-mix(in srgb, var(--jar) 70%, #fff) 0%, var(--jar) 45%, color-mix(in srgb, var(--jar) 80%, #000) 100%);
+    box-shadow: inset 6px 0 0 rgba(255,255,255,0.25), 0 3px 0 rgba(0,0,0,0.15);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .label {
+    background: var(--paper); border: 1px solid var(--line); padding: 4px 6px; width: 82%;
+    font-family: var(--hand); font-size: 1.05rem; line-height: 1.05; text-align: center; color: var(--ink);
+    border-radius: 2px; transform: rotate(-1deg); overflow-wrap: anywhere;
+  }
+</style>

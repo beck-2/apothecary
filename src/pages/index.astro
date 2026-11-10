@@ -1,0 +1,176 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Jar from '../components/Jar.astro';
+import EvidenceBadge from '../components/EvidenceBadge.astro';
+import { EVIDENCE } from '../lib/evidence';
+
+const herbs = (await getCollection('herbs')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const potions = (await getCollection('potions')).sort(
+  (a, b) => (b.data.made?.getTime() ?? 0) - (a.data.made?.getTime() ?? 0)
+);
+const herbName = new Map(herbs.map((h) => [h.id, h.data.name]));
+
+const PER_SHELF = 6;
+const shelves = Array.from({ length: Math.ceil(herbs.length / PER_SHELF) }, (_, i) =>
+  herbs.slice(i * PER_SHELF, i * PER_SHELF + PER_SHELF)
+);
+const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tincture: 'Tincture', other: 'Other' };
+---
+<Base>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-cabinet" aria-controls="cabinet" aria-selected="true">Cabinet</button>
+    <button role="tab" id="tab-potions" aria-controls="potions" aria-selected="false">Potions</button>
+  </nav>
+
+  <section id="cabinet" role="tabpanel" aria-labelledby="tab-cabinet">
+    <p class="legend">
+      {EVIDENCE.map((e) => <span><span aria-hidden="true">{e.icon}</span> {e.label}</span>)}
+    </p>
+    <div class="cabinet">
+      <div class="crown" aria-hidden="true"></div>
+      {shelves.map((shelf) => (
+        <div class="shelf">
+          {shelf.map((h) => <Jar slug={h.id} name={h.data.name} color={h.data.jarColor} />)}
+        </div>
+      ))}
+      {herbs.length === 0 && <p class="empty">The cabinet is empty. Add your first herb at /keystatic.</p>}
+    </div>
+  </section>
+
+  <section id="potions" role="tabpanel" aria-labelledby="tab-potions" hidden>
+    <div class="potions">
+      {potions.map((p) => (
+        <article class="potion">
+          <header>
+            <h2>{p.data.name}</h2>
+            <span class="type">{potionType[p.data.type]}</span>
+            {p.data.rating && <span class="rating" aria-label={`${p.data.rating} out of 5`}>{'★'.repeat(p.data.rating)}{'☆'.repeat(5 - p.data.rating)}</span>}
+          </header>
+          <ul class="ingredients">
+            {p.data.ingredients.map((i) => (
+              <li>
+                <span class="amt">{i.amount}</span>{' '}
+                {i.herb ? <a href={`/herbs/${i.herb.id}`}>{herbName.get(i.herb.id) ?? i.herb.id}</a> : i.other}
+              </li>
+            ))}
+          </ul>
+          {p.data.method && <p>{p.data.method}</p>}
+          {p.data.notes && <p class="notes">{p.data.notes}</p>}
+        </article>
+      ))}
+    </div>
+  </section>
+
+  {herbs.map((h) => (
+    <dialog id={`herb-${h.id}`} class="blurb" aria-labelledby={`herb-${h.id}-title`}>
+      <form method="dialog"><button class="close" aria-label="Close">×</button></form>
+      {h.data.image && (
+        <Image src={h.data.image} alt={h.data.imageAlt} width={220} widths={[220, 440]} sizes="220px" loading="lazy" class="thumb" />
+      )}
+      <div>
+        <h2 id={`herb-${h.id}-title`}>{h.data.name}</h2>
+        {h.data.latin && <p class="latin">{h.data.latin}</p>}
+        <p class="chips">
+          <EvidenceBadge level={h.data.evidence} />
+          {h.data.psychoactive && <span class="chip psy">Psychoactive</span>}
+        </p>
+        <p class="blurb-text">{h.data.blurb}</p>
+        <dl>
+          <dt>Origin</dt><dd>{h.data.origin}</dd>
+          <dt>Used for</dt><dd>{h.data.intendedUse}</dd>
+        </dl>
+        <a class="more" href={`/herbs/${h.id}`}>Open the full page →</a>
+      </div>
+    </dialog>
+  ))}
+</Base>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-open]').forEach((btn) =>
+    btn.addEventListener('click', () => {
+      (document.getElementById(btn.dataset.open!) as HTMLDialogElement)?.showModal();
+    })
+  );
+  document.querySelectorAll<HTMLDialogElement>('dialog.blurb').forEach((d) =>
+    d.addEventListener('click', (e) => { if (e.target === d) d.close(); })
+  );
+
+  const tabs = document.querySelectorAll<HTMLButtonElement>('[role="tab"]');
+  const select = (id: string) => {
+    tabs.forEach((t) => {
+      const on = t.getAttribute('aria-controls') === id;
+      t.setAttribute('aria-selected', String(on));
+      document.getElementById(t.getAttribute('aria-controls')!)!.hidden = !on;
+    });
+  };
+  tabs.forEach((t) =>
+    t.addEventListener('click', () => {
+      const id = t.getAttribute('aria-controls')!;
+      select(id);
+      history.replaceState(null, '', id === 'cabinet' ? location.pathname : `#${id}`);
+    })
+  );
+  if (location.hash === '#potions') select('potions');
+</script>
+
+<style>
+  .tabs { display: flex; justify-content: center; gap: 0.5rem; margin: 0.5rem 0 1.5rem; }
+  .tabs button {
+    font: 600 1.25rem var(--serif); background: none; border: none; color: var(--ink-soft);
+    padding: 0.25rem 0.9rem; cursor: pointer; border-bottom: 2px solid transparent;
+  }
+  .tabs button[aria-selected='true'] { color: var(--ink); border-bottom-color: var(--amber); }
+  .legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem 1.2rem; font-size: 0.9rem; color: var(--ink-soft); margin: 0 0 1rem; }
+
+  .cabinet {
+    background: var(--wood); border: 10px solid var(--wood-dark); border-top-width: 0;
+    border-radius: 6px; padding: 0 14px 14px; box-shadow: 0 10px 24px rgba(60, 35, 15, 0.25);
+    background-image: repeating-linear-gradient(90deg, rgba(0,0,0,0.04) 0 2px, transparent 2px 22px);
+  }
+  .crown { height: 22px; margin: 0 -24px 0; background: var(--wood-dark); border-radius: 6px 6px 0 0; }
+  .shelf {
+    display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-end; gap: 14px 18px;
+    padding: 22px 8px 0; min-height: 150px; background: rgba(40, 20, 8, 0.28);
+    border-bottom: 12px solid var(--wood-light); box-shadow: 0 6px 0 var(--wood-dark); margin-top: 14px;
+  }
+  .empty { color: var(--paper); text-align: center; padding: 2rem; }
+
+  .potions { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 1.25rem; }
+  .potion { background: var(--chip); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.25rem; }
+  .potion header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem; }
+  .potion h2 { margin: 0; font-size: 1.5rem; flex-basis: 100%; }
+  .type { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--sage); }
+  .rating { color: var(--amber); font-size: 0.95rem; }
+  .ingredients { padding-left: 1.1rem; }
+  .amt { color: var(--ink-soft); }
+  .notes { font-style: italic; color: var(--ink-soft); }
+
+  .blurb {
+    border: 1px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink);
+    padding: 1.5rem; max-width: min(620px, calc(100vw - 32px)); width: 100%;
+    display: none; gap: 1.25rem;
+  }
+  .blurb[open] { display: grid; grid-template-columns: 160px minmax(0, 1fr); }
+  .blurb:not(:has(.thumb))[open] { grid-template-columns: minmax(0, 1fr); }
+  .blurb > form { display: contents; }
+  .blurb::backdrop { background: rgba(40, 25, 12, 0.45); }
+  .blurb h2 { margin: 0; font-size: 2rem; }
+  .thumb { width: 160px; height: auto; border-radius: 6px; border: 1px solid var(--line); }
+  .close { position: absolute; top: 0.4rem; right: 0.7rem; background: none; border: none; font-size: 1.8rem; cursor: pointer; color: var(--ink-soft); }
+  .latin { font-style: italic; margin: 0.1rem 0 0.5rem; color: var(--ink-soft); }
+  .chips { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0 0 0.75rem; }
+  .chip { font-size: 0.85rem; padding: 0.15em 0.6em; border-radius: 999px; border: 1px solid var(--line); }
+  .psy { background: #efe3ec; color: var(--plum); border-color: #d9c1d1; }
+  .blurb-text { margin: 0 0 0.75rem; }
+  dl { display: grid; grid-template-columns: auto 1fr; gap: 0.2rem 0.75rem; margin: 0 0 1rem; font-size: 0.95rem; }
+  dt { font-weight: 500; color: var(--ink-soft); }
+  dd { margin: 0; }
+  .more { font-weight: 500; }
+  @media (max-width: 560px) {
+    .blurb[open] { grid-template-columns: minmax(0, 1fr); }
+    .thumb { width: 120px; }
+    .jar { width: 80px; }
+  }
+</style>

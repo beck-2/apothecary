@@ -51,10 +51,13 @@ Records my favorite **beverages, stews, syrups** (and tinctures, etc.) made from
 
 (These emoji are placeholders until the hand-drawn icons exist.)
 
-### Starter cabinet (first ~16 jars)
-- **Well studied:** chamomile, peppermint, ginger, turmeric, lavender, valerian, kava (psychoactive)
-- **Emerging:** ashwagandha, lemon balm, elderberry, echinacea, holy basil (tulsi), lion's mane, rosemary, hibiscus
-- **Traditional / cultural:** mugwort, blue lotus (psychoactive), damiana
+### Starter cabinet (approved 2026-11-09, 50 jars)
+- **Well studied (3):** chamomile, peppermint, ginger, turmeric, lavender, green tea, matcha, black tea, St. John's wort, saffron, garlic, ginkgo, Panax ginseng, cacao, kava *(psychoactive)*, psilocybin mushrooms *(psychoactive)*, cannabis *(psychoactive)*
+- **Emerging (2):** valerian, ashwagandha, lemon balm, elderberry, echinacea, holy basil (tulsi), lion's mane, reishi, rosemary, hibiscus, rhodiola, passionflower, milk thistle, nettle, fennel, licorice root, black seed, hawthorn, cinnamon, yerba mate
+- **Preliminary (1):** calendula, rooibos, butterfly pea, mullein, lemongrass, elderflower, kratom *(psychoactive)*
+- **Traditional / cultural (0):** mugwort *(mildly psychoactive)*, blue lotus *(psychoactive)*, wormwood, damiana, yarrow, white sage *(sacred to many Indigenous peoples; note overharvesting and ethical sourcing)*
+- **Rejected:** cordyceps, skullcap, kanna, calea
+- Evidence levels are first guesses and get checked when each page is written.
 
 ## Visuals
 - Cozy palette: warm wood, parchment, amber glass, muted sage and plum. Serif display font plus a handwritten accent font for jar labels.
@@ -70,11 +73,11 @@ Records my favorite **beverages, stews, syrups** (and tinctures, etc.) made from
 - Images go through an optimizer (resized, AVIF/WebP, lazy-loaded below the fold) and are served from Vercel's CDN.
 - Target: Lighthouse performance ≥ 95 and first load under ~150 KB on the home page.
 
-## Tech stack (proposal, to decide together)
+## Tech stack
 
 Needs: deploy on Vercel, no heavy backend, a place to store **and edit** the apothecary data, fast graphics.
 
-### ⭐ Recommended: Astro + Keystatic (content in the repo)
+### ✅ Chosen (2026-11-09): Astro + Keystatic (content in the repo)
 - **Astro**: a static site framework. It ships zero JS by default and adds small interactive "islands" (the jar popup) only where needed. Its built-in `<Image>` optimizes the illustrations. First-class Vercel adapter.
 - **Keystatic**: a git-backed CMS. Gives me an `/keystatic` admin page with forms for herbs and potions. Saving commits the YAML/Markdown files to this GitHub repo, and Vercel redeploys automatically.
 - **Data**: `src/content/herbs/*.mdoc` and `src/content/potions/*.mdoc`, validated by typed schemas.
@@ -89,7 +92,7 @@ Needs: deploy on Vercel, no heavy backend, a place to store **and edit** the apo
 ### Simplest: Astro + hand-edited Markdown/JSON
 - Same as the recommended option without the admin UI. I edit files in GitHub or my editor.
 
-**Open decision:** which storage/editing approach? (Default if no preference: Astro + Keystatic.)
+**Decision:** Astro + Keystatic.
 
 ## Data model (draft)
 

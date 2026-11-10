@@ -1,0 +1,51 @@
+---
+interface Props { title?: string; description?: string }
+const { title, description = 'A cozy cabinet of herbs, teas, and potions.' } = Astro.props;
+const fullTitle = title ? `${title} · Apothecary` : 'Apothecary';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+    />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/" class="wordmark">Apothecary</a>
+    </header>
+    <main><slot /></main>
+    <footer class="site-footer">
+      <p>A personal herb journal, not medical advice. Talk to a clinician before using herbs medicinally, especially alongside medications or during pregnancy.</p>
+    </footer>
+  </body>
+</html>
+<style is:global>
+  :root {
+    --paper: #f6efe2; --paper-2: #efe4cf; --ink: #3b2f25; --ink-soft: #6b5a4a;
+    --wood: #8a5a36; --wood-dark: #5e3b22; --wood-light: #a8744a;
+    --sage: #7d8f69; --plum: #7a4b63; --amber: #c08a3e;
+    --chip: #fbf6ec; --line: #dccbb0;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --body: 'Lora', Georgia, serif;
+    --hand: 'Caveat', 'Bradley Hand', cursive;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--paper); color: var(--ink); }
+  body { margin: 0; font-family: var(--body); line-height: 1.65; font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.15; color: var(--ink); }
+  a { color: var(--plum); }
+  main { max-width: 1040px; margin: 0 auto; padding: 0 16px 3rem; }
+  .site-header { text-align: center; padding: 1.75rem 16px 0.5rem; }
+  .wordmark { font-family: var(--serif); font-size: 2.4rem; font-weight: 600; color: var(--ink); text-decoration: none; letter-spacing: 0.02em; }
+  .site-footer { max-width: 680px; margin: 0 auto; padding: 1.5rem 16px 2.5rem; text-align: center; font-size: 0.85rem; color: var(--ink-soft); border-top: 1px solid var(--line); }
+  :focus-visible { outline: 2px solid var(--plum); outline-offset: 2px; }
+</style>

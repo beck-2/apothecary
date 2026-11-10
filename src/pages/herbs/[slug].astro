@@ -1,0 +1,138 @@
+---
+import { getCollection, getEntries } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import { evidenceFor, paragraphs } from '../../lib/evidence';
+
+export async function getStaticPaths() {
+  const herbs = await getCollection('herbs');
+  return herbs.map((herb) => ({ params: { slug: herb.id }, props: { herb } }));
+}
+
+const { herb } = Astro.props;
+const h = herb.data;
+const pairs = (await getEntries(h.pairsWith)).filter(Boolean);
+const potions = (await getCollection('potions')).filter((p) =>
+  p.data.ingredients.some((i) => i.herb?.id === herb.id)
+);
+const g = h.growing;
+const growRows = [
+  ['Zones', g.zones], ['Sun', g.sun], ['Water', g.water], ['Soil', g.soil],
+].filter(([, v]) => v);
+---
+<Base title={h.name} description={h.blurb}>
+  <p class="back"><a href="/">← Back to the cabinet</a></p>
+  <article class="herb">
+    <header class="hero">
+      {h.image && (
+        <figure>
+          <Image src={h.image} alt={h.imageAlt} widths={[320, 640]} sizes="(max-width: 700px) 60vw, 320px" loading="eager" />
+          {h.imageCredit && (
+            <figcaption>
+              {h.imageCredit.artist}{h.imageCredit.work && <>, <em>{h.imageCredit.work}</em></>}.{' '}
+              {h.imageCredit.url ? <a href={h.imageCredit.url}>{h.imageCredit.license || 'Source'}</a> : h.imageCredit.license}
+            </figcaption>
+          )}
+        </figure>
+      )}
+      <div>
+        <h1>{h.name}</h1>
+        {h.latin && <p class="latin">{h.latin}</p>}
+        {h.aliases.length > 0 && <p class="aliases">Also called {h.aliases.join(', ')}</p>}
+        <p class="chips">
+          <EvidenceBadge level={h.evidence} />
+          {h.psychoactive && <span class="chip psy">Psychoactive</span>}
+          <span class="chip">{h.status === 'growing' ? 'Growing in my garden' : h.status === 'wishlist' ? 'On my wishlist' : 'In my collection'}</span>
+          {h.draft && <span class="chip draft" title="Claude-written draft, not yet rewritten">Draft</span>}
+        </p>
+        <p class="lede">{h.blurb}</p>
+        <dl class="facts">
+          <dt>Origin</dt><dd>{h.origin}</dd>
+          <dt>Used for</dt><dd>{h.intendedUse}</dd>
+        </dl>
+      </div>
+    </header>
+
+    <section>
+      <h2>Growing</h2>
+      {growRows.length > 0 && (
+        <dl class="facts">{growRows.map(([k, v]) => <><dt>{k}</dt><dd>{v}</dd></>)}</dl>
+      )}
+      {g.propagation && <><h3>Propagation</h3>{paragraphs(g.propagation).map((p) => <p>{p}</p>)}</>}
+      {g.harvest && <><h3>Harvest</h3>{paragraphs(g.harvest).map((p) => <p>{p}</p>)}</>}
+    </section>
+
+    {h.history && <section><h2>History</h2>{paragraphs(h.history).map((p) => <p>{p}</p>)}</section>}
+    {h.culture && <section><h2>Cultural significance</h2>{paragraphs(h.culture).map((p) => <p>{p}</p>)}</section>}
+
+    {h.preparations.length > 0 && (
+      <section>
+        <h2>Common preparations</h2>
+        <dl class="preps">
+          {h.preparations.map((p) => <><dt>{p.method}</dt><dd>{p.notes}</dd></>)}
+        </dl>
+      </section>
+    )}
+
+    {(h.risks || h.legal) && (
+      <section class="risks">
+        <h2>Potential risks</h2>
+        {paragraphs(h.risks).map((p) => <p>{p}</p>)}
+        {h.legal && <p><strong>Legal status:</strong> {h.legal}</p>}
+      </section>
+    )}
+
+    <section>
+      <h2>What the research says</h2>
+      <p class="evidence-line"><EvidenceBadge level={h.evidence} /> {evidenceFor(h.evidence).long}</p>
+      {paragraphs(h.evidenceSummary).map((p) => <p>{p}</p>)}
+      {h.sources.length > 0 && (
+        <ul class="sources">{h.sources.map((s) => <li><a href={s.url}>{s.title}</a></li>)}</ul>
+      )}
+    </section>
+
+    {(pairs.length > 0 || potions.length > 0) && (
+      <section>
+        <h2>Pairs well with</h2>
+        {pairs.length > 0 && <p>{pairs.map((p, i) => <>{i > 0 && ', '}<a href={`/herbs/${p!.id}`}>{p!.data.name}</a></>)}</p>}
+        {potions.length > 0 && (
+          <p>Used in: {potions.map((p, i) => <>{i > 0 && ', '}<a href="/#potions">{p.data.name}</a></>)}</p>
+        )}
+      </section>
+    )}
+  </article>
+</Base>
+
+<style>
+  .back { margin: 0.5rem 0 1rem; }
+  .herb { max-width: 760px; margin: 0 auto; }
+  .hero { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 2rem; align-items: start; margin-bottom: 1rem; }
+  .hero:not(:has(figure)) { grid-template-columns: minmax(0, 1fr); }
+  figure { margin: 0; }
+  figure img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); background: var(--paper-2); }
+  figcaption { font-size: 0.78rem; color: var(--ink-soft); margin-top: 0.4rem; line-height: 1.4; }
+  h1 { font-size: clamp(2.4rem, 6vw, 3.4rem); margin: 0; }
+  h2 { font-size: 1.8rem; margin: 2.25rem 0 0.5rem; padding-bottom: 0.25rem; border-bottom: 1px solid var(--line); }
+  h3 { font-size: 1.25rem; margin: 1.25rem 0 0.25rem; }
+  .latin { font-style: italic; font-size: 1.15rem; color: var(--ink-soft); margin: 0.1rem 0; }
+  .aliases { font-size: 0.9rem; color: var(--ink-soft); margin: 0 0 0.75rem; }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .chip { font-size: 0.85rem; padding: 0.15em 0.6em; border-radius: 999px; border: 1px solid var(--line); background: var(--chip); color: var(--ink-soft); }
+  .psy { background: #efe3ec; color: var(--plum); border-color: #d9c1d1; }
+  .draft { background: #f3ead2; color: #7a5a1e; border-color: #e2cf9f; }
+  .lede { font-size: 1.15rem; }
+  .facts { display: grid; grid-template-columns: auto 1fr; gap: 0.25rem 1rem; }
+  .facts dt, .preps dt { font-weight: 500; color: var(--ink-soft); }
+  .facts dd { margin: 0; }
+  .preps dt { margin-top: 0.75rem; color: var(--ink); font-family: var(--serif); font-size: 1.2rem; }
+  .preps dd { margin: 0; }
+  .risks { background: #f7ece6; border: 1px solid #e7cfc2; border-radius: 10px; padding: 0 1.25rem 0.75rem; margin-top: 2.25rem; }
+  .risks h2 { border-bottom-color: #e7cfc2; margin-top: 1rem; }
+  .evidence-line { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+  .sources { font-size: 0.92rem; }
+  @media (max-width: 700px) {
+    .hero { grid-template-columns: minmax(0, 1fr); }
+    figure { max-width: 240px; }
+  }
+</style>
