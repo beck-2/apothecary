@@ -79,4 +79,11 @@ pairsWith:
   - matcha
   - ginger
   - peppermint
+image: ../../assets/herbs/butterfly-pea.jpg
+imageAlt: Botanical illustration of butterfly pea (Clitoria ternatea)
+imageCredit:
+  artist: Francisco Manuel Blanco
+  work: Flora de Filipinas (1880–1883)
+  url: https://commons.wikimedia.org/wiki/File:Clitoria_ternatea_Blanco_clean.jpg
+  license: Public domain
 draft: true

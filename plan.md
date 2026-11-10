@@ -39,7 +39,6 @@ Records my favorite **beverages, stews, syrups** (and tinctures, etc.) made from
 - **Also herbs that matter in particular cultures but aren't backed by Western science.** These are recorded respectfully and labelled honestly with the evidence icon. The goal isn't to dismiss them.
 - **Psychoactive plants are in scope.** They get extra attention to risks, interactions, and legal status.
 - Claude writes the first-draft blurbs and pages. I'll rewrite them in my own voice later. Drafts should be marked so I can find the ones I haven't edited (`draft: true`).
-- The site shows a short "not medical advice" note in the footer.
 
 ### Evidence scale (icon)
 | Level | Icon idea | Meaning |
@@ -138,6 +137,6 @@ rating: 5
 4. **Herb pages**: full layout with all sections and image credits.
 5. **Potions tab**: list and detail views, ingredient links, "pairs well with".
 6. **Images**: source, credit, and optimize public-domain botanical illustrations.
-7. **Editing**: Keystatic admin (or the chosen alternative) working on the live site.
+7. **Editing**: ✅ In-app editing behind a password star (commits to GitHub via API; see README).
 8. **Polish**: mobile layout, accessibility, Lighthouse pass, favicon.
 9. **Later**: hand-drawn art, my own rewritten blurbs, search, a seasonal garden log.

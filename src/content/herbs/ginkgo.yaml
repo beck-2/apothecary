@@ -89,8 +89,8 @@ pairsWith:
 image: ../../assets/herbs/ginkgo.jpg
 imageAlt: Botanical illustration of ginkgo (Ginkgo biloba)
 imageCredit:
-  artist: Larousse du XXe siècle
-  work: Larousse du XXe siècle (1932)
-  url: https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_Larousse_Extracted.png
-  license: CC0
+  artist: Philipp Franz von Siebold and Joseph Gerhard Zuccarini
+  work: Flora Japonica (1835–1870)
+  url: https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_SZ136.png
+  license: Public domain
 draft: true

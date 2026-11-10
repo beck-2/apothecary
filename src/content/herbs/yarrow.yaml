@@ -79,4 +79,11 @@ pairsWith:
   - peppermint
   - calendula
   - chamomile
+image: ../../assets/herbs/yarrow.jpg
+imageAlt: Botanical illustration of yarrow (Achillea millefolium)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Achillea_millefolium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-149.jpg
+  license: Public domain
 draft: true

@@ -1,5 +1,5 @@
 ---
-import { getCollection, getEntries } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
 import Base from '../../layouts/Base.astro';
 import EvidenceBadge from '../../components/EvidenceBadge.astro';
@@ -12,17 +12,25 @@ export async function getStaticPaths() {
 
 const { herb } = Astro.props;
 const h = herb.data;
-const pairs = (await getEntries(h.pairsWith)).filter(Boolean);
-const potions = (await getCollection('potions')).filter((p) =>
-  p.data.ingredients.some((i) => i.herb?.id === herb.id)
-);
+const allHerbs = await getCollection('herbs');
+const bySlug = new Map(allHerbs.map((x) => [x.id, x]));
+const pairs = h.pairsWith.map((s) => bySlug.get(s)).filter((x) => x !== undefined);
+const potions = (await getCollection('potions')).filter((p) => p.data.ingredients.some((i) => i.herb === herb.id));
+const herbIndex = allHerbs.map((x) => ({ slug: x.id, name: x.data.name })).sort((a, b) => a.name.localeCompare(b.name));
 const g = h.growing;
 const growRows = [
   ['Zones', g.zones], ['Sun', g.sun], ['Water', g.water], ['Soil', g.soil],
 ].filter(([, v]) => v);
 ---
 <Base title={h.name} description={h.blurb}>
-  <p class="back"><a href="/">← Back to the cabinet</a></p>
+  <script type="application/json" id="herb-index" set:html={JSON.stringify(herbIndex)} />
+  <div class="topline">
+    <p class="back"><a href="/">← Back to the cabinet</a></p>
+    <div class="item-tools admin-only">
+      <button data-edit="herbs" data-slug={herb.id}>Edit</button>
+      <button data-delete="herbs" data-slug={herb.id} data-name={h.name} data-after="/">Delete</button>
+    </div>
+  </div>
   <article class="herb">
     <header class="hero">
       {h.image && (
@@ -47,21 +55,21 @@ const growRows = [
           {h.draft && <span class="chip draft" title="Claude-written draft, not yet rewritten">Draft</span>}
         </p>
         <p class="lede" set:html={inline(h.blurb)} />
-        <dl class="facts">
-          <dt>Origin</dt><dd>{h.origin}</dd>
-          <dt>Used for</dt><dd>{h.intendedUse}</dd>
-        </dl>
+        {(h.origin || h.intendedUse) && <dl class="facts">
+          {h.origin && <><dt>Origin</dt><dd>{h.origin}</dd></>}
+          {h.intendedUse && <><dt>Used for</dt><dd>{h.intendedUse}</dd></>}
+        </dl>}
       </div>
     </header>
 
-    <section>
+    {(growRows.length > 0 || g.propagation || g.harvest) && <section>
       <h2>Growing</h2>
       {growRows.length > 0 && (
         <dl class="facts">{growRows.map(([k, v]) => <><dt>{k}</dt><dd>{v}</dd></>)}</dl>
       )}
       {g.propagation && <><h3>Propagation</h3>{paragraphs(g.propagation).map((p) => <p set:html={inline(p)} />)}</>}
       {g.harvest && <><h3>Harvest</h3>{paragraphs(g.harvest).map((p) => <p set:html={inline(p)} />)}</>}
-    </section>
+    </section>}
 
     {h.history && <section><h2>History</h2>{paragraphs(h.history).map((p) => <p set:html={inline(p)} />)}</section>}
     {h.culture && <section><h2>Cultural significance</h2>{paragraphs(h.culture).map((p) => <p set:html={inline(p)} />)}</section>}
@@ -95,7 +103,7 @@ const growRows = [
     {(pairs.length > 0 || potions.length > 0) && (
       <section>
         <h2>Pairs well with</h2>
-        {pairs.length > 0 && <p>{pairs.map((p, i) => <>{i > 0 && ', '}<a href={`/herbs/${p!.id}`}>{p!.data.name}</a></>)}</p>}
+        {pairs.length > 0 && <p>{pairs.map((p, i) => <>{i > 0 && ', '}<a href={`/herbs/${p.id}`}>{p.data.name}</a></>)}</p>}
         {potions.length > 0 && (
           <p>Used in: {potions.map((p, i) => <>{i > 0 && ', '}<a href="/#potions">{p.data.name}</a></>)}</p>
         )}
@@ -105,6 +113,7 @@ const growRows = [
 </Base>
 
 <style>
+  .topline { display: flex; justify-content: space-between; align-items: center; gap: 1rem; max-width: 760px; margin: 0 auto; }
   .back { margin: 0.5rem 0 1rem; }
   .herb { max-width: 760px; margin: 0 auto; }
   .hero { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 2rem; align-items: start; margin-bottom: 1rem; }

@@ -80,4 +80,11 @@ pairsWith:
   - peppermint
   - elderflower
   - ginger
+image: ../../assets/herbs/mullein.jpg
+imageAlt: Botanical illustration of mullein (Verbascum thapsus)
+imageCredit:
+  artist: James Sowerby
+  work: The Flora Homoeopathica by Edward Hamilton (1852)
+  url: https://commons.wikimedia.org/wiki/File:The_flora_homoeopathica_(8260632441).jpg
+  license: Public domain
 draft: true

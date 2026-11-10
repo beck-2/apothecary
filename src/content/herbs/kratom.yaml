@@ -86,4 +86,12 @@ risks: >-
 pairsWith:
   - ginger
   - lemongrass
+image: ../../assets/herbs/kratom.jpg
+imageAlt: Botanical illustration of kratom (Mitragyna speciosa)
+imageCredit:
+  artist: Pieter Willem Korthals
+  work: Verhandelingen over de natuurlijke geschiedenis der Nederlandsche
+    overzeesche bezittingen (1839–1844)
+  url: https://commons.wikimedia.org/wiki/File:Mitragyna_speciosa_(Korth.)_Havil.jpg
+  license: Public domain
 draft: true

@@ -95,4 +95,11 @@ pairsWith:
   - chamomile
   - blue-lotus
   - yarrow
+image: ../../assets/herbs/mugwort.jpg
+imageAlt: Botanical illustration of mugwort (Artemisia vulgaris)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Artemisia_vulgaris_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-016.jpg
+  license: Public domain
 draft: true

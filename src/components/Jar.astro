@@ -5,7 +5,7 @@ const { slug, name, color } = Astro.props;
 const longest = Math.max(...name.split(/\s+/).map((w) => w.length));
 const labelSize = longest <= 8 ? 1.05 : longest <= 10 ? 0.95 : longest <= 12 ? 0.84 : 0.76;
 ---
-<button class="jar" type="button" data-open={`herb-${slug}`} style={`--jar:${color}`} aria-haspopup="dialog">
+<button class="jar" type="button" data-open={`herb-${slug}`} style={`--jar:${color}`} aria-haspopup="dialog" aria-label={name}>
   <span class="lid" aria-hidden="true"></span>
   <span class="neck" aria-hidden="true"></span>
   <span class="body">

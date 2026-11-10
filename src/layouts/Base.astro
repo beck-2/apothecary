@@ -17,15 +17,33 @@ const fullTitle = title ? `${title} · Apothecary` : 'Apothecary';
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
     />
     <title>{fullTitle}</title>
+    {import.meta.env.DEV && (
+      <script type="module" is:inline>
+        // Dev only: the editor is loaded on demand rather than as an island, so install React's refresh preamble ourselves.
+        import RefreshRuntime from '/@react-refresh';
+        RefreshRuntime.injectIntoGlobalHook(window);
+        window.$RefreshReg$ = () => {};
+        window.$RefreshSig$ = () => (type) => type;
+        window.__vite_plugin_react_preamble_installed__ = true;
+      </script>
+    )}
+    <script is:inline>
+      // Show editing controls before first paint if this browser is unlocked.
+      if (document.cookie.split('; ').includes('apothecary_admin=1')) document.documentElement.dataset.admin = '1';
+    </script>
   </head>
   <body>
     <header class="site-header">
       <a href="/" class="wordmark">Apothecary</a>
     </header>
+    <button class="star" type="button" aria-label="Unlock"><span class="off" aria-hidden="true">☆</span><span class="on" aria-hidden="true">★</span></button>
+    <dialog class="unlock">
+      <form method="dialog" class="unlock-form">
+        <input type="password" name="password" aria-label="Password" autocomplete="current-password" required />
+      </form>
+    </dialog>
     <main><slot /></main>
-    <footer class="site-footer">
-      <p>A personal herb journal, not medical advice. Talk to a clinician before using herbs medicinally, especially alongside medications or during pregnancy.</p>
-    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
   </body>
 </html>
 <style is:global>
@@ -46,6 +64,86 @@ const fullTitle = title ? `${title} · Apothecary` : 'Apothecary';
   main { max-width: 1040px; margin: 0 auto; padding: 0 16px 3rem; }
   .site-header { text-align: center; padding: 1.75rem 16px 0.5rem; }
   .wordmark { font-family: var(--serif); font-size: 2.4rem; font-weight: 600; color: var(--ink); text-decoration: none; letter-spacing: 0.02em; }
-  .site-footer { max-width: 680px; margin: 0 auto; padding: 1.5rem 16px 2.5rem; text-align: center; font-size: 0.85rem; color: var(--ink-soft); border-top: 1px solid var(--line); }
+  main { padding-bottom: 4rem; }
+
+  .star {
+    position: fixed; top: 12px; right: 14px; z-index: 20; background: none; border: none; cursor: pointer;
+    font-size: 1.15rem; line-height: 1; padding: 6px; color: var(--ink-soft); opacity: 0.45; transition: opacity 0.2s, transform 0.2s;
+  }
+  .star:hover, .star:focus-visible { opacity: 1; transform: rotate(18deg); }
+  .star .on, :root[data-admin] .star .off { display: none; }
+  :root[data-admin] .star .on { display: inline; color: var(--amber); }
+  :root[data-admin] .star { opacity: 0.9; }
+  .unlock { border: 1px solid var(--line); border-radius: 12px; background: var(--paper); padding: 14px; margin: 56px 14px auto auto; }
+  .unlock::backdrop { background: rgba(40, 25, 12, 0.2); }
+  .unlock input {
+    font: 1rem var(--body); width: 200px; padding: 0.5rem 0.7rem; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--chip); color: var(--ink);
+  }
+  .unlock.wrong input { border-color: #b4553a; animation: shake 0.3s; }
+  @keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+
+  .admin-only { display: none !important; }
+  :root[data-admin] .admin-only { display: revert !important; }
+  :root[data-admin] .item-tools.admin-only { display: flex !important; }
+  .item-tools { gap: 0.4rem; margin-top: 0.75rem; }
+  .item-tools button, .tool-btn {
+    font: 500 0.85rem var(--body); padding: 0.25rem 0.75rem; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--line); background: var(--chip); color: var(--ink);
+  }
+  .item-tools button:hover { border-color: var(--amber); }
+  .item-tools button[data-delete]:hover { border-color: #b4553a; color: #8e3a24; }
+
+  .toast {
+    position: fixed; left: 50%; bottom: 20px; transform: translate(-50%, 150%); z-index: 50; max-width: calc(100vw - 32px);
+    background: var(--ink); color: var(--paper); padding: 0.6rem 1.1rem; border-radius: 999px; font-size: 0.92rem;
+    transition: transform 0.25s ease; pointer-events: none;
+  }
+  .toast.show { transform: translate(-50%, 0); }
+  .toast.error { background: #8e3a24; }
   :focus-visible { outline: 2px solid var(--plum); outline-offset: 2px; }
 </style>
+
+<script>
+  import { toast } from '../lib/toast';
+  const root = document.documentElement;
+  const star = document.querySelector<HTMLButtonElement>('.star')!;
+  const dialog = document.querySelector<HTMLDialogElement>('.unlock')!;
+  const form = dialog.querySelector('form')!;
+  const input = form.querySelector('input')!;
+
+  const loadEditor = () => import('../admin/main').then((m) => m.start());
+  if (root.dataset.admin) loadEditor();
+
+  star.addEventListener('click', async () => {
+    if (root.dataset.admin) {
+      if (!confirm('Lock editing?')) return;
+      await fetch('/api/logout', { method: 'POST' });
+      delete root.dataset.admin;
+      toast('Locked');
+      return;
+    }
+    input.value = '';
+    dialog.classList.remove('wrong');
+    dialog.showModal();
+  });
+  dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const r = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: input.value }),
+    });
+    if (r.ok) {
+      dialog.close();
+      root.dataset.admin = '1';
+      loadEditor();
+    } else {
+      dialog.classList.remove('wrong');
+      void dialog.offsetWidth;
+      dialog.classList.add('wrong');
+      input.select();
+    }
+  });
+</script>

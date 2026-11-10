@@ -86,4 +86,11 @@ pairsWith:
   - lemongrass
   - matcha
   - ginger
+image: ../../assets/herbs/yerba-mate.jpg
+imageAlt: Botanical illustration of yerba mate (Ilex paraguariensis)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+  license: Public domain
 draft: true

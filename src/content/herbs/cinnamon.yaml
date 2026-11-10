@@ -83,4 +83,11 @@ pairsWith:
   - black-tea
   - turmeric
   - elderberry
+image: ../../assets/herbs/cinnamon.jpg
+imageAlt: Botanical illustration of cinnamon (Cinnamomum verum (Ceylon) and C. cassia)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Cinnamomum_verum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-182.jpg
+  license: Public domain
 draft: true

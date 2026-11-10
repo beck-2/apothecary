@@ -81,4 +81,11 @@ pairsWith:
   - lemon-balm
   - hibiscus
   - cacao
+image: ../../assets/herbs/hawthorn.jpg
+imageAlt: Botanical illustration of hawthorn (Crataegus monogyna and C. laevigata)
+imageCredit:
+  artist: Carl Axel Magnus Lindman
+  work: Bilder ur Nordens Flora (1901–1905)
+  url: https://commons.wikimedia.org/wiki/File:Crataegus_laevigata_hagtorn.jpg
+  license: Public domain
 draft: true

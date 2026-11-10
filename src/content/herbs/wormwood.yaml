@@ -87,4 +87,11 @@ pairsWith:
   - peppermint
   - mugwort
   - yarrow
+image: ../../assets/herbs/wormwood.jpg
+imageAlt: Botanical illustration of wormwood (Artemisia absinthium)
+imageCredit:
+  artist: Franz Eugen Köhler
+  work: Köhler's Medizinal-Pflanzen (1887)
+  url: https://commons.wikimedia.org/wiki/File:Artemisia_absinthium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-164.jpg
+  license: Public domain
 draft: true

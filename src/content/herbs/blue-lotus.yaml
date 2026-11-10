@@ -85,4 +85,11 @@ pairsWith:
   - chamomile
   - damiana
   - lavender
+image: ../../assets/herbs/blue-lotus.jpg
+imageAlt: Botanical illustration of blue lotus (Nymphaea caerulea)
+imageCredit:
+  artist: Unknown artist
+  work: Curtis's Botanical Magazine, plate 552 (1801)
+  url: https://commons.wikimedia.org/wiki/File:Curtis%27s_botanical_magazine_(No._552)_(8414371958).jpg
+  license: Public domain
 draft: true

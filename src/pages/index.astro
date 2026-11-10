@@ -11,6 +11,7 @@ const potions = (await getCollection('potions')).sort(
   (a, b) => (b.data.made?.getTime() ?? 0) - (a.data.made?.getTime() ?? 0)
 );
 const herbName = new Map(herbs.map((h) => [h.id, h.data.name]));
+const herbIndex = herbs.map((h) => ({ slug: h.id, name: h.data.name }));
 
 const PER_SHELF = 6;
 const shelves = Array.from({ length: Math.ceil(herbs.length / PER_SHELF) }, (_, i) =>
@@ -19,6 +20,7 @@ const shelves = Array.from({ length: Math.ceil(herbs.length / PER_SHELF) }, (_, 
 const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tincture: 'Tincture', other: 'Other' };
 ---
 <Base>
+  <script type="application/json" id="herb-index" set:html={JSON.stringify(herbIndex)} />
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button role="tab" id="tab-cabinet" aria-controls="cabinet" aria-selected="true">Cabinet</button>
     <button role="tab" id="tab-potions" aria-controls="potions" aria-selected="false">Potions</button>
@@ -30,19 +32,28 @@ const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tinctur
     </p>
     <div class="cabinet">
       <div class="crown" aria-hidden="true"></div>
-      {shelves.map((shelf) => (
+      {shelves.map((shelf, i) => (
         <div class="shelf">
           {shelf.map((h) => <Jar slug={h.id} name={h.data.name} color={h.data.jarColor} />)}
+          {i === shelves.length - 1 && shelf.length < PER_SHELF && <button class="add-jar admin-only" data-new="herbs">+<span>New jar</span></button>}
         </div>
       ))}
-      {herbs.length === 0 && <p class="empty">The cabinet is empty. Add your first herb at /keystatic.</p>}
+      {(shelves.length === 0 || shelves[shelves.length - 1].length === PER_SHELF) && (
+        <div class="shelf admin-only"><button class="add-jar" data-new="herbs">+<span>New jar</span></button></div>
+      )}
+      {herbs.length === 0 && <p class="empty">The cabinet is empty.</p>}
     </div>
   </section>
 
   <section id="potions" role="tabpanel" aria-labelledby="tab-potions" hidden>
     <div class="potions">
+      <button class="potion add-potion admin-only" data-new="potions">+ New potion</button>
       {potions.map((p) => (
         <article class="potion">
+          <div class="item-tools admin-only">
+            <button data-edit="potions" data-slug={p.id}>Edit</button>
+            <button data-delete="potions" data-slug={p.id} data-name={p.data.name}>Delete</button>
+          </div>
           <header>
             <h2>{p.data.name}</h2>
             <span class="type">{potionType[p.data.type]}</span>
@@ -52,7 +63,7 @@ const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tinctur
             {p.data.ingredients.map((i) => (
               <li>
                 <span class="amt">{i.amount}</span>{' '}
-                {i.herb ? <a href={`/herbs/${i.herb.id}`}>{herbName.get(i.herb.id) ?? i.herb.id}</a> : i.other}
+                {i.herb && herbName.has(i.herb) ? <a href={`/herbs/${i.herb}`}>{herbName.get(i.herb)}</a> : i.other || i.herb}
               </li>
             ))}
           </ul>
@@ -61,6 +72,7 @@ const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tinctur
         </article>
       ))}
     </div>
+    {potions.length === 0 && <p class="empty-potions">No potions yet.</p>}
   </section>
 
   {herbs.map((h) => (
@@ -77,11 +89,15 @@ const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tinctur
           {h.data.psychoactive && <span class="chip psy">Psychoactive</span>}
         </p>
         <p class="blurb-text" set:html={inline(h.data.blurb)} />
-        <dl>
-          <dt>Origin</dt><dd>{h.data.origin}</dd>
-          <dt>Used for</dt><dd>{h.data.intendedUse}</dd>
-        </dl>
+        {(h.data.origin || h.data.intendedUse) && <dl>
+          {h.data.origin && <><dt>Origin</dt><dd>{h.data.origin}</dd></>}
+          {h.data.intendedUse && <><dt>Used for</dt><dd>{h.data.intendedUse}</dd></>}
+        </dl>}
         <a class="more" href={`/herbs/${h.id}`}>Open the full page →</a>
+        <div class="item-tools admin-only">
+          <button data-edit="herbs" data-slug={h.id}>Edit</button>
+          <button data-delete="herbs" data-slug={h.id} data-name={h.data.name}>Delete</button>
+        </div>
       </div>
     </dialog>
   ))}
@@ -146,6 +162,21 @@ const potionType = { beverage: 'Beverage', stew: 'Stew', syrup: 'Syrup', tinctur
   .ingredients { padding-left: 1.1rem; }
   .amt { color: var(--ink-soft); }
   .notes { font-style: italic; color: var(--ink-soft); }
+  .potion { position: relative; }
+  .add-potion {
+    font: 600 1.3rem var(--serif); color: var(--ink-soft); cursor: pointer; min-height: 120px; align-self: start;
+    border: 2px dashed var(--line); background: transparent;
+  }
+  .add-potion:hover { color: var(--ink); border-color: var(--amber); }
+  .empty-potions { text-align: center; color: var(--ink-soft); }
+  .add-jar {
+    all: unset; cursor: pointer; width: 92px; height: 115px; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; border: 2px dashed rgba(246, 239, 226, 0.55);
+    border-radius: 14px 14px 18px 18px; color: var(--paper); font: 600 2rem var(--serif); line-height: 1;
+  }
+  .add-jar span { font: 500 1rem var(--hand); margin-top: 0.3rem; }
+  :root[data-admin] .add-jar.admin-only, :root[data-admin] .shelf.admin-only { display: flex !important; }
+  .add-jar:hover, .add-jar:focus-visible { border-color: var(--paper); background: rgba(255, 255, 255, 0.06); }
 
   .blurb {
     border: 1px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink);

@@ -81,4 +81,12 @@ pairsWith:
   - hibiscus
   - cinnamon
   - lemongrass
+image: ../../assets/herbs/rooibos.jpg
+imageAlt: Botanical illustration of rooibos (Aspalathus linearis), a plate of
+  Aspalathus species from the South African flora
+imageCredit:
+  artist: Ethel May Dixie
+  work: The Flora of South Africa by Rudolf Marloth (1913–1932)
+  url: https://commons.wikimedia.org/wiki/File:Ethel_Dixie_-_Aspalathus_and_Crotalaria_illustrations_from_Flora_of_South_Africa_Marloth_IMG_2181.jpg
+  license: Public domain
 draft: true

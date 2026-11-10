@@ -102,4 +102,12 @@ pairsWith:
   - passionflower
   - lemon-balm
   - chamomile
+image: ../../assets/herbs/kava.jpg
+imageAlt: Botanical illustration of kava (Piper methysticum), a historical
+  engraving of the plant in Tahiti
+imageCredit:
+  artist: Robert Taylor Pritchett
+  work: Freshwater and Marine Image Bank, University of Washington
+  url: https://commons.wikimedia.org/wiki/File:FMIB_47324_Ava_or_Kava_(Macropiper_methysticum),_Tahiti.jpeg
+  license: Public domain
 draft: true
